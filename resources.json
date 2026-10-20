@@ -1,0 +1,153 @@
+[
+  {
+    "slug": "hyperframes-documentation",
+    "title": "Official HyperFrames documentation",
+    "url": "https://hyperframes.heygen.com/introduction",
+    "category": "documentation",
+    "description": "Introduction to HyperFrames and its video creation workflow.",
+    "creator": "HeyGen",
+    "creatorUrl": "https://github.com/heygen-com",
+    "relatedProjectSlugs": []
+  },
+  {
+    "slug": "hyperframes-quickstart",
+    "title": "Installation and first video",
+    "url": "https://hyperframes.heygen.com/quickstart",
+    "category": "tutorial",
+    "description": "Official setup instructions and a walkthrough for creating a first video.",
+    "creator": "HeyGen",
+    "creatorUrl": "https://github.com/heygen-com",
+    "relatedProjectSlugs": []
+  },
+  {
+    "slug": "hyperframes-source",
+    "title": "HyperFrames source code",
+    "url": "https://github.com/heygen-com/hyperframes",
+    "category": "source-code",
+    "description": "The framework's source repository and development documentation.",
+    "creator": "HeyGen",
+    "creatorUrl": "https://github.com/heygen-com",
+    "relatedProjectSlugs": []
+  },
+  {
+    "slug": "hyperframes-official-skills",
+    "title": "Official HyperFrames skills",
+    "url": "https://github.com/heygen-com/hyperframes/tree/main/skills",
+    "category": "skill",
+    "description": "Agent instructions for creating and editing HyperFrames videos.",
+    "creator": "HeyGen",
+    "creatorUrl": "https://github.com/heygen-com",
+    "relatedProjectSlugs": []
+  },
+  {
+    "slug": "hyperframes-official-examples",
+    "title": "Official HyperFrames examples",
+    "url": "https://github.com/heygen-com/hyperframes/tree/main/examples",
+    "category": "source-code",
+    "description": "Example projects in the HyperFrames repository.",
+    "creator": "HeyGen",
+    "creatorUrl": "https://github.com/heygen-com",
+    "relatedProjectSlugs": []
+  },
+  {
+    "slug": "hyperframes-after-effects-demo",
+    "title": "HyperFrames to After Effects demonstration",
+    "url": "https://x.com/thiswillblossom/status/2110053714299912521/video/1",
+    "category": "workflow",
+    "description": "Lera shares a demonstration of the Clipwing team's skill for refining HyperFrames graphics in After Effects. This link is a demo post, not an installation guide.",
+    "creator": "Lera 🦋 Clipwing",
+    "creatorUrl": "https://x.com/thiswillblossom",
+    "relatedProjectSlugs": ["hyperframes-after-effects-clipwing"]
+  },
+  {
+    "slug": "hyperframes-tutorial-bin-liu",
+    "title": "HyperFrames tutorial recommendation",
+    "url": "https://x.com/liu8in/status/2104360119849083093/video/1",
+    "category": "tutorial",
+    "description": "Bin Liu shares a Claude Code video tutorial recommendation and highlights giving the agent HyperFrames skills.",
+    "creator": "Bin Liu",
+    "creatorUrl": "https://x.com/liu8in",
+    "relatedProjectSlugs": ["opus-5-5-hyperframes-tutorial-bin-liu"]
+  },
+  {
+    "slug": "ai-video-editing-week",
+    "title": "A week of AI video editing",
+    "url": "https://x.com/cinkotweets/status/2108259243585609773/video/1",
+    "category": "workflow",
+    "description": "Anthony Dupont-Cinko reviews a week of AI video editing, including tasks done in HyperFrames Studio.",
+    "creator": "Anthony Dupont-Cinko",
+    "creatorUrl": "https://x.com/cinkotweets",
+    "relatedProjectSlugs": ["ai-video-editing-week-cinkotweets"]
+  },
+  {
+    "slug": "session-story-demo",
+    "title": "Session Story skill demonstration",
+    "url": "https://x.com/jake11moran/status/2103247490237825416/video/1",
+    "category": "workflow",
+    "description": "Jake Moran demonstrates a HyperFrames skill that turns local Claude Code session history into an animation. The supplied link is a demonstration, not the skill's source.",
+    "creator": "Jake Moran",
+    "creatorUrl": "https://x.com/jake11moran",
+    "relatedProjectSlugs": ["session-story-jake-moran"]
+  },
+  {
+    "slug": "onde-fica-motion-reel-workflow",
+    "title": "Onde Fica app motion reel workflow",
+    "url": "https://x.com/jesscaroline7/status/2104336637752955094/video/1",
+    "category": "workflow",
+    "description": "A creator breakdown combining HyperFrames, app recordings, 3D assets, music, and sound effects. The post credits gabrielbuzziv and condzxyz for the tutorial and prompt inspiration.",
+    "creator": "jesscaroline7",
+    "creatorUrl": "https://x.com/jesscaroline7",
+    "relatedProjectSlugs": ["jesscaroline7-955094"]
+  },
+  {
+    "slug": "creating-in-motion-workflow",
+    "title": "Creating in Motion workflow",
+    "url": "https://x.com/Dheepanratnam/status/2107568904075706454/video/1",
+    "category": "workflow",
+    "description": "A creator account of combining HyperFrames and GSAP animation with music written in Python and synchronized sound effects.",
+    "creator": "Dheepanratnam",
+    "creatorUrl": "https://x.com/Dheepanratnam",
+    "relatedProjectSlugs": ["dheepanratnam-706454"]
+  },
+  {
+    "slug": "cinematic-ai-future-prompt",
+    "title": "Cinematic AI Future prompt",
+    "url": "https://x.com/gowthamtj0808/status/2112189988578500654/video/1",
+    "category": "prompt",
+    "description": "A prompt for a futuristic video with neon cities, a holographic brain, connected Earth, and purple-blue lighting.",
+    "prompt": "Create a cinematic AI future video with neon cities, a glowing holographic brain, and connected Earth. Add smooth transitions, purple-blue lighting, animated visuals, and futuristic background music.",
+    "creator": "Gowtham",
+    "creatorUrl": "https://x.com/gowthamtj0808",
+    "relatedProjectSlugs": ["cinematic-ai-future-gowtham"]
+  },
+  {
+    "slug": "code-built-launch-film-prompt",
+    "title": "15-second HyperFrames launch film prompt",
+    "url": "https://x.com/ik_builds/status/2103890476885585923/video/1",
+    "category": "prompt",
+    "description": "A shared prompt for a HyperFrames and GSAP product film, with brand placeholders, kinetic typography, motion rules, and sound cues. Read the prompt in the linked post.",
+    "creator": "ik_builds",
+    "creatorUrl": "https://x.com/ik_builds",
+    "relatedProjectSlugs": ["ik-builds-585923"]
+  },
+  {
+    "slug": "hyperframes-product-teaser-prompt",
+    "title": "Continuous-camera product teaser prompt",
+    "url": "https://x.com/jake11moran/status/2103237884564414633/video/1",
+    "category": "prompt",
+    "description": "A shared HyperFrames prompt for a desktop product teaser with slow camera moves and UI demonstrations. Requires the referenced product post and visual assets.",
+    "creator": "Jake Moran",
+    "creatorUrl": "https://x.com/jake11moran",
+    "relatedProjectSlugs": ["jake11moran-414633"]
+  },
+  {
+    "slug": "visual-podcast-animations-prompt",
+    "title": "Visual podcast animations prompt",
+    "url": "https://x.com/theviclaw/status/2103896101120356793/video/1",
+    "category": "prompt",
+    "description": "A shared workflow and prompt for adding explanatory HyperFrames animations to podcast episodes, with brand consistency, speaker picture-in-picture, and timing tied to speech.",
+    "creator": "theviclaw",
+    "creatorUrl": "https://x.com/theviclaw",
+    "relatedProjectSlugs": ["stokebuilder-356793"]
+  }
+]

@@ -6,6 +6,10 @@ A community collection of tutorials, skills, prompts, templates, tools, and sour
 
 Learn how videos are made, find reusable resources, and share what you discover.
 
+**[Browse all video entries](projects.json)** · **[Browse the resource catalog](resources.json)** · **[Submit your video](https://github.com/dev-gowtham08/awesome-hyperframes/issues/new?template=video-submission.md)**
+
+`resources.json` is this repository's public catalog of learning resources. It includes official links and selected tutorials, workflows, and prompts from the video collection, with creator credit. Community descriptions were adapted from the maintainer's supplied project data.
+
 ## Contents
 
 - [Getting started](#getting-started)
@@ -36,9 +40,13 @@ Built a useful skill or integration? [Suggest it](https://github.com/dev-gowtham
 
 Community walkthroughs for product demos, explainers, and motion graphics are welcome. Include the steps, the result, and reusable source files when available.
 
+Browse community entries in [resources.json](resources.json), including the HyperFrames-to-After-Effects demonstration and the Onde Fica motion reel workflow.
+
 ## Prompts
 
 Have a prompt that produces a useful, repeatable result? Submit it with an example output and any required assets or skills.
+
+The [resource catalog](resources.json) includes product teaser, launch film, and visual podcast prompt references.
 
 ## Templates and source code
 
@@ -50,13 +58,21 @@ Community templates should include setup instructions and a license explaining h
 
 Browse videos and creator credits at **[Made with HyperFrames](https://madewithhyperframes.com)**.
 
-The website's `projects.json` remains the source for video entries and creator details. A featured list here will be generated from that file once syncing is set up. You do not need to copy video entries into this repository.
+**Want to submit your video?** [Open a video submission](https://github.com/dev-gowtham08/awesome-hyperframes/issues/new?template=video-submission.md) with your video link and creator details. You do not need to fork this repository or edit files.
+
+Browse the full video directory in [projects.json](projects.json), including video links, creator credits, tools, and prompts. This is a public snapshot of the website's video data, including entries made with HyperFrames and other tools.
+
+The private website repository remains the source for website updates. A maintainer reviews submissions and adds accepted videos there. This copy is not automatically synced yet; changes here do not update the website.
+
+Video files are not included. Paths beginning with `/videos/` or `/posters/` refer to assets on [madewithhyperframes.com](https://madewithhyperframes.com).
 
 ## Contributing
 
-Found a helpful resource? [Submit a resource](https://github.com/dev-gowtham08/awesome-hyperframes/issues/new?template=resource-submission.md) or open a pull request.
+Found a helpful resource? [Submit a resource](https://github.com/dev-gowtham08/awesome-hyperframes/issues/new?template=resource-submission.md) or open a pull request adding it to [resources.json](resources.json). Maintainers review changes before merging.
 
 Read the [contribution guide](CONTRIBUTING.md) for the entry format and review criteria. Suggestions for missing categories and corrections to existing links are welcome.
+
+Website integration and README generation from `resources.json` are planned; neither is configured yet.
 
 ## How the collection fits together
 

@@ -1,6 +1,6 @@
 ---
 name: Suggest a resource
-about: Share a HyperFrames resource or suggest a video for the collection.
+about: Share a HyperFrames tutorial, skill, prompt, template, or tool.
 title: "[Suggestion]: "
 labels: ""
 assignees: ""
@@ -12,7 +12,7 @@ assignees: ""
 
 ## Category
 
-<!-- Choose one: Documentation, Skill, Tool, Tutorial, Workflow, Prompt, Template, Source code, or Video suggestion. -->
+<!-- Choose one: Documentation, Skill, Tool, Tutorial, Workflow, Prompt, Template, or Source code. To submit a video for the gallery, use the separate "Submit a video" template. -->
 
 ## Why is it useful?
 
@@ -28,7 +28,7 @@ assignees: ""
 
 ## Related video or source code (optional)
 
-<!-- Link to a demo, original X post, source repository, or existing madewithhyperframes.com video page. For a video suggestion, include the original post or source and creator credit above. -->
+<!-- Link to a demo, original X post, source repository, or existing madewithhyperframes.com video page. -->
 
 ## Before submitting
 

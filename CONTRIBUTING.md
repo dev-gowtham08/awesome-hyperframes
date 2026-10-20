@@ -20,17 +20,39 @@ If you created or maintain the resource, mention that. Self-submissions are welc
 ## Submit a pull request
 
 1. Fork this repository and create a branch.
-2. Add your resource to the appropriate section in `README.md`.
+2. Add an object to the array in `resources.json`.
 3. Follow this format:
 
-   ```markdown
-   - [Resource title](https://example.com/resource) by [Creator](https://example.com/creator) — A short description of what it helps people do.
+   ```json
+   {
+     "slug": "my-hyperframes-tutorial",
+     "title": "My HyperFrames tutorial",
+     "url": "https://example.com/tutorial",
+     "category": "tutorial",
+     "description": "A walkthrough for creating a product demo.",
+     "creator": "Creator name",
+     "creatorUrl": "https://example.com/creator",
+     "relatedProjectSlugs": []
+   }
    ```
 
-4. Check that the link works, the description is accurate, and the resource is not already listed.
-5. Open a pull request explaining why the addition is useful.
+4. Replace the example values, use a unique slug, and keep the JSON valid (separate objects with commas, with no trailing comma after the last object).
+5. Check that the link works, the description is accurate, and the resource is not already listed.
+6. Open a pull request explaining why the addition is useful. A maintainer reviews it before merging.
 
 Keep changes focused. Corrections and broken-link fixes can be submitted directly as pull requests.
+
+### Resource fields
+
+All fields in the example are required. Use a lowercase, hyphen-separated `slug`.
+
+Use one of these categories: `documentation`, `skill`, `tool`, `tutorial`, `workflow`, `prompt`, `template`, or `source-code`.
+
+`relatedProjectSlugs` connects a resource to existing website videos using their exact slugs. Find them in the public [projects.json](projects.json) snapshot. Leave it as `[]` if you do not know the slug or there is no related video; a maintainer can fill it in. It does not provide access to the private website repository or publish a video.
+
+An optional `prompt` field can contain an exact, shareable prompt. Keep summaries in `description`; do not present a summary as the creator's exact prompt. For long prompts, link to the original post.
+
+Describe important prerequisites, costs, and reuse restrictions when known. A demonstration of a skill can be listed as a `workflow`; label it as a demo rather than implying it is downloadable source or an installation guide.
 
 ## What makes a useful resource?
 
@@ -44,12 +66,18 @@ Link to a creator's work instead of copying their files into this repository wit
 
 ## Video submissions
 
-Video entries and creator details live in the website's `projects.json`. Do not create a second video directory here.
+This repository's [projects.json](projects.json) is a public snapshot of the video directory. The private website repository's `projects.json` remains the source for website updates. Keep learning resources in `resources.json` and video records in `projects.json`.
 
-To suggest a video, use the resource submission template, choose **Video suggestion**, and include the original X post or other source, creator credit, and the video page on [madewithhyperframes.com](https://madewithhyperframes.com) if one exists. A maintainer can review it for the website.
+To suggest a video, [open a video submission](https://github.com/dev-gowtham08/awesome-hyperframes/issues/new?template=video-submission.md), or choose **Issues → New issue → Submit a video** on GitHub. Include the original X post or other public video link, creator credit, a description, and the tools used. No fork or file edit is needed.
 
-Submitting an issue here does not automatically publish a video. README syncing from `projects.json` is planned but is not configured yet.
+A maintainer reviews the submission, adds accepted videos to the private website's `projects.json`, and publishes the website update. An issue or a resource pull request does not automatically publish a video.
+
+If you already opened a pull request to suggest a video, maintainers can review the suggestion there; there is no need to resubmit it as an issue.
+
+Maintainers can refresh the public snapshot after updating the website data. Until syncing is configured, a change to one copy does not update the other.
 
 ## Future resource syncing
 
-For this initial setup, resource links are maintained in `README.md`. A shared `resources.json` alongside the website's `projects.json` is planned to supply a website Resources page and generate this README's resource lists. That automation will be set up separately.
+`resources.json` in this public repository is the source for learning resources. Submit new resources there; you do not need to duplicate them in the README.
+
+The website does not consume this file yet, and README resource lists are not generated yet. A future integration can read the approved catalog to populate a website Resources page and generate README lists. Video syncing is also not configured.
