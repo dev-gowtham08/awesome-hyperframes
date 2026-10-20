@@ -58,7 +58,9 @@ Community templates should include setup instructions and a license explaining h
 
 Browse videos and creator credits at **[Made with HyperFrames](https://madewithhyperframes.com)**.
 
-**Want to submit your video?** [Open a video submission](https://github.com/dev-gowtham08/awesome-hyperframes/issues/new?template=video-submission.md) with your video link and creator details. You do not need to fork this repository or edit files.
+**Want to add your video?** Fork this repository, create a new branch, add your entry at the end of [projects.json](projects.json), then commit your changes and open a pull request. Follow the [contribution steps](CONTRIBUTING.md#submit-a-pull-request).
+
+Prefer to submit a link without editing files? [Open a video submission](https://github.com/dev-gowtham08/awesome-hyperframes/issues/new?template=video-submission.md) with your video link and creator details.
 
 Browse the full video directory in [projects.json](projects.json), including video links, creator credits, tools, and prompts. This is a public snapshot of the website's video data, including entries made with HyperFrames and other tools.
 
@@ -68,7 +70,12 @@ Video files are not included. Paths beginning with `/videos/` or `/posters/` ref
 
 ## Contributing
 
-Found a helpful resource? [Submit a resource](https://github.com/dev-gowtham08/awesome-hyperframes/issues/new?template=resource-submission.md) or open a pull request adding it to [resources.json](resources.json). Maintainers review changes before merging.
+To contribute, fork this repository, create a new branch, and add your entry to the appropriate file:
+
+- **Videos:** [projects.json](projects.json).
+- **Tutorials, skills, tools, prompts, templates, and source code links:** [resources.json](resources.json).
+
+Commit your changes, push your branch if working locally, and open a pull request. Maintainers review changes before merging. You can also [suggest a resource through an issue](https://github.com/dev-gowtham08/awesome-hyperframes/issues/new?template=resource-submission.md).
 
 Read the [contribution guide](CONTRIBUTING.md) for the entry format and review criteria. Suggestions for missing categories and corrections to existing links are welcome.
 

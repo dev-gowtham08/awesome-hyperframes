@@ -19,9 +19,33 @@ If you created or maintain the resource, mention that. Self-submissions are welc
 
 ## Submit a pull request
 
-1. Fork this repository and create a branch.
-2. Add an object to the array in `resources.json`.
-3. Follow this format:
+Choose the file that matches your contribution:
+
+| Contribution | File to edit |
+| --- | --- |
+| A video and its creator details | [projects.json](projects.json) |
+| A tutorial, skill, tool, prompt, template, or source code link | [resources.json](resources.json) |
+
+1. Fork this repository to your GitHub account.
+2. Create a new branch in your fork, such as `add-my-video` or `add-my-resource`.
+3. Edit the appropriate JSON file on GitHub or in your local clone using VS Code. Add your new object at the end of the array, before the closing `]`.
+4. Add a comma after the previous object. Do not add a trailing comma after your new object. Use a unique slug and check that your entry is not already listed.
+5. Save and commit your changes. If working locally, push your branch to your fork.
+6. Open a pull request from your branch to this repository's `main` branch. Describe what you added and credit the creator.
+
+A maintainer reviews the pull request before merging. Merging a video entry here does not automatically publish it on the website; a maintainer must also update the private website repository.
+
+Keep changes focused. Corrections and broken-link fixes can be submitted directly as pull requests.
+
+### Adding a video
+
+Follow the structure of an existing entry in `projects.json`. Include the title, a unique slug, creator name and profile URL, original video URL, tools used, category, duration, submission date, and prompt or description. Set `prompt_partial` to `true` for an excerpt or summary, and `false` only for the exact full prompt.
+
+Preserve other creators' entries. Do not invent playback or thumbnail URLs; if you cannot supply the media details used by existing entries, mention that in the PR so a maintainer can complete them.
+
+### Adding a learning resource
+
+Add an object to `resources.json` using this format:
 
    ```json
    {
@@ -36,11 +60,7 @@ If you created or maintain the resource, mention that. Self-submissions are welc
    }
    ```
 
-4. Replace the example values, use a unique slug, and keep the JSON valid (separate objects with commas, with no trailing comma after the last object).
-5. Check that the link works, the description is accurate, and the resource is not already listed.
-6. Open a pull request explaining why the addition is useful. A maintainer reviews it before merging.
-
-Keep changes focused. Corrections and broken-link fixes can be submitted directly as pull requests.
+Replace the example values and check that the links work and the description is accurate.
 
 ### Resource fields
 
@@ -68,13 +88,15 @@ Link to a creator's work instead of copying their files into this repository wit
 
 This repository's [projects.json](projects.json) is a public snapshot of the video directory. The private website repository's `projects.json` remains the source for website updates. Keep learning resources in `resources.json` and video records in `projects.json`.
 
-To suggest a video, [open a video submission](https://github.com/dev-gowtham08/awesome-hyperframes/issues/new?template=video-submission.md), or choose **Issues → New issue → Submit a video** on GitHub. Include the original X post or other public video link, creator credit, a description, and the tools used. No fork or file edit is needed.
+To add a video through a pull request, fork this repository, create a branch, and append your entry to `projects.json` using the [steps above](#submit-a-pull-request).
+
+If you prefer to suggest a video without editing files, [open a video submission](https://github.com/dev-gowtham08/awesome-hyperframes/issues/new?template=video-submission.md), or choose **Issues → New issue → Submit a video** on GitHub. Include the original X post or other public video link, creator credit, a description, and the tools used.
 
 A maintainer reviews the submission, adds accepted videos to the private website's `projects.json`, and publishes the website update. An issue or a resource pull request does not automatically publish a video.
 
 If you already opened a pull request to suggest a video, maintainers can review the suggestion there; there is no need to resubmit it as an issue.
 
-Maintainers can refresh the public snapshot after updating the website data. Until syncing is configured, a change to one copy does not update the other.
+Maintainers should transfer approved changes between the public catalog and the private website data before refreshing this snapshot, so contributions are preserved. Until syncing is configured, a change to one copy does not update the other.
 
 ## Future resource syncing
 
