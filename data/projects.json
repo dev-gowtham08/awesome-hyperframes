@@ -2130,5 +2130,204 @@
     "duration": "5:06",
     "submittedAt": "2026-09-25T17:17:57.000Z",
     "creatorUrl": "https://x.com/anabology"
+  },
+  {
+    "slug": "final-boss-bright-mirror",
+    "title": "Final Boss Animated Film",
+    "creator": "Bright Mirror",
+    "stack": [
+      "Opus"
+    ],
+    "category": "Creative",
+    "prompt": "An anime-styled animated film with kinetic captions and 3D effects, shared by Bright Mirror as made with Opus 5.5.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/_brightmirror/status/2111539098234310975/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2111535801947631616/pl/m0j_Q7kDGDlLEV6n.m3u8?tag=29",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2111535801947631616/img/hhue2n-sQteHIdyN.jpg",
+    "duration": "5:58",
+    "submittedAt": "2026-10-17T19:25:26.000Z",
+    "creatorUrl": "https://x.com/_brightmirror"
+  },
+  {
+    "slug": "scroll-up-bright-mirror",
+    "title": "Scroll Up Animated Film",
+    "creator": "Bright Mirror",
+    "stack": [
+      "Opus"
+    ],
+    "category": "Short Film",
+    "prompt": "A narrative animation about a long chat history, combining anime characters, animated captions, and 3D camera transitions. Shared by Bright Mirror.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/_brightmirror/status/2112641797763793075/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2112633556354949120/pl/OWzaoPCzv84eTa0n.m3u8?tag=29&v=2c8",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2112633556354949120/img/ZZzEtzCw780Ikg6u.jpg",
+    "duration": "5:30",
+    "submittedAt": "2026-10-20T20:27:10.000Z",
+    "creatorUrl": "https://x.com/_brightmirror"
+  },
+  {
+    "slug": "paper-cut-fox-leon-lin",
+    "title": "Paper-Cut Fox Film",
+    "creator": "Leon Lin",
+    "stack": [
+      "Opus"
+    ],
+    "category": "Short Film",
+    "prompt": "Leon Lin describes creating this paper-cut-style fox film with Opus 5.5 using JavaScript and no external assets.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/LexnLin/status/2113025231732224063/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2113024275653206016/pl/I3nRKW7BgyB8Fifn.m3u8?tag=29&v=cfc",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2113024275653206016/img/7l99rCAoYI1Z_Dwe.jpg",
+    "duration": "1:00",
+    "submittedAt": "2026-10-21T21:50:48.000Z",
+    "creatorUrl": "https://x.com/LexnLin"
+  },
+  {
+    "slug": "pixel-mascot-motion-rari",
+    "title": "Pixel Mascot Motion Reel",
+    "creator": "rari",
+    "stack": [
+      "Opus"
+    ],
+    "category": "Motion",
+    "prompt": "A short motion-design reel featuring an orange pixel mascot moving through a creative software interface, shared by rari in a post about motion design with Opus 5.5.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/0xwhrrari/status/2112896717523681365/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2112894983002857474/pl/jYkQaKiCN-4jX4_O.m3u8?tag=29&v=cfc",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2112894983002857474/img/6_byoNXmkA0fmsRZ.jpg",
+    "duration": "0:20",
+    "submittedAt": "2026-10-21T13:20:07.000Z",
+    "creatorUrl": "https://x.com/0xwhrrari"
+  },
+  {
+    "slug": "less-manual-work-rocky",
+    "title": "Less Manual Work Motion Graphics",
+    "creator": "Rocky",
+    "stack": [
+      "Opus"
+    ],
+    "category": "Motion",
+    "prompt": "A short motion-design clip with stacked cards, an assistant icon, and the line “Less manual work,” shared by Rocky in an Opus 5.5 thread.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/washukumar531/status/2112945758945337467/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2112943110103916545/pl/RrIbi3tRD_SP1qtm.m3u8?tag=29",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2112943110103916545/img/mZTbYopwow1jow-q.jpg",
+    "duration": "0:12",
+    "submittedAt": "2026-10-21T16:35:00.000Z",
+    "creatorUrl": "https://x.com/washukumar531"
+  },
+  {
+    "slug": "pixel-mascot-3d-seeco",
+    "title": "Pixel Mascot 3D Motion Reel",
+    "creator": "seeco",
+    "stack": [
+      "Opus"
+    ],
+    "category": "3D",
+    "prompt": "A 3D motion-design reel featuring a pixel mascot, glossy spheres, and playful tabletop scenes, shared by seeco in a post about motion design with Opus 5.5.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/seeconvm/status/2112981314223935567/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2112977956486123520/pl/oZbtzi2-Q4aOw4kI.m3u8?tag=29",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2112977956486123520/img/y_6ySzQAtOcHM4ho.jpg",
+    "duration": "0:17",
+    "submittedAt": "2026-10-21T18:56:17.000Z",
+    "creatorUrl": "https://x.com/seeconvm"
+  },
+  {
+    "slug": "swiftcruit-motion-film-cryptographer",
+    "title": "Swiftcruit Motion Graphics Film",
+    "creator": "u/CryptographerOld9077",
+    "stack": [
+      "Hyperframes",
+      "Opus"
+    ],
+    "category": "Marketing",
+    "prompt": "A 40-second motion graphics film for Swiftcruit, made with Opus 5.5 through Claude Code and HyperFrames. The creator supplied the story and detailed scene directions, using kinetic typography and transformations to follow a jobseeker’s journey. Shared direction excerpt: “Use words as the animated objects. Let the outgoing scene create the next scene, rather than fading between separate slides.”",
+    "prompt_partial": true,
+    "videoUrl": "https://www.reddit.com/video/31uhz2dlslvh1",
+    "playbackUrl": "https://v.redd.it/31uhz2dlslvh1/HLSPlaylist.m3u8",
+    "thumbnailUrl": "/posters/swiftcruit-motion-film-cryptographer.jpg",
+    "duration": "0:40",
+    "creatorUrl": "https://www.reddit.com/user/CryptographerOld9077/"
+  },
+  {
+    "slug": "app-launch-different-beginning8",
+    "title": "Swipe, Play, Repeat App Launch",
+    "creator": "u/Different-Beginning8",
+    "stack": [
+      "Hyperframes"
+    ],
+    "category": "Marketing",
+    "prompt": "An app launch video made with Claude Code, Fable 5.1, and HyperFrames. The creator reports using three or four prompts and ElevenLabs for background music and sound effects.",
+    "prompt_partial": true,
+    "videoUrl": "https://www.reddit.com/video/yewk02k1darh1",
+    "playbackUrl": "https://v.redd.it/yewk02k1darh1/HLSPlaylist.m3u8",
+    "thumbnailUrl": "/posters/app-launch-different-beginning8.jpg",
+    "duration": "0:35",
+    "creatorUrl": "https://www.reddit.com/user/Different-Beginning8/"
+  },
+  {
+    "slug": "aether-trailer-axcelbabe",
+    "title": "Aether Movie Trailer",
+    "creator": "u/Axcelbabe",
+    "stack": [
+      "Hyperframes"
+    ],
+    "category": "Short Film",
+    "prompt": "A short cinematic movie trailer titled Aether, shared by Axcelbabe in r/heygen as made with HyperFrames.",
+    "prompt_partial": true,
+    "videoUrl": "https://www.reddit.com/r/heygen/comments/1tjpvdb/movie_trailer_using_hyperframes/",
+    "playbackUrl": "https://v.redd.it/4e6hn4pepi2h1/HLSPlaylist.m3u8",
+    "thumbnailUrl": "/posters/aether-trailer-axcelbabe.jpg",
+    "duration": "0:22",
+    "creatorUrl": "https://www.reddit.com/user/Axcelbabe/"
+  },
+  {
+    "slug": "docker-paper-craft-mraza007",
+    "title": "Docker Containers Paper-Craft Explainer",
+    "creator": "u/mraza007",
+    "stack": [
+      "Opus"
+    ],
+    "category": "Explainer",
+    "prompt": "Create a pure javascript animation. 30s-60s stop motion paper craft style video with appropriate audio on the topic what is docker containers and how they work\n\nEntire video should be as high of a production value as possible. Please spend your time on this, it's very important.\n\nUse high quality text-to-speech model for generation. You can find open router API key in .env file\n\nYou can use any tools you can find access to and resources on the internet. You create the script, the assets, the animation, concept, everything.\n\nwork autonomously until done. Quality is paramount. Production value should be on professional level.\n\nOne more thing: max OpenRouter spend is $6.99",
+    "prompt_partial": false,
+    "videoUrl": "https://www.reddit.com/r/claude/comments/1wpdw6t/opus_55_is_just_amazing_at_creating_videos_and_i/",
+    "playbackUrl": "https://v.redd.it/wqoxcy93bjrh1/HLSPlaylist.m3u8",
+    "thumbnailUrl": "https://external-preview.redd.it/N3ZxZnZqZjdianJoMc3civEitXVq43vbLDrYQPdknUAl_tjmys1I_cST8FLN.png?format=pjpg&auto=webp&s=19308c657550aaa5969ba57ca4c03cc8c44aa92f",
+    "duration": "0:58",
+    "creatorUrl": "https://www.reddit.com/user/mraza007/"
+  },
+  {
+    "slug": "html-js-music-video-smith2008",
+    "title": "HTML and JavaScript Music Video",
+    "creator": "u/smith2008",
+    "stack": [
+      "Opus"
+    ],
+    "category": "Music",
+    "prompt": "An animated music video made with Opus 5.5 using HTML and JavaScript, with kinetic lyrics and visuals about tokens and a context window. The creator says Opus generated 20 songs with two models, evaluated them, and selected a MiniMax-generated song.",
+    "prompt_partial": true,
+    "videoUrl": "https://www.reddit.com/r/ClaudeAI/comments/1wsalz3/opus_55_is_sick_it_can_create_a_full_video_clip/",
+    "playbackUrl": "https://v.redd.it/aok6z413j8sh1/HLSPlaylist.m3u8",
+    "thumbnailUrl": "/posters/html-js-music-video-smith2008.jpg",
+    "duration": "2:36",
+    "creatorUrl": "https://www.reddit.com/user/smith2008/"
+  },
+  {
+    "slug": "extra-headroom-explainer-criticaster",
+    "title": "Extra Headroom Hand-Drawn Explainer",
+    "creator": "u/criticasterdotcom",
+    "stack": [
+      "Opus"
+    ],
+    "category": "Explainer",
+    "prompt": "Create a pure javascript animation. 30s-60s whimsical hand drawn style with appropriate audio on the topic the headroom-desktop app; you can also use information from the headroom-web website extraheadroom.com\n\nEntire video should be as high of a production value as possible. Please spend your time on this, it's very important.\n\nUse high quality text-to-speech model for generation. You can use the open router API key\n\nYou can use any tools you can find access to and resources on the internet. You create the script, the assets, the animation, concept, everything.\n\nI have to go away from my computer so please work autonomously until done. Quality is paramount. Production value should be on professional level.\n\nOne more thing: max OpenRouter spend is $20",
+    "prompt_partial": false,
+    "videoUrl": "https://www.reddit.com/r/ClaudeAI/comments/1wpr8ea/a_made_entirely_with_opus_55_explainer_video_with/",
+    "playbackUrl": "https://v.redd.it/jllbpim7rmrh1/HLSPlaylist.m3u8",
+    "thumbnailUrl": "/posters/extra-headroom-explainer-criticaster.jpg",
+    "duration": "0:51",
+    "creatorUrl": "https://www.reddit.com/user/criticasterdotcom/"
   }
 ]

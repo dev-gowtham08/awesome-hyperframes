@@ -1,105 +1,96 @@
 # Contributing
 
-Help people learn HyperFrames and find resources they can use in their own projects.
+Share a video, credit its creator, and help others understand how it was made.
 
-## Suggest a resource
+## Submit a video without editing files
 
-[Open a resource submission](https://github.com/dev-gowtham08/awesome-hyperframes/issues/new?template=resource-submission.md). You do not need to clone the repository or edit code.
+Choose **Issues → New issue → Submit a video**, or [open the submission template](https://github.com/dev-gowtham08/awesome-hyperframes/issues/new?template=video-submission.md).
 
-Include:
+Include the original video link, creator name and profile, tools used, and a short description. Add the exact prompt if it is available for sharing; otherwise, say that you are providing an excerpt or summary.
 
-- The resource title and a direct URL.
-- A category: documentation, skill, tool, tutorial, workflow, prompt, template, or source code.
-- A short explanation of what someone can learn or do with it.
-- The creator's name and profile or website.
-- Any cost, account requirements, dependencies, or reuse restrictions.
-- An example video or source repository, if available.
-
-If you created or maintain the resource, mention that. Self-submissions are welcome.
+You do not need to fork the repository or use VS Code. A maintainer reviews the submission before adding it.
 
 ## Submit a pull request
 
-Choose the file that matches your contribution:
-
-| Contribution | File to edit |
-| --- | --- |
-| A video and its creator details | [projects.json](projects.json) |
-| A tutorial, skill, tool, prompt, template, or source code link | [resources.json](resources.json) |
-
 1. Fork this repository to your GitHub account.
-2. Create a new branch in your fork, such as `add-my-video` or `add-my-resource`.
-3. Edit the appropriate JSON file on GitHub or in your local clone using VS Code. Add your new object at the end of the array, before the closing `]`.
-4. Add a comma after the previous object. Do not add a trailing comma after your new object. Use a unique slug and check that your entry is not already listed.
-5. Save and commit your changes. If working locally, push your branch to your fork.
-6. Open a pull request from your branch to this repository's `main` branch. Describe what you added and credit the creator.
+2. Create a new branch, such as `add-my-video`.
+3. Open `data/projects.json` on GitHub or in your local clone using VS Code.
+4. Add your video object at the end of the array, before the closing `]`. Add a comma after the previous object, with no trailing comma after your new object.
+5. Check that the video is not already listed and use a unique slug.
+6. If working locally, run `python3 scripts/build_directory.py` to validate your entry and refresh the generated lists. Include those documentation changes in your commit. If editing on GitHub, a maintainer can run this step.
+7. Commit your changes and push your branch if working locally.
+8. Open a pull request from your branch to this repository’s `main` branch. Explain what you added and whether you are the creator.
 
-A maintainer reviews the pull request before merging. Merging a video entry here does not automatically publish it on the website; a maintainer must also update the private website repository.
+Only edit video information in `data/projects.json`. The README’s counts and showcase, and all of `DIRECTORY.md`, are generated from it.
 
-Keep changes focused. Corrections and broken-link fixes can be submitted directly as pull requests.
+## Example entry
 
-### Adding a video
+Replace the example values below with the real details. If the full prompt is unavailable, provide a short description and keep `prompt_partial` set to `true`.
 
-Follow the structure of an existing entry in `projects.json`. Include the title, a unique slug, creator name and profile URL, original video URL, tools used, category, duration, submission date, and prompt or description. Set `prompt_partial` to `true` for an excerpt or summary, and `false` only for the exact full prompt.
+```json
+{
+  "slug": "my-product-demo",
+  "title": "My Product Demo",
+  "creator": "Your name",
+  "stack": ["Hyperframes"],
+  "category": "Product Demo",
+  "prompt": "A short description of the video and how it was made.",
+  "prompt_partial": true,
+  "videoUrl": "https://example.com/original-video",
+  "creatorUrl": "https://example.com/creator",
+  "duration": "0:30",
+  "submittedAt": "2026-10-22T12:00:00Z"
+}
+```
 
-Preserve other creators' entries. Do not invent playback or thumbnail URLs; if you cannot supply the media details used by existing entries, mention that in the PR so a maintainer can complete them.
+| Field | What to provide |
+| --- | --- |
+| `slug` | A unique identifier using lowercase letters, numbers, and hyphens. |
+| `title` | A clear video title. |
+| `creator` and `creatorUrl` | The original creator’s name and public profile link. |
+| `stack` | The tools actually used. Use `Hyperframes` for HyperFrames to match the existing data. |
+| `category` | One of the categories below. |
+| `prompt` | The shared prompt, an excerpt, or your description. |
+| `prompt_partial` | `false` only for the exact full prompt; `true` for excerpts or descriptions. |
+| `videoUrl` | The public original post or video page. |
+| `duration` | Optional length in `m:ss` format. |
+| `submittedAt` | Optional known date as an ISO timestamp with a timezone. Do not guess a date. |
+| `thumbnailUrl` | Optional public image URL or existing website `/posters/` path. |
+| `playbackUrl` | Optional direct media URL or existing website `/videos/` path. |
+| `featured` | Optional boolean used by maintainers to prioritize showcase entries. |
 
-### Adding a learning resource
+Categories: `Product Demo`, `Motion`, `Marketing`, `Short Film`, `3D`, `Explainer`, `Education`, `Creative`, `Tutorial`, `Music`, or `AI`.
 
-Add an object to `resources.json` using this format:
+Do not invent media URLs or reuse another entry’s thumbnail. If you cannot supply them, omit the optional fields and mention that in your submission. The video can still appear in the complete directory without a preview image.
 
-   ```json
-   {
-     "slug": "my-hyperframes-tutorial",
-     "title": "My HyperFrames tutorial",
-     "url": "https://example.com/tutorial",
-     "category": "tutorial",
-     "description": "A walkthrough for creating a product demo.",
-     "creator": "Creator name",
-     "creatorUrl": "https://example.com/creator",
-     "relatedProjectSlugs": []
-   }
-   ```
+## Review and credit
 
-Replace the example values and check that the links work and the description is accurate.
+- Link to the original source and credit the original creator.
+- Label the tools accurately; do not describe an Opus-only or Remotion video as a HyperFrames creation without evidence.
+- Keep summaries distinct from exact prompts. Include long prompts only when you have permission to share them or their license permits it.
+- Preserve existing entries when adding yours. Corrections to existing entries are welcome; explain the change in your PR.
 
-### Resource fields
+If you have already opened a video PR, there is no need to submit the same video through an issue.
 
-All fields in the example are required. Use a lowercase, hyphen-separated `slug`.
+## Updating the generated lists
 
-Use one of these categories: `documentation`, `skill`, `tool`, `tutorial`, `workflow`, `prompt`, `template`, or `source-code`.
+Run these from the repository folder using Python 3.9 or later:
 
-`relatedProjectSlugs` connects a resource to existing website videos using their exact slugs. Find them in the public [projects.json](projects.json) snapshot. Leave it as `[]` if you do not know the slug or there is no related video; a maintainer can fill it in. It does not provide access to the private website repository or publish a video.
+```bash
+python3 scripts/build_directory.py
+python3 scripts/build_directory.py --check
+```
 
-An optional `prompt` field can contain an exact, shareable prompt. Keep summaries in `description`; do not present a summary as the creator's exact prompt. For long prompts, link to the original post.
+The command validates the data, rebuilds `DIRECTORY.md`, and updates only the marked sections of the README. Each category shows up to three previews, prioritizing HyperFrames entries, then featured entries, then known dates from newest to oldest. Entries without dates remain in the directory. Every video is included in the complete list.
 
-Describe important prerequisites, costs, and reuse restrictions when known. A demonstration of a skill can be listed as a `workflow`; label it as a demo rather than implying it is downloadable source or an installation guide.
+`--check` reports invalid data or stale generated files without changing anything. These are local commands, not a scheduled job or GitHub Action.
 
-## What makes a useful resource?
+## Website publishing
 
-- It is relevant to creating, editing, rendering, or learning about HyperFrames.
-- It provides concrete instructions, reusable material, or an inspectable example.
-- It credits the original creator and links to the original source.
-- It states important prerequisites and costs.
-- Reusable code and templates include clear license information.
+Merging a PR here updates this repository. It does not automatically update [madewithhyperframes.com](https://madewithhyperframes.com).
 
-Link to a creator's work instead of copying their files into this repository without permission.
+A maintainer transfers accepted changes to the private website repository’s `data/projects.json` and publishes the website update. Reconcile approved changes in both copies before refreshing the public copy, so community contributions are preserved.
 
-## Video submissions
+## Corrections and removal
 
-This repository's [projects.json](projects.json) is a public snapshot of the video directory. The private website repository's `projects.json` remains the source for website updates. Keep learning resources in `resources.json` and video records in `projects.json`.
-
-To add a video through a pull request, fork this repository, create a branch, and append your entry to `projects.json` using the [steps above](#submit-a-pull-request).
-
-If you prefer to suggest a video without editing files, [open a video submission](https://github.com/dev-gowtham08/awesome-hyperframes/issues/new?template=video-submission.md), or choose **Issues → New issue → Submit a video** on GitHub. Include the original X post or other public video link, creator credit, a description, and the tools used.
-
-A maintainer reviews the submission, adds accepted videos to the private website's `projects.json`, and publishes the website update. An issue or a resource pull request does not automatically publish a video.
-
-If you already opened a pull request to suggest a video, maintainers can review the suggestion there; there is no need to resubmit it as an issue.
-
-Maintainers should transfer approved changes between the public catalog and the private website data before refreshing this snapshot, so contributions are preserved. Until syncing is configured, a change to one copy does not update the other.
-
-## Future resource syncing
-
-`resources.json` in this public repository is the source for learning resources. Submit new resources there; you do not need to duplicate them in the README.
-
-The website does not consume this file yet, and README resource lists are not generated yet. A future integration can read the approved catalog to populate a website Resources page and generate README lists. Video syncing is also not configured.
+If you are a creator and want an entry corrected or removed, [open an issue](https://github.com/dev-gowtham08/awesome-hyperframes/issues) with the video link and requested change.
