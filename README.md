@@ -1,35 +1,50 @@
-# Awesome HyperFrames
+<h1 align="center">Awesome HyperFrames</h1>
 
-A collection of videos made with HyperFrames and other code-driven tools, with creator credits and the prompts or context behind each one.
+<p align="center">
+  Videos made with code. The creators and prompts behind them.<br>
+  <sub>Featuring HyperFrames, Opus, Remotion, and more.</sub>
+</p>
 
-**[▶ Watch on madewithhyperframes.com](https://madewithhyperframes.com)**
+<p align="center">
+  <a href="https://madewithhyperframes.com"><strong>▶ Watch the collection</strong></a>
+  &nbsp; · &nbsp;
+  <a href="DIRECTORY.md">Browse all videos</a>
+  &nbsp; · &nbsp;
+  <a href="https://github.com/dev-gowtham08/awesome-hyperframes/issues/new?template=video-submission.md">Submit yours</a>
+</p>
 
-<a href="https://madewithhyperframes.com">
-  <img src="assets/madewithhyperframes-homepage.png" alt="Browse madewithhyperframes.com: search community videos, filter by tool or category, and discover creator prompts." width="100%">
-</a>
-
-**[Explore the website](https://madewithhyperframes.com)** · **[Browse the GitHub directory](DIRECTORY.md)** · **[Submit your video](https://github.com/dev-gowtham08/awesome-hyperframes/issues/new?template=video-submission.md)**
-
-Click a preview below to watch on **madewithhyperframes.com**. Use **Original** for the creator’s post, or **Full prompt / Context** for the text stored in this repository.
+<p align="center">
+  <a href="https://madewithhyperframes.com">
+    <img src="assets/madewithhyperframes-homepage.png" alt="madewithhyperframes.com in dark mode — browse community videos, filter by tool or category, and discover creator prompts." width="100%">
+  </a>
+  <br>
+  <sub><a href="https://madewithhyperframes.com">madewithhyperframes.com</a> · Watch, explore, and find your next idea.</sub>
+</p>
 
 <!-- BEGIN DIRECTORY SUMMARY -->
 
-**134 videos** · **46 entries marked as full prompts** · **88 with context or excerpts**
+<p align="center">
+  <strong>134</strong> videos &nbsp; · &nbsp; <strong>46</strong> marked as full prompts &nbsp; · &nbsp; <strong>88</strong> with context or excerpts
+</p>
 
 ## Browse by category
 
-| Category | Videos | Full list |
-| --- | ---: | --- |
-| [Product demos](#product-demos) | 25 | [Browse](DIRECTORY.md#product-demos) |
-| [Motion and creative](#motion-and-creative) | 32 | [Browse](DIRECTORY.md#motion-and-creative) |
-| [Explainers and education](#explainers-and-education) | 29 | [Browse](DIRECTORY.md#explainers-and-education) |
-| [3D scenes](#3d-scenes) | 14 | [Browse](DIRECTORY.md#3d-scenes) |
-| [Launches and marketing](#launches-and-marketing) | 16 | [Browse](DIRECTORY.md#launches-and-marketing) |
-| [Short films and music](#short-films-and-music) | 18 | [Browse](DIRECTORY.md#short-films-and-music) |
+<table>
+  <tr>
+    <td width="33%" align="center"><a href="#product-demos"><strong>Product demos</strong></a><br><sub>25 videos · <a href="DIRECTORY.md#product-demos">View all</a></sub></td>
+    <td width="33%" align="center"><a href="#motion-and-creative"><strong>Motion and creative</strong></a><br><sub>32 videos · <a href="DIRECTORY.md#motion-and-creative">View all</a></sub></td>
+    <td width="33%" align="center"><a href="#explainers-and-education"><strong>Explainers and education</strong></a><br><sub>29 videos · <a href="DIRECTORY.md#explainers-and-education">View all</a></sub></td>
+  </tr>
+  <tr>
+    <td width="33%" align="center"><a href="#3d-scenes"><strong>3D scenes</strong></a><br><sub>14 videos · <a href="DIRECTORY.md#3d-scenes">View all</a></sub></td>
+    <td width="33%" align="center"><a href="#launches-and-marketing"><strong>Launches and marketing</strong></a><br><sub>16 videos · <a href="DIRECTORY.md#launches-and-marketing">View all</a></sub></td>
+    <td width="33%" align="center"><a href="#short-films-and-music"><strong>Short films and music</strong></a><br><sub>18 videos · <a href="DIRECTORY.md#short-films-and-music">View all</a></sub></td>
+  </tr>
+</table>
 
 <!-- END DIRECTORY SUMMARY -->
 
-The previews below prioritize HyperFrames creations. Tool labels identify the stack recorded for each video; the full directory also includes Remotion and other work.
+Previews open on **madewithhyperframes.com**. **Original** links to the creator’s post; **Full prompt / Context** opens the stored text. Highlights prioritize HyperFrames creations, with each video’s tools shown below it.
 
 <!-- BEGIN VIDEO SHOWCASE -->
 
