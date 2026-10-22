@@ -100,6 +100,10 @@ def text_link(project, lines):
     return link(label, f'data/projects.json#L{lines[project["slug"]]}')
 
 
+def project_url(project):
+    return f'{SITE}/projects/{project["slug"]}'
+
+
 def table(rows):
     return '\n'.join('| ' + ' | '.join(row) + ' |' for row in rows)
 
@@ -122,12 +126,12 @@ def gallery(projects, lines):
         return ''
     rows = [[f'**{escape(p["title"])}**' for p in selected], ['---'] * len(selected)]
     rows.append([
-        f'[![{escape(p["title"])}]({url(SITE + p["thumbnailUrl"] if p["thumbnailUrl"].startswith("/") else p["thumbnailUrl"])})]({url(p["videoUrl"])})'
+        f'[![{escape(p["title"])}]({url(SITE + p["thumbnailUrl"] if p["thumbnailUrl"].startswith("/") else p["thumbnailUrl"])})]({url(project_url(p))})'
         for p in selected
     ])
     rows.append(['By ' + link(p['creator'], p['creatorUrl']) for p in selected])
     rows.append([escape(tools(p)) + (f' · {p["duration"]}' if p.get('duration') else '') for p in selected])
-    rows.append([link('Watch original', p['videoUrl']) + ' · ' + text_link(p, lines) for p in selected])
+    rows.append([link('Watch', project_url(p)) + ' · ' + link('Original', p['videoUrl']) + ' · ' + text_link(p, lines) for p in selected])
     return table(rows)
 
 
