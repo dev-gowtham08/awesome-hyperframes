@@ -2,7 +2,7 @@
 
 # Video directory
 
-All **134 videos** in the public catalog. Browse by category or use your browser’s Find command to search titles, creators, and tools.
+All **164 videos** in the public catalog. Browse by category or use your browser’s Find command to search titles, creators, and tools.
 
 **[Watch on Made with HyperFrames](https://madewithhyperframes.com)** · **[Back to the showcase](README.md)** · **[Submit a video](CONTRIBUTING.md)**
 
@@ -10,12 +10,12 @@ Video titles link to the original posts. Full prompt and Context links open the 
 
 ## Categories
 
-- [Product demos](#product-demos) (25)
-- [Motion and creative](#motion-and-creative) (32)
-- [Explainers and education](#explainers-and-education) (29)
+- [Product demos](#product-demos) (32)
+- [Motion and creative](#motion-and-creative) (37)
+- [Explainers and education](#explainers-and-education) (36)
 - [3D scenes](#3d-scenes) (14)
-- [Launches and marketing](#launches-and-marketing) (16)
-- [Short films and music](#short-films-and-music) (18)
+- [Launches and marketing](#launches-and-marketing) (24)
+- [Short films and music](#short-films-and-music) (21)
 
 ## Product demos
 
@@ -25,6 +25,8 @@ Video titles link to the original posts. Full prompt and Context links open the 
 | [Claude Motion in HyperFrames Studio](https://x.com/HyperFrames_/status/2108274305570390403/video/1) | [HyperFrames&#95;](https://x.com/HyperFrames_) | HyperFrames | 0:31 | [Context](data/projects.json#L1968) |
 | [Crealix Autopilot Promo](https://x.com/georgejimenez98/status/2103650183699431559/video/1) | [georgejimenez98](https://x.com/georgejimenez98) | HyperFrames + Opus | 0:30 | [Context](data/projects.json#L818) |
 | [Distilbook Motion Reel](https://x.com/ajith_io/status/2103469807375208546/video/1) | [ajith&#95;io](https://x.com/ajith_io) | Opus | 0:40 | [Full prompt](data/projects.json#L1249) |
+| [Enxovaly Baby App Showreel](https://x.com/gabrielbuzziv/status/2103589440258187408/video/1) | [Gabriel Buzzi](https://x.com/gabrielbuzziv) | HyperFrames + Opus | 0:15 | [Full prompt](data/projects.json#L2376) |
+| [Figma to HyperFrames](https://static.heygen.ai/hyperframes-oss/docs/images/showcase/launch-figma-launch-v1-s.mp4) | [HeyGen](https://hyperframes.heygen.com/showcase) | HyperFrames | 1:04 | [Context](data/projects.json#L2760) |
 | [GetStopover Launch Video](https://x.com/priyansh0327/status/2102472633057206409/video/1) | [priyansh0327](https://x.com/priyansh0327) | Opus + Remotion | 0:30 | [Context](data/projects.json#L727) |
 | [Grouped News Launch Ad](https://x.com/l3d1c/status/2104649028193632524/video/1) | [l3d1c](https://x.com/l3d1c) | Opus + Remotion | 0:34 | [Context](data/projects.json#L619) |
 | [HyperFrames to After Effects](https://x.com/thiswillblossom/status/2110053714299912521/video/1) | [Lera 🦋 Clipwing](https://x.com/thiswillblossom) | HyperFrames + Opus | 0:30 | [Context](data/projects.json#L152) |
@@ -36,16 +38,21 @@ Video titles link to the original posts. Full prompt and Context links open the 
 | [Meu Orbe Product Film](https://x.com/felipemoller/status/2103846311149936736/video/1) | [felipemoller](https://x.com/felipemoller) | Opus | 0:30 | [Full prompt](data/projects.json#L1538) |
 | [Notion Column Permissions Trailer](https://x.com/wustep/status/2104610435571884086/video/1) | [wustep](https://x.com/wustep) | Opus + Remotion | 0:32 | [Context](data/projects.json#L583) |
 | [Onde Fica App Motion Reel](https://x.com/jesscaroline7/status/2104336637752955094/video/1) | [jesscaroline7](https://x.com/jesscaroline7) | HyperFrames + Opus | 1:00 | [Context](data/projects.json#L763) |
+| [Onelog App Promo](https://www.reddit.com/r/ClaudeCode/comments/1wz6phm/how_i_made_a_polished_promo_video_with_claude_code/) | [u/Jixers](https://www.reddit.com/user/Jixers/) | HyperFrames + Opus | 0:41 | [Context](data/projects.json#L2634) |
 | [Poultry path demo video](https://www.hyperframes.dev/session/ea136626-42d0-4614-836f-c65ed60f4390) | [Gowtham](https://madewithhyperframes.vercel.app/) | HyperFrames | 2:56 | [Context](data/projects.json#L186) |
+| [Pull Request to Video](https://static.heygen.ai/hyperframes-oss/docs/images/showcase/launch-pr-to-video-launch-v1-s.mp4) | [HeyGen](https://hyperframes.heygen.com/showcase) | HyperFrames | 0:31 | [Context](data/projects.json#L2746) |
 | [Reactive Resume Showreel](https://x.com/KingOKings/status/2103874453687992769/video/1) | [KingOKings](https://x.com/KingOKings) | Opus + Remotion | 0:48 | [Context](data/projects.json#L673) |
 | [RedShip Launch Video](https://x.com/aschapmann/status/2104230888812724497/video/1) | [aschapmann](https://x.com/aschapmann) | Opus + Remotion | 0:30 | [Context](data/projects.json#L655) |
 | [SaaS Launch Film](https://x.com/moritzkremb/status/2103066071838466494/video/1) | [moritzkremb](https://x.com/moritzkremb) | Opus | 0:46 | [Full prompt](data/projects.json#L1197) |
+| [Salt.md Launch Film](https://www.reddit.com/r/vibecoding/comments/1wyxpef/look_what_i_built/) | [u/Ok&#95;Violinist9366](https://www.reddit.com/user/Ok_Violinist9366/) | HyperFrames + Opus | 0:43 | [Context](data/projects.json#L2648) |
+| [Shotbase Launch Video](https://x.com/Miguel07Code/status/2102441708395041170/video/1) | [Miguel Ángel](https://x.com/Miguel07Code) | HyperFrames + Opus | 0:58 | [Context](data/projects.json#L2361) |
 | [Synclify DM Automation Ad](https://x.com/apoorvjain25/status/2104528012746309680/video/1) | [apoorvjain25](https://x.com/apoorvjain25) | Opus + Remotion | 0:51 | [Context](data/projects.json#L637) |
 | [Synclify Link in Bio Launch](https://x.com/apoorvjain25/status/2107157871356150112/video/1) | [apoorvjain25](https://x.com/apoorvjain25) | Opus + Remotion | 0:30 | [Context](data/projects.json#L420) |
 | [TanStack AI Launch Film](https://x.com/HowDevelop/status/2103840883812733090/video/1) | [HowDevelop](https://x.com/HowDevelop) | Opus | 0:30 | [Full prompt](data/projects.json#L1504) |
 | [Taxtello Product Film](https://x.com/daniel_haida/status/2104139720829636937/video/1) | [daniel&#95;haida](https://x.com/daniel_haida) | Opus + Remotion | 0:14 | [Context](data/projects.json#L601) |
 | [TopSlash Launch Video](https://x.com/EnvolDev/status/2107547689819017555/video/1) | [EnvolDev](https://x.com/EnvolDev) | Opus + Remotion | 0:57 | [Context](data/projects.json#L384) |
 | [Vitals for Mac Demo](https://x.com/attacomsian/status/2110720587026846101/video/1) | [Atta 🐬](https://x.com/attacomsian) | HyperFrames + Opus | 1:00 | [Context](data/projects.json#L28) |
+| [Website to Video](https://static.heygen.ai/hyperframes-oss/docs/images/showcase/launch-website-to-hyperframes-v1-s.mp4) | [HeyGen](https://hyperframes.heygen.com/showcase) | HyperFrames | 0:42 | [Context](data/projects.json#L2676) |
 
 ## Motion and creative
 
@@ -65,6 +72,7 @@ Video titles link to the original posts. Full prompt and Context links open the 
 | [Glass Tides Music Film](https://x.com/brainextends/status/2103801834930606193/video/1) | [brainextends](https://x.com/brainextends) | Opus | 0:18 | [Full prompt](data/projects.json#L1283) |
 | [HyperFrames GitHub Celebration](https://x.com/liu8in/status/2105750054908891423/video/1) | [Bin Liu](https://x.com/liu8in) | HyperFrames + Opus | 0:17 | [Context](data/projects.json#L312) |
 | [Less Manual Work Motion Graphics](https://x.com/washukumar531/status/2112945758945337467/video/1) | [Rocky](https://x.com/washukumar531) | Opus | 0:12 | [Context](data/projects.json#L2210) |
+| [Marathon Running Motion Reel](https://x.com/Hamedstn/status/2109719983764680791/video/1) | [Hamed](https://x.com/Hamedstn) | HyperFrames | 0:20 | [Context](data/projects.json#L2529) |
 | [Motion Designer Showreel](https://x.com/lukasersil/status/2103742861971726495/video/1) | [lukasersil](https://x.com/lukasersil) | Opus | 0:15 | [Full prompt](data/projects.json#L1334) |
 | [One Continuous Product Film](https://x.com/twoclipping/status/2103835273813496100/video/1) | [twoclipping](https://x.com/twoclipping) | Opus | 0:29 | [Full prompt](data/projects.json#L1419) |
 | [One Shape UI Motion](https://x.com/twoclipping/status/2103273003555402193/video/1) | [twoclipping](https://x.com/twoclipping) | Opus | 0:14 | [Full prompt](data/projects.json#L1180) |
@@ -72,6 +80,7 @@ Video titles link to the original posts. Full prompt and Context links open the 
 | [One-Shot Motion in HyperFrames Studio](https://x.com/WaterrrMiao/status/2110289423325901176/video/1) | [Miao Yang](https://x.com/WaterrrMiao) | HyperFrames | 1:00 | [Context](data/projects.json#L45) |
 | [One-Shot Recreation](https://x.com/justinbuilds/status/2107655437969412401/video/1) | [Justin Smith](https://x.com/justinbuilds) | HyperFrames + Opus | 0:22 | [Context](data/projects.json#L2038) |
 | [Opus Motion Demo](https://x.com/Nexoxh/status/2112113207632699658/video/1) | [Nexo](https://x.com/Nexoxh) | Opus | 0:15 | [Context](data/projects.json#L10) |
+| [Particle Motion](https://www.reddit.com/r/heygen/comments/1twgj4w/particle_motion_built_on_hyperframes/) | [u/Mother-Dig2546](https://www.reddit.com/user/Mother-Dig2546/) | HyperFrames | 0:12 | [Context](data/projects.json#L2390) |
 | [Pixel Mascot Motion Reel](https://x.com/0xwhrrari/status/2112896717523681365/video/1) | [rari](https://x.com/0xwhrrari) | Opus | 0:20 | [Context](data/projects.json#L2193) |
 | [Poster Breaks Its Frame](https://x.com/pankajkumar_dev/status/2103502614134718609/video/1) | [pankajkumar&#95;dev](https://x.com/pankajkumar_dev) | Opus | 0:30 | [Full prompt](data/projects.json#L1300) |
 | [Psychedelic Showreel](https://x.com/monokern/status/2103563538828832979/video/1) | [monokern](https://x.com/monokern) | Opus | 0:20 | [Full prompt](data/projects.json#L1453) |
@@ -81,8 +90,11 @@ Video titles link to the original posts. Full prompt and Context links open the 
 | [Synthesized Showreel](https://x.com/prasenx/status/2103538744695693512/video/1) | [prasenx](https://x.com/prasenx) | Opus | 0:15 | [Full prompt](data/projects.json#L1266) |
 | [Talking HyperFrames Logo](https://x.com/Rina_artist1/status/2108246464853913668/video/1) | [Rinad](https://x.com/Rina_artist1) | HyperFrames + Opus | 1:14 | [Context](data/projects.json#L1933) |
 | [TechHalla Identity Bumper](https://x.com/techhalla/status/2103411244468498547/video/1) | [techhalla](https://x.com/techhalla) | Opus | 0:20 | [Full prompt](data/projects.json#L1760) |
+| [Texture Motion Film](https://static.heygen.ai/hyperframes-oss/docs/images/showcase/launch-texture-launch-video-v1-s.mp4) | [HeyGen](https://hyperframes.heygen.com/showcase) | HyperFrames | 0:21 | [Context](data/projects.json#L2718) |
 | [Travel Essentials Motion Graphics](https://x.com/DevJohnWayne/status/2111734873010647501/video/1) | [John Wayne](https://x.com/DevJohnWayne) | HyperFrames + Opus | 0:19 | [Context](data/projects.json#L99) |
 | [Vintage Infinite Zoom](https://x.com/koldo2k/status/2103129343253778767/video/1) | [koldo2k](https://x.com/koldo2k) | Opus | 0:20 | [Full prompt](data/projects.json#L1146) |
+| [What Day Is It?](https://x.com/tankazunori0914/status/2105917770907156748/video/1) | [kazu@生成AI×教育](https://x.com/tankazunori0914) | HyperFrames + Opus | 0:30 | [Full prompt](data/projects.json#L2499) |
+| [Written, Not Shot](https://x.com/yucheng59/status/2109637712940871996/video/1) | [煜宸59](https://x.com/yucheng59) | HyperFrames | 0:45 | [Context](data/projects.json#L2559) |
 
 ## Explainers and education
 
@@ -91,20 +103,26 @@ Video titles link to the original posts. Full prompt and Context links open the 
 | [A Brief History of Sphere](https://x.com/RetropunkAI/status/2103237989065277590/video/1) | [RetropunkAI](https://x.com/RetropunkAI) | Opus | 1:00 | [Full prompt](data/projects.json#L1129) |
 | [A Photon’s Journey](https://x.com/AstroTheWizard/status/2103629247751618782/video/1) | [AstroTheWizard](https://x.com/AstroTheWizard) | Opus | 1:00 | [Full prompt](data/projects.json#L1112) |
 | [AI Video Editing Week](https://x.com/cinkotweets/status/2108259243585609773/video/1) | [Anthony Dupont-Cinko](https://x.com/cinkotweets) | HyperFrames | 0:20 | [Context](data/projects.json#L1863) |
+| [Captioned Vertical Video](https://bilallabs.vercel.app/ai/opus-video/captioned-vertical-video-tts) | [Bilal Demirer](https://bilallabs.vercel.app/) | HyperFrames + Opus | 0:15 | [Context](data/projects.json#L2460) |
 | [CLIProxyAPI Explainer](https://x.com/0xlangeai/status/2106391068367597929/video/1) | [0xlangeai](https://x.com/0xlangeai) | Opus + Remotion | 0:57 | [Context](data/projects.json#L348) |
 | [Cocktail Recipe Animation](https://x.com/Ror_Fly/status/2102853258582880547/video/1) | [Ror&#95;Fly](https://x.com/Ror_Fly) | Opus | 0:30 | [Full prompt](data/projects.json#L1163) |
+| [CommentKeyword Explainer](https://www.reddit.com/r/claude/comments/1x6jlxx/explainer_video_for_my_saas_in_one_afternoon_with/) | [u/JhonnyCommentkeyword](https://www.reddit.com/user/JhonnyCommentkeyword/) | Opus | 2:15 | [Context](data/projects.json#L2432) |
 | [Docker Containers Paper-Craft Explainer](https://www.reddit.com/r/claude/comments/1wpdw6t/opus_55_is_just_amazing_at_creating_videos_and_i/) | [u/mraza007](https://www.reddit.com/user/mraza007/) | Opus | 0:58 | [Full prompt](data/projects.json#L2293) |
 | [Earthquake Physics](https://x.com/kureshirfan/status/2103788564840386691/video/1) | [kureshirfan](https://x.com/kureshirfan) | Opus | 0:35 | [Context](data/projects.json#L924) |
 | [Explaining Recursion Recursively](https://x.com/emollick/status/2103688362960019567/video/1) | [emollick](https://x.com/emollick) | Opus | 1:15 | [Full prompt](data/projects.json#L1094) |
 | [Extra Headroom Hand-Drawn Explainer](https://www.reddit.com/r/ClaudeAI/comments/1wpr8ea/a_made_entirely_with_opus_55_explainer_video_with/) | [u/criticasterdotcom](https://www.reddit.com/user/criticasterdotcom/) | Opus | 0:51 | [Full prompt](data/projects.json#L2325) |
 | [Five Scene Business Explainer](https://x.com/alex_prompter/status/2103499977632997524/video/1) | [alex&#95;prompter](https://x.com/alex_prompter) | Opus | 0:35 | [Full prompt](data/projects.json#L1470) |
+| [Fluid Friction Animated Interview](https://www.reddit.com/r/ClaudeCode/comments/1xb1mxi/i_turned_my_interview_into_a_full_yt_video_with/) | [Manfred](https://www.youtube.com/@manfredtime) | Opus | 11:08 | [Context](data/projects.json#L2469) |
 | [Fourier Series Visualized](https://x.com/Miguel07Code/status/2103626582896091611/video/1) | [Miguel07Code](https://x.com/Miguel07Code) | HyperFrames + Opus | 0:42 | [Context](data/projects.json#L907) |
+| [Grok to Video: SpaceX](https://static.heygen.ai/hyperframes-oss/docs/images/showcase/launch-spacex-launch-v1-s.mp4) | [HeyGen](https://hyperframes.heygen.com/showcase) | HyperFrames | 0:40 | [Context](data/projects.json#L2690) |
 | [History of Search](https://x.com/aigame_lab/status/2104466394859593915/video/1) | [aigame&#95;lab](https://x.com/aigame_lab) | Opus + Remotion | 0:15 | [Context](data/projects.json#L745) |
 | [How a Coding Agent Works](https://x.com/arthurkatcher/status/2104198927549604161/video/1) | [arthurkatcher](https://x.com/arthurkatcher) | Opus | 0:40 | [Context](data/projects.json#L958) |
 | [Inference Startup Explainer](https://x.com/deedydas/status/2102787937482252537/video/1) | [Deedy](https://x.com/deedydas) | Opus | 0:26 | [Full prompt](data/projects.json#L1214) |
 | [Inside a Mechanical Keyboard](https://x.com/iniyanai/status/2103814603100856596/video/1) | [iniyanai](https://x.com/iniyanai) | Opus | 0:35 | [Context](data/projects.json#L941) |
 | [Japan’s 2026 Heat Visualized](https://x.com/GroundControl/status/2103678647777230877/video/1) | [GroundControl](https://x.com/GroundControl) | Opus | 3:00 | [Full prompt](data/projects.json#L1743) |
+| [Journey Through Chinese Civilization](https://x.com/yanhua1010/status/2103712543168680363/video/1) | [Yanhua](https://x.com/yanhua1010) | HyperFrames + Opus | 2:15 | [Context](data/projects.json#L2574) |
 | [KotoSearch Launch Explainer](https://x.com/tetsu_tetsu333/status/2106177888265576886/video/1) | [tetsu&#95;tetsu333](https://x.com/tetsu_tetsu333) | Opus + Remotion | 0:52 | [Context](data/projects.json#L510) |
+| [Largest Economies Bar Chart Race](https://www.reddit.com/r/heygen/comments/1tvimrg/bar_chart_race_built_with_hyperframes/) | [u/Mother-Dig2546](https://www.reddit.com/user/Mother-Dig2546/) | HyperFrames | 1:30 | [Context](data/projects.json#L2404) |
 | [Neocloud Business Explainer](https://x.com/deedydas/status/2104957026199900220/video/1) | [Deedy](https://x.com/deedydas) | HyperFrames + Opus | 4:00 | [Context](data/projects.json#L204) |
 | [Opus 5.5 HyperFrames Tutorial](https://x.com/liu8in/status/2104360119849083093/video/1) | [Bin Liu](https://x.com/liu8in) | HyperFrames + Opus | 0:27 | [Context](data/projects.json#L222) |
 | [Opus Explainer Experiment](https://x.com/garmdotcom/status/2103516101518987439/video/1) | [garmdotcom](https://x.com/garmdotcom) | Opus | 0:51 | [Context](data/projects.json#L889) |
@@ -117,6 +135,7 @@ Video titles link to the original posts. Full prompt and Context links open the 
 | [Understanding Derivatives](https://x.com/LinearUncle/status/2103128559174971663/video/1) | [LinearUncle](https://x.com/LinearUncle) | Opus | 7:37 | [Full prompt](data/projects.json#L1351) |
 | [Visual Podcast Animations](https://x.com/theviclaw/status/2103896101120356793/video/1) | [theviclaw](https://x.com/theviclaw) | HyperFrames + Opus | 0:16 | [Context](data/projects.json#L782) |
 | [Vox-Style Explainer](https://x.com/RishuaVR/status/2107397319754924423/video/1) | [Feliora](https://x.com/RishuaVR) | HyperFrames | 1:06 | [Context](data/projects.json#L1985) |
+| [What's New in Opus 5.5](https://bilallabs.vercel.app/ai/opus-video/kinetic-typography-explainer) | [Bilal Demirer](https://bilallabs.vercel.app/) | HyperFrames + Opus | 0:16 | [Context](data/projects.json#L2446) |
 
 ## 3D scenes
 
@@ -145,16 +164,24 @@ Video titles link to the original posts. Full prompt and Context links open the 
 | [Antkeeper Game Trailer](https://x.com/jasperdeboer/status/2103593633832157391/video/1) | [jasperdeboer](https://x.com/jasperdeboer) | Opus | 0:41 | [Context](data/projects.json#L1811) |
 | [Biribiri Game Promo](https://x.com/mappletour/status/2104206756482334921/video/1) | [mappletour](https://x.com/mappletour) | HyperFrames + Opus | 0:32 | [Context](data/projects.json#L546) |
 | [Building on X Launch Film](https://x.com/MaxHirsch13/status/2107985883949600983/video/1) | [MaxHirsch13](https://x.com/MaxHirsch13) | Opus + Remotion | 0:20 | [Context](data/projects.json#L366) |
+| [Code-Built Ad in 35 Minutes](https://x.com/WdealAi/status/2107776720921407583/video/1) | [WDealAi](https://x.com/WdealAi) | HyperFrames + Opus | 0:42 | [Context](data/projects.json#L2544) |
+| [Cosmos Launch Film](https://x.com/kaolti/status/2103481296018092204/video/1) | [Zsolt Kacso](https://x.com/kaolti) | HyperFrames + Opus | 0:40 | [Context](data/projects.json#L2346) |
+| [DreamFort Motion Manifesto](https://x.com/advait_jayant/status/2103565104243712107/video/1) | [Advait](https://x.com/advait_jayant) | HyperFrames + Opus | 0:20 | [Context](data/projects.json#L2604) |
+| [Glitch AI Studio Promo](https://www.reddit.com/r/heygen/comments/1t38ibh/heygen_hyperframes_damn/) | [u/Chance-Obligation573](https://www.reddit.com/user/Chance-Obligation573/) | HyperFrames | 0:43 | [Context](data/projects.json#L2418) |
+| [HeyGen × Stripe Launch Film](https://static.heygen.ai/hyperframes-oss/docs/images/showcase/launch-HF-heygen-stripe-v1-s.mp4) | [HeyGen](https://hyperframes.heygen.com/showcase) | HyperFrames | 0:39 | [Context](data/projects.json#L2662) |
 | [HyperFrames Launch Video](https://x.com/wayne_liang_/status/2107159417397588318/video/1) | [Wayne L.](https://x.com/wayne_liang_) | HyperFrames | 0:25 | [Context](data/projects.json#L2020) |
 | [HyperFrames Product Teaser](https://x.com/jake11moran/status/2103237884564414633/video/1) | [Jake Moran](https://x.com/jake11moran) | HyperFrames + Opus | 0:27 | [Full prompt](data/projects.json#L1709) |
 | [HyperFrames Studio Launch Film](https://x.com/hanifproduktif/status/2106899279755526225/video/1) | [Hanif](https://x.com/hanifproduktif) | HyperFrames | 0:44 | [Context](data/projects.json#L2073) |
 | [HyperFrames Studio Launch Video](https://x.com/wenbozhu0328/status/2107157810467479705/video/1) | [Wenbo Zhu](https://x.com/wenbozhu0328) | HyperFrames | 0:45 | [Context](data/projects.json#L1898) |
 | [Indie Apps Promo](https://x.com/chapi13/status/2104206465863131449/video/1) | [chapi13](https://x.com/chapi13) | Opus + Remotion | 0:27 | [Context](data/projects.json#L872) |
+| [JavaScript Product Ad](https://x.com/Lucas_IA_/status/2103152093733253544/video/1) | [Lucas &#124; Ecom IA](https://x.com/Lucas_IA_) | HyperFrames + Opus | 1:12 | [Context](data/projects.json#L2619) |
+| [K3 Promo](https://static.heygen.ai/hyperframes-oss/docs/images/showcase/launch-k3-promo-v1-s.mp4) | [HeyGen](https://hyperframes.heygen.com/showcase) | HyperFrames | 0:17 | [Context](data/projects.json#L2704) |
 | [Launch Framework Film](https://x.com/timscheuer/status/2107470936504971704/video/1) | [Tim Scheuer](https://x.com/timscheuer) | HyperFrames + Opus | 0:10 | [Context](data/projects.json#L1951) |
 | [Marketing Video in HyperFrames Studio](https://x.com/MonishAtx/status/2107671862595739873/video/1) | [Monish Annabheemoju](https://x.com/MonishAtx) | HyperFrames | 0:24 | [Context](data/projects.json#L1915) |
 | [Meet Alto Launch Video](https://x.com/kbdocs/status/2109939280231666106/video/1) | [Khoa Bui](https://x.com/kbdocs) | HyperFrames + Opus | 3:03 | [Context](data/projects.json#L63) |
 | [MotionSites AI Milestone](https://x.com/viktoroddy/status/2103802280617402509/video/1) | [viktoroddy](https://x.com/viktoroddy) | Opus | 0:54 | [Full prompt](data/projects.json#L1436) |
 | [Opus 5.5 Ad](https://x.com/1littlecoder/status/2103746736980378066/video/1) | [1littlecoder](https://x.com/1littlecoder) | Opus | 0:30 | [Full prompt](data/projects.json#L1317) |
+| [Shin Majin Product Promo](https://x.com/Majin_AppSheet/status/2103497319899693327/video/1) | [まじん](https://x.com/Majin_AppSheet) | HyperFrames + Opus | 0:10 | [Context](data/projects.json#L2484) |
 | [Swiftcruit Motion Graphics Film](https://www.reddit.com/video/31uhz2dlslvh1) | [u/CryptographerOld9077](https://www.reddit.com/user/CryptographerOld9077/) | HyperFrames + Opus | 0:40 | [Context](data/projects.json#L2245) |
 | [Swipe, Play, Repeat App Launch](https://www.reddit.com/video/yewk02k1darh1) | [u/Different-Beginning8](https://www.reddit.com/user/Different-Beginning8/) | HyperFrames | 0:35 | [Context](data/projects.json#L2261) |
 
@@ -170,11 +197,14 @@ Video titles link to the original posts. Full prompt and Context links open the 
 | [Imaginary Thriller Title Sequence](https://x.com/abhinayguptha/status/2103565090721259981/video/1) | [abhinayguptha](https://x.com/abhinayguptha) | Opus | 0:20 | [Full prompt](data/projects.json#L1589) |
 | [Moodboard Film from donald's Prompt](https://x.com/anabology/status/2103534482930491441/video/1) | [anabology](https://x.com/anabology) | Opus | 5:06 | [Context](data/projects.json#L2125) |
 | [Music Made by a Machine](https://x.com/KamStudioLabs/status/2102899866762440893/video/1) | [KamStudioLabs](https://x.com/KamStudioLabs) | Opus | 0:47 | [Full prompt](data/projects.json#L1606) |
+| [Music to Video](https://static.heygen.ai/hyperframes-oss/docs/images/showcase/launch-music-to-video-launch-v1-s.mp4) | [HeyGen](https://hyperframes.heygen.com/showcase) | HyperFrames | 1:30 | [Context](data/projects.json#L2732) |
 | [Paper Cut Shadow Theatre](https://x.com/x4b47x/status/2103019799614034026/video/1) | [x4b47x](https://x.com/x4b47x) | Opus | 0:57 | [Full prompt](data/projects.json#L1657) |
 | [Paper-Cut Fox Film](https://x.com/LexnLin/status/2113025231732224063/video/1) | [Leon Lin](https://x.com/LexnLin) | Opus | 1:00 | [Context](data/projects.json#L2176) |
+| [Prod by Claude Music Video](https://x.com/jake11moran/status/2103195719859589540/video/1) | [Jake Moran](https://x.com/jake11moran) | HyperFrames + Opus | 1:04 | [Context](data/projects.json#L2514) |
 | [Scroll Up Animated Film](https://x.com/_brightmirror/status/2112641797763793075/video/1) | [Bright Mirror](https://x.com/_brightmirror) | Opus | 5:30 | [Context](data/projects.json#L2159) |
 | [Silent Story Told by Sound](https://x.com/KamStudioLabs/status/2102908742518100086/video/1) | [KamStudioLabs](https://x.com/KamStudioLabs) | Opus | 0:46 | [Full prompt](data/projects.json#L1640) |
 | [Space Station Short](https://x.com/alexwtlf/status/2103713416367981005/video/1) | [alexwtlf](https://x.com/alexwtlf) | Opus | 0:22 | [Full prompt](data/projects.json#L1572) |
+| [Suno Lyric Motion Film](https://x.com/takamasa045/status/2103791907801620931/video/1) | [伊藤貴將（いとぱん）｜AIエージェント×創作開発](https://x.com/takamasa045) | HyperFrames + Opus | 2:08 | [Context](data/projects.json#L2589) |
 | [The Bug That Won't Be Fixed](https://x.com/KamStudioLabs/status/2102903173161877996/video/1) | [KamStudioLabs](https://x.com/KamStudioLabs) | Opus | 1:30 | [Full prompt](data/projects.json#L1623) |
 | [The Pig's Love Notes](https://x.com/jackfriks/status/2103132260589338762/video/1) | [jackfriks](https://x.com/jackfriks) | Opus | 0:20 | [Full prompt](data/projects.json#L1402) |
 | [Twelve-Hour One-Prompt Film](https://x.com/donaldjewkes/status/2102801274173587569/video/1) | [donald](https://x.com/donaldjewkes) | Opus | 2:22 | [Context](data/projects.json#L2108) |

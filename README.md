@@ -24,21 +24,21 @@
 <!-- BEGIN DIRECTORY SUMMARY -->
 
 <p align="center">
-  <strong>134</strong> videos &nbsp; · &nbsp; <strong>46</strong> marked as full prompts &nbsp; · &nbsp; <strong>88</strong> with context or excerpts
+  <strong>164</strong> videos &nbsp; · &nbsp; <strong>48</strong> marked as full prompts &nbsp; · &nbsp; <strong>116</strong> with context or excerpts
 </p>
 
 ## Browse by category
 
 <table>
   <tr>
-    <td width="33%" align="center"><a href="#product-demos"><strong>Product demos</strong></a><br><sub>25 videos · <a href="DIRECTORY.md#product-demos">View all</a></sub></td>
-    <td width="33%" align="center"><a href="#motion-and-creative"><strong>Motion and creative</strong></a><br><sub>32 videos · <a href="DIRECTORY.md#motion-and-creative">View all</a></sub></td>
-    <td width="33%" align="center"><a href="#explainers-and-education"><strong>Explainers and education</strong></a><br><sub>29 videos · <a href="DIRECTORY.md#explainers-and-education">View all</a></sub></td>
+    <td width="33%" align="center"><a href="#product-demos"><strong>Product demos</strong></a><br><sub>32 videos · <a href="DIRECTORY.md#product-demos">View all</a></sub></td>
+    <td width="33%" align="center"><a href="#motion-and-creative"><strong>Motion and creative</strong></a><br><sub>37 videos · <a href="DIRECTORY.md#motion-and-creative">View all</a></sub></td>
+    <td width="33%" align="center"><a href="#explainers-and-education"><strong>Explainers and education</strong></a><br><sub>36 videos · <a href="DIRECTORY.md#explainers-and-education">View all</a></sub></td>
   </tr>
   <tr>
     <td width="33%" align="center"><a href="#3d-scenes"><strong>3D scenes</strong></a><br><sub>14 videos · <a href="DIRECTORY.md#3d-scenes">View all</a></sub></td>
-    <td width="33%" align="center"><a href="#launches-and-marketing"><strong>Launches and marketing</strong></a><br><sub>16 videos · <a href="DIRECTORY.md#launches-and-marketing">View all</a></sub></td>
-    <td width="33%" align="center"><a href="#short-films-and-music"><strong>Short films and music</strong></a><br><sub>18 videos · <a href="DIRECTORY.md#short-films-and-music">View all</a></sub></td>
+    <td width="33%" align="center"><a href="#launches-and-marketing"><strong>Launches and marketing</strong></a><br><sub>24 videos · <a href="DIRECTORY.md#launches-and-marketing">View all</a></sub></td>
+    <td width="33%" align="center"><a href="#short-films-and-music"><strong>Short films and music</strong></a><br><sub>21 videos · <a href="DIRECTORY.md#short-films-and-music">View all</a></sub></td>
   </tr>
 </table>
 
@@ -57,7 +57,7 @@ Previews open on **madewithhyperframes.com**. **Original** links to the creator�
 | HyperFrames + Opus · 1:00 | HyperFrames + Opus · 1:00 | HyperFrames + Opus · 0:30 |
 | [Watch](https://madewithhyperframes.com/projects/jesscaroline7-955094) · [Original](https://x.com/jesscaroline7/status/2104336637752955094/video/1) · [Context](data/projects.json#L763) | [Watch](https://madewithhyperframes.com/projects/vitals-mac-demo-atta) · [Original](https://x.com/attacomsian/status/2110720587026846101/video/1) · [Context](data/projects.json#L28) | [Watch](https://madewithhyperframes.com/projects/hyperframes-after-effects-clipwing) · [Original](https://x.com/thiswillblossom/status/2110053714299912521/video/1) · [Context](data/projects.json#L152) |
 
-[Browse all 25 in this category →](DIRECTORY.md#product-demos)
+[Browse all 32 in this category →](DIRECTORY.md#product-demos)
 
 ## Motion and creative
 
@@ -68,7 +68,7 @@ Previews open on **madewithhyperframes.com**. **Original** links to the creator�
 | HyperFrames · 0:41 | HyperFrames · 0:10 | HyperFrames + Opus · 0:19 |
 | [Watch](https://madewithhyperframes.com/projects/studio-built-video-rishuavr) · [Original](https://x.com/RishuaVR/status/2107353954912997757/video/1) · [Context](data/projects.json#L2055) | [Watch](https://madewithhyperframes.com/projects/cinematic-ai-future-gowtham) · [Original](https://x.com/gowthamtj0808/status/2112189988578500654/video/1) · [Full prompt](data/projects.json#L169) | [Watch](https://madewithhyperframes.com/projects/travel-essentials-john-wayne) · [Original](https://x.com/DevJohnWayne/status/2111734873010647501/video/1) · [Context](data/projects.json#L99) |
 
-[Browse all 32 in this category →](DIRECTORY.md#motion-and-creative)
+[Browse all 37 in this category →](DIRECTORY.md#motion-and-creative)
 
 ## Explainers and education
 
@@ -79,7 +79,7 @@ Previews open on **madewithhyperframes.com**. **Original** links to the creator�
 | HyperFrames · 0:20 | HyperFrames · 1:06 | HyperFrames + Opus · 0:27 |
 | [Watch](https://madewithhyperframes.com/projects/ai-video-editing-week-cinkotweets) · [Original](https://x.com/cinkotweets/status/2108259243585609773/video/1) · [Context](data/projects.json#L1863) | [Watch](https://madewithhyperframes.com/projects/vox-style-explainer-rishuavr) · [Original](https://x.com/RishuaVR/status/2107397319754924423/video/1) · [Context](data/projects.json#L1985) | [Watch](https://madewithhyperframes.com/projects/opus-5-5-hyperframes-tutorial-bin-liu) · [Original](https://x.com/liu8in/status/2104360119849083093/video/1) · [Context](data/projects.json#L222) |
 
-[Browse all 29 in this category →](DIRECTORY.md#explainers-and-education)
+[Browse all 36 in this category →](DIRECTORY.md#explainers-and-education)
 
 ## 3D scenes
 
@@ -94,25 +94,25 @@ Previews open on **madewithhyperframes.com**. **Original** links to the creator�
 
 ## Launches and marketing
 
-| **Biribiri Game Promo** | **Meet Alto Launch Video** | **Marketing Video in HyperFrames Studio** |
+| **Biribiri Game Promo** | **Meet Alto Launch Video** | **Code-Built Ad in 35 Minutes** |
 | --- | --- | --- |
-| [![Biribiri Game Promo](https://pbs.twimg.com/amplify_video_thumb/2104206698781282304/img/UYhGlOD2LP5N33Bg.jpg)](https://madewithhyperframes.com/projects/mappletour-334921) | [![Meet Alto Launch Video](https://pbs.twimg.com/amplify_video_thumb/2109935627336896513/img/UzFD0-N9n3shI5eN.jpg)](https://madewithhyperframes.com/projects/meet-alto-launch-khoa-bui) | [![Marketing Video in HyperFrames Studio](https://pbs.twimg.com/amplify_video_thumb/2107671596974383104/img/Vq12RbPK_R7XHqxc.jpg)](https://madewithhyperframes.com/projects/gpt-marketing-video-monishatx) |
-| By [mappletour](https://x.com/mappletour) | By [Khoa Bui](https://x.com/kbdocs) | By [Monish Annabheemoju](https://x.com/MonishAtx) |
-| HyperFrames + Opus · 0:32 | HyperFrames + Opus · 3:03 | HyperFrames · 0:24 |
-| [Watch](https://madewithhyperframes.com/projects/mappletour-334921) · [Original](https://x.com/mappletour/status/2104206756482334921/video/1) · [Context](data/projects.json#L546) | [Watch](https://madewithhyperframes.com/projects/meet-alto-launch-khoa-bui) · [Original](https://x.com/kbdocs/status/2109939280231666106/video/1) · [Context](data/projects.json#L63) | [Watch](https://madewithhyperframes.com/projects/gpt-marketing-video-monishatx) · [Original](https://x.com/MonishAtx/status/2107671862595739873/video/1) · [Context](data/projects.json#L1915) |
+| [![Biribiri Game Promo](https://pbs.twimg.com/amplify_video_thumb/2104206698781282304/img/UYhGlOD2LP5N33Bg.jpg)](https://madewithhyperframes.com/projects/mappletour-334921) | [![Meet Alto Launch Video](https://pbs.twimg.com/amplify_video_thumb/2109935627336896513/img/UzFD0-N9n3shI5eN.jpg)](https://madewithhyperframes.com/projects/meet-alto-launch-khoa-bui) | [![Code-Built Ad in 35 Minutes](https://madewithhyperframes.com/posters/code-built-ad-wdealai.jpg)](https://madewithhyperframes.com/projects/code-built-ad-wdealai) |
+| By [mappletour](https://x.com/mappletour) | By [Khoa Bui](https://x.com/kbdocs) | By [WDealAi](https://x.com/WdealAi) |
+| HyperFrames + Opus · 0:32 | HyperFrames + Opus · 3:03 | HyperFrames + Opus · 0:42 |
+| [Watch](https://madewithhyperframes.com/projects/mappletour-334921) · [Original](https://x.com/mappletour/status/2104206756482334921/video/1) · [Context](data/projects.json#L546) | [Watch](https://madewithhyperframes.com/projects/meet-alto-launch-khoa-bui) · [Original](https://x.com/kbdocs/status/2109939280231666106/video/1) · [Context](data/projects.json#L63) | [Watch](https://madewithhyperframes.com/projects/code-built-ad-wdealai) · [Original](https://x.com/WdealAi/status/2107776720921407583/video/1) · [Context](data/projects.json#L2544) |
 
-[Browse all 16 in this category →](DIRECTORY.md#launches-and-marketing)
+[Browse all 24 in this category →](DIRECTORY.md#launches-and-marketing)
 
 ## Short films and music
 
-| **Aether Movie Trailer** | **Four Seasons by Train** | **Paper-Cut Fox Film** |
+| **Suno Lyric Motion Film** | **Prod by Claude Music Video** | **Aether Movie Trailer** |
 | --- | --- | --- |
-| [![Aether Movie Trailer](https://madewithhyperframes.com/posters/aether-trailer-axcelbabe.jpg)](https://madewithhyperframes.com/projects/aether-trailer-axcelbabe) | [![Four Seasons by Train](https://pbs.twimg.com/amplify_video_thumb/2103123980039458816/img/DDPjksrlzGkxSB1K.jpg)](https://madewithhyperframes.com/projects/itsolelehmann-762215) | [![Paper-Cut Fox Film](https://pbs.twimg.com/amplify_video_thumb/2113024275653206016/img/7l99rCAoYI1Z_Dwe.jpg)](https://madewithhyperframes.com/projects/paper-cut-fox-leon-lin) |
-| By [u/Axcelbabe](https://www.reddit.com/user/Axcelbabe/) | By [itsolelehmann](https://x.com/itsolelehmann) | By [Leon Lin](https://x.com/LexnLin) |
-| HyperFrames · 0:22 | Opus · 0:30 | Opus · 1:00 |
-| [Watch](https://madewithhyperframes.com/projects/aether-trailer-axcelbabe) · [Original](https://www.reddit.com/r/heygen/comments/1tjpvdb/movie_trailer_using_hyperframes/) · [Context](data/projects.json#L2277) | [Watch](https://madewithhyperframes.com/projects/itsolelehmann-762215) · [Original](https://x.com/itsolelehmann/status/2103124033365762215/video/1) · [Full prompt](data/projects.json#L1231) | [Watch](https://madewithhyperframes.com/projects/paper-cut-fox-leon-lin) · [Original](https://x.com/LexnLin/status/2113025231732224063/video/1) · [Context](data/projects.json#L2176) |
+| [![Suno Lyric Motion Film](https://madewithhyperframes.com/posters/suno-lyric-motion-takamasa.jpg)](https://madewithhyperframes.com/projects/suno-lyric-motion-takamasa) | [![Prod by Claude Music Video](https://madewithhyperframes.com/posters/prod-by-claude-jake-moran.jpg)](https://madewithhyperframes.com/projects/prod-by-claude-jake-moran) | [![Aether Movie Trailer](https://madewithhyperframes.com/posters/aether-trailer-axcelbabe.jpg)](https://madewithhyperframes.com/projects/aether-trailer-axcelbabe) |
+| By [伊藤貴將（いとぱん）｜AIエージェント×創作開発](https://x.com/takamasa045) | By [Jake Moran](https://x.com/jake11moran) | By [u/Axcelbabe](https://www.reddit.com/user/Axcelbabe/) |
+| HyperFrames + Opus · 2:08 | HyperFrames + Opus · 1:04 | HyperFrames · 0:22 |
+| [Watch](https://madewithhyperframes.com/projects/suno-lyric-motion-takamasa) · [Original](https://x.com/takamasa045/status/2103791907801620931/video/1) · [Context](data/projects.json#L2589) | [Watch](https://madewithhyperframes.com/projects/prod-by-claude-jake-moran) · [Original](https://x.com/jake11moran/status/2103195719859589540/video/1) · [Context](data/projects.json#L2514) | [Watch](https://madewithhyperframes.com/projects/aether-trailer-axcelbabe) · [Original](https://www.reddit.com/r/heygen/comments/1tjpvdb/movie_trailer_using_hyperframes/) · [Context](data/projects.json#L2277) |
 
-[Browse all 18 in this category →](DIRECTORY.md#short-films-and-music)
+[Browse all 21 in this category →](DIRECTORY.md#short-films-and-music)
 
 <!-- END VIDEO SHOWCASE -->
 
