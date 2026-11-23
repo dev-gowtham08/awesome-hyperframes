@@ -17,7 +17,7 @@ You do not need to fork the repository or use VS Code. A maintainer reviews the 
 3. Open `data/projects.json` on GitHub or in your local clone using VS Code.
 4. Add your video object at the end of the array, before the closing `]`. Add a comma after the previous object, with no trailing comma after your new object.
 5. Check that the video is not already listed and use a unique slug.
-6. If working locally, run `python3 scripts/build_directory.py` to validate your entry and refresh the generated lists. Include those documentation changes in your commit. If editing on GitHub, a maintainer can run this step.
+6. If working locally, run `python3 scripts/build_directory.py` to validate your entry and refresh the generated lists. Include those documentation changes in your commit. If editing on GitHub, a maintainer can run this step before merging.
 7. Commit your changes and push your branch if working locally.
 8. Open a pull request from your branch to this repository’s `main` branch. Explain what you added and whether you are the creator.
 
@@ -85,7 +85,7 @@ python3 scripts/build_directory.py --check
 
 The command validates the data, rebuilds `DIRECTORY.md`, and updates only the marked sections of the README. Each category shows up to three previews, prioritizing HyperFrames entries, then featured entries, then known dates from newest to oldest. Entries without dates remain in the directory. Every video is included in the complete list.
 
-`--check` reports invalid data or stale generated files without changing anything. These are local commands, not a scheduled job or GitHub Action.
+`--check` reports invalid data or stale generated files without changing anything. GitHub Actions runs this check on pull requests and pushes to `main`; it does not edit files or publish the website. A PR with stale generated files needs the generator run before it can pass.
 
 ## Website publishing
 

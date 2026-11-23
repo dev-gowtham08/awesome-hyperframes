@@ -1,6 +1,10 @@
 <h1 align="center">Awesome HyperFrames</h1>
 
 <p align="center">
+  <a href="https://github.com/dev-gowtham08/awesome-hyperframes/actions/workflows/validate-directory.yml"><img src="https://github.com/dev-gowtham08/awesome-hyperframes/actions/workflows/validate-directory.yml/badge.svg" alt="Video directory validation"></a>
+</p>
+
+<p align="center">
   Videos made with code. The creators and prompts behind them.<br>
   <sub>Featuring HyperFrames, Opus, Remotion, and more.</sub>
 </p>
@@ -44,7 +48,7 @@
 
 <!-- END DIRECTORY SUMMARY -->
 
-Previews open on **madewithhyperframes.com**. **Original** links to the creator’s post; **Full prompt / Context** opens the stored text. Highlights prioritize HyperFrames creations, with each video’s tools shown below it.
+Previews open on **madewithhyperframes.com**. **Original** links to the creator’s post; prompt and context links open the stored text. Highlights prioritize HyperFrames creations, with each video’s tools shown below it.
 
 <!-- BEGIN VIDEO SHOWCASE -->
 
@@ -144,7 +148,7 @@ To validate the data and check that the generated lists are current:
 python3 scripts/build_directory.py --check
 ```
 
-No additional packages are needed. The command only updates local documentation; it does not commit, push, or publish the website.
+No additional packages are needed. A [GitHub Actions check](.github/workflows/validate-directory.yml) validates pull requests and pushes to `main`. The generator updates local documentation; `--check` reads it without making changes. Neither command commits, pushes, or publishes the website.
 
 This is a public copy of the website’s video catalog. Website syncing is not configured: a maintainer must transfer approved changes to the private website repository. Videos and thumbnails are hosted externally; `/videos/` and `/posters/` paths in the data refer to website assets.
 

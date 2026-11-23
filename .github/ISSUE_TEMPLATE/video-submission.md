@@ -7,7 +7,7 @@ assignees: ""
 ---
 
 Submit a video link here. You do not need to fork this repository or edit any files.
-A maintainer will review your submission and add accepted videos to the website.
+A maintainer will review your submission for the public catalog. Website publication is a separate step.
 Submitting this issue does not automatically publish your video.
 
 ## Video title
