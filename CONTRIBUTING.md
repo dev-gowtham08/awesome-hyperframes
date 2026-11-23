@@ -45,16 +45,18 @@ Replace the example values below with the real details. If the full prompt is un
 
 | Field | What to provide |
 | --- | --- |
-| `slug` | A unique identifier using lowercase letters, numbers, and hyphens. |
+| `slug` | A unique identifier using lowercase letters, numbers, hyphens, and underscores. |
 | `title` | A clear video title. |
 | `creator` and `creatorUrl` | The original creator’s name and public profile link. |
 | `stack` | The tools actually used. Use `Hyperframes` for HyperFrames to match the existing data. |
 | `category` | One of the categories below. |
 | `prompt` | The shared prompt, an excerpt, or your description. |
-| `prompt_partial` | `false` only for the exact full prompt; `true` for excerpts or descriptions. |
+| `prompt_partial` | `false` only for the exact complete text of the supplied prompt; `true` for excerpts or descriptions. |
+| `promptKind` | Optional `starting` or `reproduction` when the complete text is a starting instruction or a reproduction recipe. |
+| `promptSourceUrl` and `promptNotes` | Optional creator-published source link and notes needed to understand or reuse the prompt. |
 | `videoUrl` | The public original post or video page. |
 | `duration` | Optional length in `m:ss` format. |
-| `submittedAt` | Optional known date as an ISO timestamp with a timezone. Do not guess a date. |
+| `submittedAt` | Optional known date (`YYYY-MM-DD`) or ISO timestamp with a timezone. Do not guess a time. |
 | `thumbnailUrl` | Optional public image URL or existing website `/posters/` path. |
 | `playbackUrl` | Optional direct media URL or existing website `/videos/` path. |
 | `featured` | Optional boolean used by maintainers to prioritize showcase entries. |

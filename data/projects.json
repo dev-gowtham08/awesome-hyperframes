@@ -244,7 +244,9 @@
     "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2103246737880326145/img/SO2ky3aBNX8wkaYX.jpg",
     "duration": "0:53",
     "submittedAt": "2026-09-30T19:00:00+05:30",
-    "creatorUrl": "https://x.com/jake11moran"
+    "creatorUrl": "https://x.com/jake11moran",
+    "promptSourceUrl": "https://github.com/heygen-com/hyperframes-community-skills/tree/master/skills/session-story",
+    "promptNotes": "The creator published the /session-story skill. It needs your own session history and local rendering setup; the original session-specific inputs are not published here."
   },
   {
     "slug": "arumii-movie-622720",
@@ -435,14 +437,17 @@
       "Remotion"
     ],
     "category": "3D",
-    "prompt": "Prompt: \"Show me what's inside your mind. Your own artistic and unique style. 15 seconds. No words. Music.\"\n\nClaude Opus 5.5 · Remotion.",
-    "prompt_partial": true,
+    "prompt": "Show me what's inside your mind. Your own artistic and unique style. 15 seconds. No words. Music.",
+    "prompt_partial": false,
     "videoUrl": "https://x.com/argbeknwn/status/2106734468715466818/video/1",
     "playbackUrl": "https://video.twimg.com/amplify_video/2106734385110155264/pl/U6-0zyeavlqiqXhB.m3u8?tag=14",
     "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2106734385110155264/img/qx3y9Ktq5C3tkvd-.jpg",
     "duration": "0:15",
     "submittedAt": "2026-10-04T13:13:33.232Z",
-    "creatorUrl": "https://x.com/argbeknwn"
+    "creatorUrl": "https://x.com/argbeknwn",
+    "promptSourceUrl": "https://x.com/argbeknwn/status/2106734468715466818",
+    "promptNotes": "The creator used Claude Opus 5.5 and Remotion. This is the complete short instruction published with the video.",
+    "promptKind": "starting"
   },
   {
     "slug": "leowenai-125931",
@@ -543,15 +548,18 @@
       "Opus"
     ],
     "category": "Marketing",
-    "prompt": "Opus 5.5に「ド派手なPVを作って」と丸投げしたら、ほぼ任せきりで完成した😳\n世界ランク上位の実際のリプレイを撮影して、拍に合わせて「ギリギリ！」を重ねてくる。\n日英2本、一晩で。Claude×HyperFrames、世界変わった🔥\nhttps://biribiri-game.web.app",
-    "prompt_partial": true,
+    "prompt": "ド派手なPVを作って",
+    "prompt_partial": false,
     "videoUrl": "https://x.com/mappletour/status/2104206756482334921/video/1",
     "playbackUrl": "https://video.twimg.com/amplify_video/2104206698781282304/pl/IvoIaky-kOxX537p.m3u8",
     "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2104206698781282304/img/UYhGlOD2LP5N33Bg.jpg",
     "duration": "0:32",
     "submittedAt": "2026-09-27T13:49:19.673Z",
     "creatorUrl": "https://x.com/mappletour",
-    "featured": true
+    "featured": true,
+    "promptSourceUrl": "https://x.com/mappletour/status/2104206756482334921",
+    "promptNotes": "Original Japanese starting instruction: “Make a flashy promotional video.” The creator’s game, real leaderboard replays and edited music were additional context/assets.",
+    "promptKind": "starting"
   },
   {
     "slug": "jetbrains-754812",
@@ -587,7 +595,9 @@
     "thumbnailUrl": "https://pbs.twimg.com/media/HTUUF2EXYAEiRs5.jpg",
     "duration": "0:32",
     "submittedAt": "2026-09-28T16:33:24.268Z",
-    "creatorUrl": "https://x.com/wustep"
+    "creatorUrl": "https://x.com/wustep",
+    "promptSourceUrl": "https://notion.notion.site/column-permissions-trailer",
+    "promptNotes": "The creator linked a production journal and described about 90 messages and 33 takes. The journal content could not be retrieved during this review, so no complete prompt is claimed."
   },
   {
     "slug": "daniel-haida-636937",
@@ -598,14 +608,17 @@
       "Remotion"
     ],
     "category": "Product Demo",
-    "prompt": "claude code (opus 5.5) made the product film for taxtello, my bookkeeping app\n\nevery frame is code: react + remotion, 0 after effects\nthe soundtrack is code too, synthesized in python from sine waves and noise\n\n1 prompt and 2 rounds of feedback\n\nfull prompt below, steal it ↓\n\nYou are the senior motion designer, product designer and Remotion engineer for Taxtello.\n\nYour task is to create a genuinely premium, Apple-level product film for Taxtello.\n\nThis is NOT a generic SaaS explainer.\nThis is NOT a feature walkthrough.\nThis is NOT a startup template animation.\n\nI want a maximum 15-second brand/product showreel that makes Taxtello look like a mature, expensive, beautifully designed financial product.\n\nThink:\n\nApple product launch film\n× premium fintech\n× editorial motion design\n× restrained Stripe-like product presentation\n× Taxtello's own visual identity\n\nThe desired reaction is:\n\n“Wait, this is a German bookkeeping app?”\n\nThe film should feel expensive.\n\n────────────────────────────────────\nREPO / SOURCE OF TRUTH\n────────────────────────────────────\n\nFirst inspect the real repositories before designing anything.\n\nMain product:\n  /taxtello/main\n\nExisting Remotion project:\n  /taxtello/beta-motion\n\nImportant real brand sources:\n\n  /taxtello/main/public/css/app/_00-tokens.css\n  /taxtello/main/docs/design/TOKENS.md\n  /taxtello/main/public/taxtello-wordmark.png\n  /taxtello/main/public/icons.svg\n\nExisting current product screenshots can be found under:\n\n  /taxtello/main/artifacts/smoke-ui-smoke/\n\nPrefer the newest valid screenshots/current source over stale artifacts.\n\nThere is already an existing 24-second Remotion hero animation in\n/taxtello/beta-motion.\n\nDO NOT replace it.\nDO NOT regress it.\nDO NOT force its current AI-connections storyline into this new film.\n\nCreate a new independent composition for this task, e.g.\n\n  TaxtelloShowreel15\n\nYou may reuse good infrastructure, fonts, rendering utilities, motion primitives,\neasing curves, asset loading and QA infrastructure from beta-motion where useful.\n\nBut creatively this should be a new film.\n\nBefore implementation, inspect the actual Taxtello UI and understand the product.\n\nDo not invent functionality that does not exist.\n\n────────────────────────────────────\nREAL TAXTELLO VISUAL LANGUAGE\n────────────────────────────────────\n\nUse the real design system.\n\nCore palette:\n\nBackground:\n  #0c0f1a\n\nElevated surfaces:\n  #111525\n  #131722\n  #1a2032\n\nPrimary brand gold:\n  #e8b84b\n\nGold highlight:\n  #f5d07a\n\nGold depth:\n  #9b6d18\n\nPrimary text:\n  #e8eaf2\n\nStrong warm white:\n  #f6f4eb\n\nSecondary text:\n  #8b93b5\n\nPositive:\n  #34d399\n\nNegative/error only where semantically necessary:\n  #f87171\n\nTypography:\n  Plus Jakarta Sans\n\nNumbers / financial values where appropriate:\n  JetBrains Mono\n\nUse the actual Taxtello wordmark and/or Taxtello mark.\nDo not redraw or approximate the logo.\n\nTaxtello's gold should feel like a precious accent, not a yellow UI flood.\n\nThink:\ndark metal\nwarm gold\nglass\nink\nprecision\nquiet confidence\n\nNOT:\ncyberpunk\ncrypto\nneon\ngaming\ngeneric AI purple\nrainbow gradients\n\n────────────────────────────────────\nCORE CREATIVE RULES\n────────────────────────────────────\n\nFollow these rules ruthlessly:\n\n1. ONE SHOT = ONE IDEA.\n\n2. Every scene needs room to breathe.\n\n3. The product UI is the hero.\n\n4. Do not plaster explanatory copy everywhere.\n\n5. Do not use hard cuts unless there is a deliberate reason.\n\n6. Prefer object-driven transitions:\n   a card becomes the next card,\n   a chart line becomes a connector,\n   a receipt becomes a booking,\n   a number becomes another interface element,\n   the camera moves through the product.\n\n7. Use premium easing.\n   No linear movement.\n\n8. Motion should overlap naturally.\n   Elements should not all start and stop at exactly the same frame.\n\n9. Use depth sparingly:\n   perspective,\n   soft parallax,\n   scale,\n   foreground/background separation,\n   controlled depth of field if achievable.\n\n10. NO effect exists simply because it looks cool.\n\n11. No particle spam.\n\n12. No fake glassmorphism everywhere.\n\n13. No excessive blur.\n\n14. No pointless 3D spinning cards.\n\n15. No constant zooming.\n\n16. No 20 different animation styles.\n\n17. No bouncing UI.\n\n18. No giant marketing paragraph.\n\n19. Do not imitate a particular Apple commercial shot-for-shot.\n    Capture the philosophy and production quality instead.\n\nThe visual confidence should come from restraint.\n\n────────────────────────────────────\nFORMAT\n────────────────────────────────────\n\nPrimary master:\n\n1920 × 1080\n60 fps\n16:9\nH.264\nmaximum duration: 15.0 seconds\n\nTarget runtime:\napproximately 14.0–15.0 seconds.\n\nIt must work as a social-media product reveal even without sound.\n\nIf practical AFTER the master is finished, also create a deliberately recomposed\nvertical/social variant.\n\nDo not merely crop the desktop composition.\n\nBut the desktop master is the priority.\n\n────────────────────────────────────\nSTORY / EMOTIONAL ARC\n────────────────────────────────────\n\nDo not make this a list of five features.\n\nIt should feel like one continuous thought:\n\nCHAOS → CONTROL → CLARITY → TAXTELLO\n\nThe first 1.5 seconds must already look premium.\n\nThe first meaningful product moment should happen by ~2 seconds.\n\nNo five-second logo intro.\n\nPossible narrative direction:\n\n“Everything about your business, finally in one place.”\n\nBut SHOW this instead of explaining it.\n\nI want approximately four visual ideas across the whole film.\n\nUse the strongest REAL Taxtello surfaces you find in the repository.\n\nStrong candidates include:\n\n• Finanzcockpit / Dashboard\n• Rechnungen\n• Belege\n• Bank / matching\n• Steuergesundheit / tax overview\n\nYou do NOT need to show all of them.\n\nChoose the visually strongest combination.\n\n────────────────────────────────────\nSUGGESTED 15-SECOND STORYBOARD\n────────────────────────────────────\n\nTreat this as a strong starting point, not a rigid template.\n\n0.00 – 1.20\n\nBLACK / NAVY.\n\nA tiny warm-gold glint appears.\n\nThe glint elegantly reveals either the Taxtello mark or a fragment of the\nwordmark.\n\nNo generic logo fade.\n\nThink machined precision.\n\nThe camera moves through or past the mark and the UI begins to emerge from it.\n\nVery little or no copy.\n\n─────────────────\n\n1.20 – 4.40\n\nFINANCIAL CONTROL.\n\nReveal the actual Taxtello Cockpit as a dimensional product surface.\n\nNot just a screenshot placed on screen.\n\nReconstruct/crop/layer it so individual interface regions can animate.\n\nThe hero financial number resolves crisply.\nThe chart draws in.\nSupporting metrics settle slightly later.\n\nUse subtle stagger.\n\nA single line of copy may appear, for example:\n\n  “Alles im Blick.”\n\nor another equally short German phrase if you find something more fitting.\n\nMaximum ~3–4 words.\n\nThe interface must remain recognizable as the real product.\n\n─────────────────\n\n4.40 – 7.50\n\nDOCUMENT / BOOKKEEPING TRANSFORMATION.\n\nUse a visual object from the previous scene as the transition.\n\nExample:\n\nA gold chart point expands into the corner of a receipt/card.\nThe camera follows it.\nA receipt/document enters.\nTaxtello identifies or organizes it.\nThe document snaps elegantly into its corresponding booking / financial record.\n\nUse magnetic alignment and precision.\n\nNo cheesy scanner laser.\n\nNo floating paper tornado.\n\nPossible micro-copy:\n\n  “Belege. Erledigt.”\n\nOnly if it improves the scene.\n\n─────────────────\n\n7.50 – 10.70\n\nMONEY / INVOICES.\n\nMorph or transition naturally into the real Rechnungen interface.\n\nUse one strong moment:\n\nan invoice status changes,\na payment resolves,\nan amount moves into place,\nor the overview assembles itself.\n\nNumbers should feel tactile and precise.\n\nUse JetBrains Mono where this matches the actual product.\n\nGold highlights the active state.\n\nGreen is used only for a genuinely positive semantic state.\n\nPotential copy:\n\n  “Geld. Im Griff.”\n\nAgain: optional and extremely short.\n\n─────────────────\n\n10.70 – 12.80\n\nTAX / CLARITY.\n\nTransition into the real Taxtello tax-health / financial guidance surface.\n\nDo not claim that Taxtello magically guarantees correct taxes.\n\nCommunicate visibility and control.\n\nExample:\n\nmultiple noisy signals collapse into one calm, structured tax overview.\n\nPotential copy:\n\n  “Steuern im Blick.”\n\nThis scene should feel calmer than the previous scene.\n\nThe rhythm briefly slows.\n\n─────────────────\n\n12.80 – 15.00\n\nBRAND PAYOFF.\n\nPull the camera outward.\n\nThe UI compresses or folds into one beautiful Taxtello product object / surface.\n\nDarkness returns around it.\n\nThe gold Taxtello wordmark resolves.\n\nOne short brand line underneath.\n\nExplore strong final lines such as:\n\n  “Dein Business. Klar.”\n\n  “Buchhaltung. Unter Kontrolle.”\n\n  “Einfach mehr Überblick.”\n\n  “Alles fürs Business. An einem Ort.”\n\nChoose based on the actual product positioning you find in the repo.\n\nDo not use a line simply because I suggested it.\n\nThe final frame must have enough stillness to register.\n\nEnd confidently.\n\nNo giant bouncing CTA.\n\n────────────────────────────────────\nTRANSITIONS\n────────────────────────────────────\n\nThis is one of the most important parts.\n\nI want transitions that make the viewer think:\n\n“Of course the next scene came from that.”\n\nGood:\n\nchart line → document edge\ngold pill → invoice button\nfinancial number → amount in invoice\ncard edge → next surface\ncamera push through interface element\nshared geometry\nmask reveal using actual product shapes\n\nBad:\n\ncrossfade\nrandom wipe\nspin transition\nglitch\nwhip-pan every two seconds\ngeneric SaaS slide-left\nzoom-blur spam\n\nDirect cuts are allowed only when a deliberate rhythmic impact benefits the film.\n\n────────────────────────────────────\nMOTION\n────────────────────────────────────\n\nMotion needs weight.\n\nUse curves comparable to:\n\ncubic-bezier(0.16, 1, 0.3, 1)\n\nwhere appropriate.\n\nDifferent elements should have subtly different arrival times.\n\nPrefer:\n\nanticipation\novershoot below ~2%\nsettling\nmotion continuation\nshared velocity between scenes\n\nAvoid cartoon springiness.\n\nCamera movement should feel like a high-end macro product shoot.\n\nImagine we are filming a physical premium object even though it is software.\n\n────────────────────────────────────\nLIGHTING / MATERIAL\n────────────────────────────────────\n\nUse extremely subtle environmental lighting.\n\nPossible treatments:\n\n• soft gold rim lighting\n• dark navy falloff\n• faint ambient bloom\n• soft specular highlight passing across a surface\n• restrained vignette\n• subtle grain if it materially helps\n\nKeep the interface crisp.\n\nDo NOT blur the product just to look cinematic.\n\nNo fake glossy reflections that destroy legibility.\n\n────────────────────────────────────\nTYPOGRAPHY\n────────────────────────────────────\n\nUse very little copy.\n\nNo sentence should compete with the product.\n\nHeadlines should generally fit on one line.\n\nUse Plus Jakarta Sans.\n\nStrong typography may occasionally scale very large and become a transition\ndevice itself.\n\nAvoid generic motion-graphics behavior where every word animates independently.\n\nTypography should move as designed objects.\n\n────────────────────────────────────\nSOUND / RHYTHM\n────────────────────────────────────\n\nDesign the motion as if it were cut to approximately 115–120 BPM:\npremium, kinetic, sophisticated, not frantic.\n\nImportant moments should land musically.\n\nSuggested sound language:\n\n• low soft impact for major reveal\n• restrained tactile UI clicks\n• subtle metallic/glass tonal tick\n• soft low-frequency movement during camera transitions\n• elegant resolved tone at the logo payoff\n\nAvoid:\n\n• huge cinematic trailer boom\n• EDM risers\n• loud whooshes everywhere\n• stock “tech interface” sounds\n• rap beat\n• aggressive bass\n\nIf there is no legally safe music/audio asset in the project, DO NOT pull\ncopyrighted audio from the internet.\n\nDeliver the visual master without copyrighted music and create a concise cue\nsheet describing where music/SFX should hit.\n\nIf suitable safe/local audio exists, use it.\n\n────────────────────────────────────\nREAL PRODUCT ONLY\n────────────────────────────────────\n\nThis is critical.\n\nInspect current main.\n\nDo not invent screens.\n\nDo not invent metrics that imply real customer data.\n\nUse clearly synthetic/demo-safe values if required.\n\nDo not accidentally expose any personal, test-user or production information.\n\nReuse the visual structure of the actual Taxtello UI.\n\nIf a screen needs to be motion-separated, recreate it faithfully in React from\nthe real design system instead of simply scaling a giant screenshot.\n\nThe result should still look unmistakably like Taxtello.\n\n────────────────────────────────────\nIMPLEMENTATION EXPECTATIONS\n────────────────────────────────────\n\nWork directly in:\n\n  /taxtello/beta-motion\n\nCreate the new composition alongside the existing one.\n\nKeep existing compositions working.\n\nStructure the new work cleanly.\n\nPrefer reusable primitives for:\n\n• camera surface\n• product frame\n• masked transitions\n• text reveals\n• UI region reveals\n• ambient lighting\n• shared-element transitions\n\nAvoid one 1,500-line component.\n\nUse deterministic Remotion animation driven by frame/time.\n\nNo setTimeout.\nNo nondeterministic animations.\n\nRespect 60 fps throughout.\n\nUse interpolation/spring/easing deliberately.\n\n────────────────────────────────────\nDO NOT STOP AFTER FIRST IMPLEMENTATION\n────────────────────────────────────\n\nThis is a visual task.\n\nYou MUST review the actual rendered output.\n\nRequired workflow:\n\n1. Inspect repository and real brand/product.\n\n2. Write a concise storyboard with:\n   - exact timestamps\n   - key visual\n   - transition logic\n   - copy\n   - intended emotional rhythm\n\n3. Implement it.\n\n4. Run typecheck / relevant checks.\n\n5. Render representative frames at roughly:\n   0.0 s\n   1.0 s\n   2.5 s\n   4.5 s\n   6.5 s\n   8.5 s\n   10.5 s\n   12.5 s\n   14.0 s\n   14.8 s\n\n6. VISUALLY INSPECT THOSE IMAGES.\n\nDo not merely confirm that rendering succeeded.\n\nAsk:\n\nDoes this look like an Apple-tier product film?\n\nDoes anything look like a template?\n\nIs there too much on screen?\n\nIs the product legible?\n\nAre transitions logically connected?\n\nDoes Taxtello gold feel premium?\n\nDoes every frame look composed?\n\n7. Fix visual weaknesses.\n\n8. Render the complete film.\n\n9. Inspect multiple exact decoded frames from the final MP4, not only browser\n   screenshots.\n\n10. Iterate again if necessary.\n\nDo not declare success because the code compiles.\n\nThe deliverable is the FILM.\n\n────────────────────────────────────\nQUALITY BAR\n────────────────────────────────────\n\nReject your own result if it feels like:\n\n• a SaaS template\n• a PowerPoint animation\n• a website screen recording\n• a generic Remotion demo\n• a crypto advertisement\n• an AI-generated promo template\n• five screenshots sliding around\n• excessive marketing copy\n\nEvery important frame should be good enough to use as a still advertisement.\n\nI would rather have:\n\n3 extraordinary visual moments\n\nthan\n\n10 mediocre feature animations.\n\n────────────────────────────────────\nFINAL DELIVERABLES\n────────────────────────────────────\n\nProvide:\n\n1. Final storyboard\n2. New Remotion composition source\n3. 1920×1080 / 60fps final MP4\n4. Poster/final frame\n5. Contact sheet with representative frames from the film\n6. Exact runtime\n7. List of real Taxtello assets/screens used\n8. Brief explanation of the motion language\n9. Any remaining visual compromises\n10. Commands to reproduce the render\n\nSave outputs in a clearly named directory such as:\n\n  /taxtello/beta-motion/out/showreel-15/\n\nDo not deploy anything.\nDo not modify production data.\nDo not merge anything.\n\nGo all out creatively, but exercise ruthless restraint.\n\nMake Taxtello look expensive.",
-    "prompt_partial": true,
+    "prompt": "You are the senior motion designer, product designer and Remotion engineer for Taxtello.\n\nYour task is to create a genuinely premium, Apple-level product film for Taxtello.\n\nThis is NOT a generic SaaS explainer.\nThis is NOT a feature walkthrough.\nThis is NOT a startup template animation.\n\nI want a maximum 15-second brand/product showreel that makes Taxtello look like a mature, expensive, beautifully designed financial product.\n\nThink:\n\nApple product launch film\n× premium fintech\n× editorial motion design\n× restrained Stripe-like product presentation\n× Taxtello's own visual identity\n\nThe desired reaction is:\n\n“Wait, this is a German bookkeeping app?”\n\nThe film should feel expensive.\n\n────────────────────────────────────\nREPO / SOURCE OF TRUTH\n────────────────────────────────────\n\nFirst inspect the real repositories before designing anything.\n\nMain product:\n  /taxtello/main\n\nExisting Remotion project:\n  /taxtello/beta-motion\n\nImportant real brand sources:\n\n  /taxtello/main/public/css/app/_00-tokens.css\n  /taxtello/main/docs/design/TOKENS.md\n  /taxtello/main/public/taxtello-wordmark.png\n  /taxtello/main/public/icons.svg\n\nExisting current product screenshots can be found under:\n\n  /taxtello/main/artifacts/smoke-ui-smoke/\n\nPrefer the newest valid screenshots/current source over stale artifacts.\n\nThere is already an existing 24-second Remotion hero animation in\n/taxtello/beta-motion.\n\nDO NOT replace it.\nDO NOT regress it.\nDO NOT force its current AI-connections storyline into this new film.\n\nCreate a new independent composition for this task, e.g.\n\n  TaxtelloShowreel15\n\nYou may reuse good infrastructure, fonts, rendering utilities, motion primitives,\neasing curves, asset loading and QA infrastructure from beta-motion where useful.\n\nBut creatively this should be a new film.\n\nBefore implementation, inspect the actual Taxtello UI and understand the product.\n\nDo not invent functionality that does not exist.\n\n────────────────────────────────────\nREAL TAXTELLO VISUAL LANGUAGE\n────────────────────────────────────\n\nUse the real design system.\n\nCore palette:\n\nBackground:\n  #0c0f1a\n\nElevated surfaces:\n  #111525\n  #131722\n  #1a2032\n\nPrimary brand gold:\n  #e8b84b\n\nGold highlight:\n  #f5d07a\n\nGold depth:\n  #9b6d18\n\nPrimary text:\n  #e8eaf2\n\nStrong warm white:\n  #f6f4eb\n\nSecondary text:\n  #8b93b5\n\nPositive:\n  #34d399\n\nNegative/error only where semantically necessary:\n  #f87171\n\nTypography:\n  Plus Jakarta Sans\n\nNumbers / financial values where appropriate:\n  JetBrains Mono\n\nUse the actual Taxtello wordmark and/or Taxtello mark.\nDo not redraw or approximate the logo.\n\nTaxtello's gold should feel like a precious accent, not a yellow UI flood.\n\nThink:\ndark metal\nwarm gold\nglass\nink\nprecision\nquiet confidence\n\nNOT:\ncyberpunk\ncrypto\nneon\ngaming\ngeneric AI purple\nrainbow gradients\n\n────────────────────────────────────\nCORE CREATIVE RULES\n────────────────────────────────────\n\nFollow these rules ruthlessly:\n\n1. ONE SHOT = ONE IDEA.\n\n2. Every scene needs room to breathe.\n\n3. The product UI is the hero.\n\n4. Do not plaster explanatory copy everywhere.\n\n5. Do not use hard cuts unless there is a deliberate reason.\n\n6. Prefer object-driven transitions:\n   a card becomes the next card,\n   a chart line becomes a connector,\n   a receipt becomes a booking,\n   a number becomes another interface element,\n   the camera moves through the product.\n\n7. Use premium easing.\n   No linear movement.\n\n8. Motion should overlap naturally.\n   Elements should not all start and stop at exactly the same frame.\n\n9. Use depth sparingly:\n   perspective,\n   soft parallax,\n   scale,\n   foreground/background separation,\n   controlled depth of field if achievable.\n\n10. NO effect exists simply because it looks cool.\n\n11. No particle spam.\n\n12. No fake glassmorphism everywhere.\n\n13. No excessive blur.\n\n14. No pointless 3D spinning cards.\n\n15. No constant zooming.\n\n16. No 20 different animation styles.\n\n17. No bouncing UI.\n\n18. No giant marketing paragraph.\n\n19. Do not imitate a particular Apple commercial shot-for-shot.\n    Capture the philosophy and production quality instead.\n\nThe visual confidence should come from restraint.\n\n────────────────────────────────────\nFORMAT\n────────────────────────────────────\n\nPrimary master:\n\n1920 × 1080\n60 fps\n16:9\nH.264\nmaximum duration: 15.0 seconds\n\nTarget runtime:\napproximately 14.0–15.0 seconds.\n\nIt must work as a social-media product reveal even without sound.\n\nIf practical AFTER the master is finished, also create a deliberately recomposed\nvertical/social variant.\n\nDo not merely crop the desktop composition.\n\nBut the desktop master is the priority.\n\n────────────────────────────────────\nSTORY / EMOTIONAL ARC\n────────────────────────────────────\n\nDo not make this a list of five features.\n\nIt should feel like one continuous thought:\n\nCHAOS → CONTROL → CLARITY → TAXTELLO\n\nThe first 1.5 seconds must already look premium.\n\nThe first meaningful product moment should happen by ~2 seconds.\n\nNo five-second logo intro.\n\nPossible narrative direction:\n\n“Everything about your business, finally in one place.”\n\nBut SHOW this instead of explaining it.\n\nI want approximately four visual ideas across the whole film.\n\nUse the strongest REAL Taxtello surfaces you find in the repository.\n\nStrong candidates include:\n\n• Finanzcockpit / Dashboard\n• Rechnungen\n• Belege\n• Bank / matching\n• Steuergesundheit / tax overview\n\nYou do NOT need to show all of them.\n\nChoose the visually strongest combination.\n\n────────────────────────────────────\nSUGGESTED 15-SECOND STORYBOARD\n────────────────────────────────────\n\nTreat this as a strong starting point, not a rigid template.\n\n0.00 – 1.20\n\nBLACK / NAVY.\n\nA tiny warm-gold glint appears.\n\nThe glint elegantly reveals either the Taxtello mark or a fragment of the\nwordmark.\n\nNo generic logo fade.\n\nThink machined precision.\n\nThe camera moves through or past the mark and the UI begins to emerge from it.\n\nVery little or no copy.\n\n─────────────────\n\n1.20 – 4.40\n\nFINANCIAL CONTROL.\n\nReveal the actual Taxtello Cockpit as a dimensional product surface.\n\nNot just a screenshot placed on screen.\n\nReconstruct/crop/layer it so individual interface regions can animate.\n\nThe hero financial number resolves crisply.\nThe chart draws in.\nSupporting metrics settle slightly later.\n\nUse subtle stagger.\n\nA single line of copy may appear, for example:\n\n  “Alles im Blick.”\n\nor another equally short German phrase if you find something more fitting.\n\nMaximum ~3–4 words.\n\nThe interface must remain recognizable as the real product.\n\n─────────────────\n\n4.40 – 7.50\n\nDOCUMENT / BOOKKEEPING TRANSFORMATION.\n\nUse a visual object from the previous scene as the transition.\n\nExample:\n\nA gold chart point expands into the corner of a receipt/card.\nThe camera follows it.\nA receipt/document enters.\nTaxtello identifies or organizes it.\nThe document snaps elegantly into its corresponding booking / financial record.\n\nUse magnetic alignment and precision.\n\nNo cheesy scanner laser.\n\nNo floating paper tornado.\n\nPossible micro-copy:\n\n  “Belege. Erledigt.”\n\nOnly if it improves the scene.\n\n─────────────────\n\n7.50 – 10.70\n\nMONEY / INVOICES.\n\nMorph or transition naturally into the real Rechnungen interface.\n\nUse one strong moment:\n\nan invoice status changes,\na payment resolves,\nan amount moves into place,\nor the overview assembles itself.\n\nNumbers should feel tactile and precise.\n\nUse JetBrains Mono where this matches the actual product.\n\nGold highlights the active state.\n\nGreen is used only for a genuinely positive semantic state.\n\nPotential copy:\n\n  “Geld. Im Griff.”\n\nAgain: optional and extremely short.\n\n─────────────────\n\n10.70 – 12.80\n\nTAX / CLARITY.\n\nTransition into the real Taxtello tax-health / financial guidance surface.\n\nDo not claim that Taxtello magically guarantees correct taxes.\n\nCommunicate visibility and control.\n\nExample:\n\nmultiple noisy signals collapse into one calm, structured tax overview.\n\nPotential copy:\n\n  “Steuern im Blick.”\n\nThis scene should feel calmer than the previous scene.\n\nThe rhythm briefly slows.\n\n─────────────────\n\n12.80 – 15.00\n\nBRAND PAYOFF.\n\nPull the camera outward.\n\nThe UI compresses or folds into one beautiful Taxtello product object / surface.\n\nDarkness returns around it.\n\nThe gold Taxtello wordmark resolves.\n\nOne short brand line underneath.\n\nExplore strong final lines such as:\n\n  “Dein Business. Klar.”\n\n  “Buchhaltung. Unter Kontrolle.”\n\n  “Einfach mehr Überblick.”\n\n  “Alles fürs Business. An einem Ort.”\n\nChoose based on the actual product positioning you find in the repo.\n\nDo not use a line simply because I suggested it.\n\nThe final frame must have enough stillness to register.\n\nEnd confidently.\n\nNo giant bouncing CTA.\n\n────────────────────────────────────\nTRANSITIONS\n────────────────────────────────────\n\nThis is one of the most important parts.\n\nI want transitions that make the viewer think:\n\n“Of course the next scene came from that.”\n\nGood:\n\nchart line → document edge\ngold pill → invoice button\nfinancial number → amount in invoice\ncard edge → next surface\ncamera push through interface element\nshared geometry\nmask reveal using actual product shapes\n\nBad:\n\ncrossfade\nrandom wipe\nspin transition\nglitch\nwhip-pan every two seconds\ngeneric SaaS slide-left\nzoom-blur spam\n\nDirect cuts are allowed only when a deliberate rhythmic impact benefits the film.\n\n────────────────────────────────────\nMOTION\n────────────────────────────────────\n\nMotion needs weight.\n\nUse curves comparable to:\n\ncubic-bezier(0.16, 1, 0.3, 1)\n\nwhere appropriate.\n\nDifferent elements should have subtly different arrival times.\n\nPrefer:\n\nanticipation\novershoot below ~2%\nsettling\nmotion continuation\nshared velocity between scenes\n\nAvoid cartoon springiness.\n\nCamera movement should feel like a high-end macro product shoot.\n\nImagine we are filming a physical premium object even though it is software.\n\n────────────────────────────────────\nLIGHTING / MATERIAL\n────────────────────────────────────\n\nUse extremely subtle environmental lighting.\n\nPossible treatments:\n\n• soft gold rim lighting\n• dark navy falloff\n• faint ambient bloom\n• soft specular highlight passing across a surface\n• restrained vignette\n• subtle grain if it materially helps\n\nKeep the interface crisp.\n\nDo NOT blur the product just to look cinematic.\n\nNo fake glossy reflections that destroy legibility.\n\n────────────────────────────────────\nTYPOGRAPHY\n────────────────────────────────────\n\nUse very little copy.\n\nNo sentence should compete with the product.\n\nHeadlines should generally fit on one line.\n\nUse Plus Jakarta Sans.\n\nStrong typography may occasionally scale very large and become a transition\ndevice itself.\n\nAvoid generic motion-graphics behavior where every word animates independently.\n\nTypography should move as designed objects.\n\n────────────────────────────────────\nSOUND / RHYTHM\n────────────────────────────────────\n\nDesign the motion as if it were cut to approximately 115–120 BPM:\npremium, kinetic, sophisticated, not frantic.\n\nImportant moments should land musically.\n\nSuggested sound language:\n\n• low soft impact for major reveal\n• restrained tactile UI clicks\n• subtle metallic/glass tonal tick\n• soft low-frequency movement during camera transitions\n• elegant resolved tone at the logo payoff\n\nAvoid:\n\n• huge cinematic trailer boom\n• EDM risers\n• loud whooshes everywhere\n• stock “tech interface” sounds\n• rap beat\n• aggressive bass\n\nIf there is no legally safe music/audio asset in the project, DO NOT pull\ncopyrighted audio from the internet.\n\nDeliver the visual master without copyrighted music and create a concise cue\nsheet describing where music/SFX should hit.\n\nIf suitable safe/local audio exists, use it.\n\n────────────────────────────────────\nREAL PRODUCT ONLY\n────────────────────────────────────\n\nThis is critical.\n\nInspect current main.\n\nDo not invent screens.\n\nDo not invent metrics that imply real customer data.\n\nUse clearly synthetic/demo-safe values if required.\n\nDo not accidentally expose any personal, test-user or production information.\n\nReuse the visual structure of the actual Taxtello UI.\n\nIf a screen needs to be motion-separated, recreate it faithfully in React from\nthe real design system instead of simply scaling a giant screenshot.\n\nThe result should still look unmistakably like Taxtello.\n\n────────────────────────────────────\nIMPLEMENTATION EXPECTATIONS\n────────────────────────────────────\n\nWork directly in:\n\n  /taxtello/beta-motion\n\nCreate the new composition alongside the existing one.\n\nKeep existing compositions working.\n\nStructure the new work cleanly.\n\nPrefer reusable primitives for:\n\n• camera surface\n• product frame\n• masked transitions\n• text reveals\n• UI region reveals\n• ambient lighting\n• shared-element transitions\n\nAvoid one 1,500-line component.\n\nUse deterministic Remotion animation driven by frame/time.\n\nNo setTimeout.\nNo nondeterministic animations.\n\nRespect 60 fps throughout.\n\nUse interpolation/spring/easing deliberately.\n\n────────────────────────────────────\nDO NOT STOP AFTER FIRST IMPLEMENTATION\n────────────────────────────────────\n\nThis is a visual task.\n\nYou MUST review the actual rendered output.\n\nRequired workflow:\n\n1. Inspect repository and real brand/product.\n\n2. Write a concise storyboard with:\n   - exact timestamps\n   - key visual\n   - transition logic\n   - copy\n   - intended emotional rhythm\n\n3. Implement it.\n\n4. Run typecheck / relevant checks.\n\n5. Render representative frames at roughly:\n   0.0 s\n   1.0 s\n   2.5 s\n   4.5 s\n   6.5 s\n   8.5 s\n   10.5 s\n   12.5 s\n   14.0 s\n   14.8 s\n\n6. VISUALLY INSPECT THOSE IMAGES.\n\nDo not merely confirm that rendering succeeded.\n\nAsk:\n\nDoes this look like an Apple-tier product film?\n\nDoes anything look like a template?\n\nIs there too much on screen?\n\nIs the product legible?\n\nAre transitions logically connected?\n\nDoes Taxtello gold feel premium?\n\nDoes every frame look composed?\n\n7. Fix visual weaknesses.\n\n8. Render the complete film.\n\n9. Inspect multiple exact decoded frames from the final MP4, not only browser\n   screenshots.\n\n10. Iterate again if necessary.\n\nDo not declare success because the code compiles.\n\nThe deliverable is the FILM.\n\n────────────────────────────────────\nQUALITY BAR\n────────────────────────────────────\n\nReject your own result if it feels like:\n\n• a SaaS template\n• a PowerPoint animation\n• a website screen recording\n• a generic Remotion demo\n• a crypto advertisement\n• an AI-generated promo template\n• five screenshots sliding around\n• excessive marketing copy\n\nEvery important frame should be good enough to use as a still advertisement.\n\nI would rather have:\n\n3 extraordinary visual moments\n\nthan\n\n10 mediocre feature animations.\n\n────────────────────────────────────\nFINAL DELIVERABLES\n────────────────────────────────────\n\nProvide:\n\n1. Final storyboard\n2. New Remotion composition source\n3. 1920×1080 / 60fps final MP4\n4. Poster/final frame\n5. Contact sheet with representative frames from the film\n6. Exact runtime\n7. List of real Taxtello assets/screens used\n8. Brief explanation of the motion language\n9. Any remaining visual compromises\n10. Commands to reproduce the render\n\nSave outputs in a clearly named directory such as:\n\n  /taxtello/beta-motion/out/showreel-15/\n\nDo not deploy anything.\nDo not modify production data.\nDo not merge anything.\n\nGo all out creatively, but exercise ruthless restraint.\n\nMake Taxtello look expensive.",
+    "prompt_partial": false,
     "videoUrl": "https://x.com/daniel_haida/status/2104139720829636937/video/1",
     "playbackUrl": "https://video.twimg.com/amplify_video/2104139380332118016/pl/u0cBFFWPkQJapb0B.m3u8?v=cfc",
     "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2104139380332118016/img/lhp1eqqb8qxWlnKq.jpg",
     "duration": "0:14",
     "submittedAt": "2026-09-27T09:22:57.128Z",
-    "creatorUrl": "https://x.com/daniel_haida"
+    "creatorUrl": "https://x.com/daniel_haida",
+    "promptSourceUrl": "https://x.com/daniel_haida/status/2104139720829636937",
+    "promptNotes": "Requires the product repository, branding, screenshots and local paths named in the prompt. Replace these with your own product context. The creator also used two rounds of feedback.",
+    "promptKind": "starting"
   },
   {
     "slug": "l3d1c-632524",
@@ -652,14 +665,17 @@
       "Remotion"
     ],
     "category": "Product Demo",
-    "prompt": "I couldn't resist to do it one more time, this time for RedShip.. and it's waaaaay better!! \n\nIt took +1h for Opus 5.5 to do it. I used this prompt 👇\n\nsave it and try it for your SaaS: \n\n\"Act as a senior motion designer and build a 30-second launch video for [product] in Remotion, entirely in code so I can edit and re-render it: first read my landing page and codebase to pull the real story, copy, colors, font and logo file (trace the logo to SVG so it stays sharp and can be animated), then write the video as one story (why the market matters, why it's painful today, how [product] fixes it, what you get) in 4 to 5 scenes with one short title each, animate everything like a premium product film (kinetic typography word by word, spring easing, smooth camera pushes and pans, depth and glow, elements that build in on the beat instead of just appearing), keep each scene on screen long enough to read, add one soft sound effect for every element that appears and silence otherwise, and end on a memorable animated logo reveal with the tagline and URL, then render it, check the frames yourself and fix anything that overlaps, clips or feels rushed before showing me the result.\"",
-    "prompt_partial": true,
+    "prompt": "Act as a senior motion designer and build a 30-second launch video for [product] in Remotion, entirely in code so I can edit and re-render it: first read my landing page and codebase to pull the real story, copy, colors, font and logo file (trace the logo to SVG so it stays sharp and can be animated), then write the video as one story (why the market matters, why it's painful today, how [product] fixes it, what you get) in 4 to 5 scenes with one short title each, animate everything like a premium product film (kinetic typography word by word, spring easing, smooth camera pushes and pans, depth and glow, elements that build in on the beat instead of just appearing), keep each scene on screen long enough to read, add one soft sound effect for every element that appears and silence otherwise, and end on a memorable animated logo reveal with the tagline and URL, then render it, check the frames yourself and fix anything that overlaps, clips or feels rushed before showing me the result.",
+    "prompt_partial": false,
     "videoUrl": "https://x.com/aschapmann/status/2104230888812724497/video/1",
     "playbackUrl": "https://video.twimg.com/amplify_video/2104230720545710080/pl/rxbgOJfEOJ3_Xj5z.m3u8",
     "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2104230720545710080/img/CtZHYTQgCs6Vwdjc.jpg",
     "duration": "0:30",
     "submittedAt": "2026-09-27T15:25:13.269Z",
-    "creatorUrl": "https://x.com/aschapmann"
+    "creatorUrl": "https://x.com/aschapmann",
+    "promptSourceUrl": "https://x.com/aschapmann/status/2104230888812724497",
+    "promptNotes": "Replace [product] and provide your landing page, codebase, fonts and logo. The creator published this reusable launch-video prompt alongside RedShip.",
+    "promptKind": "starting"
   },
   {
     "slug": "kingokings-992769",
@@ -670,14 +686,17 @@
       "Remotion"
     ],
     "category": "Product Demo",
-    "prompt": "I thought the Opus 5.5 design posts were all jokes.\n\nThey're not. It's GOATed at design.\n\nI asked it to make a product showreel for Reactive Resume. It built this entire video in Remotion, in ONE prompt.\n\nThe setup:\n→ Opus 5.5, max effort\n→ Claude desktop app\n→ No skills, no templates, no design brief\n→ Just my project repo\n\nIt read the codebase, figured out what the product does, and decided what was worth showing.\n\nA launch video like this used to mean days in After Effects or paying a motion designer. Now a solo open-source maintainer can do it in an afternoon.\n\nFull prompt in the replies ⬇️",
-    "prompt_partial": true,
+    "prompt": "Do your research on Reactive Resume. Make a dynamic under-a-minute motion graphics video on Reactive Resume that shows what an incredible motion designer you are, like it's your showreel - Go all out!\n\nIf you need an idea as to how the UI looks inside the application, screenshots of every screen are available in a branch \"ui-capture-2026-09-24\" under /artifacts.\n\nProvide me with questions and suggestions on how the theme and overall direction of the video should be, wait for my answers and then start building the video.\n\nYou may use Hyperframes or Remotion to generate the video, pick the one you feel most confident that you can get the best results out of.\n\nThe video must be super smooth, render at 60fps. Use motion blur on text between transitions to make it feel cohesive. Use the logo/icon assets that are already in the app.",
+    "prompt_partial": false,
     "videoUrl": "https://x.com/KingOKings/status/2103874453687992769/video/1",
     "playbackUrl": "https://video.twimg.com/amplify_video/2103873354134421504/pl/Z6_NW0ojlI42rVt4.m3u8",
     "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2103873354134421504/img/_Q3O3u0emCkU6EHG.jpg",
     "duration": "0:48",
     "submittedAt": "2026-09-26T15:48:52.513Z",
-    "creatorUrl": "https://x.com/KingOKings"
+    "creatorUrl": "https://x.com/KingOKings",
+    "promptSourceUrl": "https://x.com/KingOKings/status/2103874455973835071",
+    "promptNotes": "Requires product screenshots and logo assets. Replace the creator’s ui-capture-2026-09-24 branch and /artifacts path with your own. Answer the agent’s direction questions before it builds.",
+    "promptKind": "starting"
   },
   {
     "slug": "dys-hay-749645",
@@ -706,14 +725,17 @@
       "Remotion"
     ],
     "category": "Explainer",
-    "prompt": "Opus 5.5 just one-shotted this explainer video for @sherwoodagent 🔥\n\nSince I ran it within the context of our web app, it used existing components and branding to inform the design and used @Remotion skills for rendering\n\nKind of insane, haven't tried doing any video generation for months, but the latest models are making it easier to create content that is polished without heavy iteration\n\nPrompt: \"make a modern slick and punchy video for sherwood protocol. feel free to take branding or components from the landing page or app. the goal is to highlight how it enables agentic hedge funds, explaining it simply\"",
-    "prompt_partial": true,
+    "prompt": "make a modern slick and punchy video for sherwood protocol. feel free to take branding or components from the landing page or app. the goal is to highlight how it enables agentic hedge funds, explaining it simply",
+    "prompt_partial": false,
     "videoUrl": "https://x.com/imthatcarlos/status/2102849219388133592/video/1",
     "playbackUrl": "https://video.twimg.com/amplify_video/2102849024877322241/pl/dyUjeuFiS3_3vCG1.m3u8",
     "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2102849024877322241/img/u1PogTVT0artEShz.jpg",
     "duration": "0:59",
     "submittedAt": "2026-09-23T19:54:57.608Z",
-    "creatorUrl": "https://x.com/imthatcarlos"
+    "creatorUrl": "https://x.com/imthatcarlos",
+    "promptSourceUrl": "https://x.com/imthatcarlos/status/2102849219388133592",
+    "promptNotes": "Run with the product’s web-app repository and real branding available. The creator used existing components and Remotion skills.",
+    "promptKind": "starting"
   },
   {
     "slug": "priyansh0327-206409",
@@ -760,15 +782,18 @@
       "Opus"
     ],
     "category": "Product Demo",
-    "prompt": "motion reel do http://ondefica.app inspirada no @gabrielbuzziv e @condzxyz, segui o tutorial e prompt deles e fui aparando as arestas\n\n1. skill hyperframes\n\n2. mesmo prompt: \"make a dynamic motion graphics video that shows what an incredible motion designer you are, like it's your showreel for a résumé. go all out\"\n\n3. referencie a pasta do projeto. o que tinha nela fez a diferença:\n> app real: o Claude navegou no simulador do iOS e gravou as telas\n> dados reais: ele escreveu as queries, eu rodei no banco.\n> 3D: dioramas criados no ChatGPT 6 (Astra), animados pelo claude com Higgsfield\n> trilha no Suno + efeitos do Soundly\n\nmodelo: opus 5.5 (effort: max), plano Max 5x",
-    "prompt_partial": true,
+    "prompt": "make a dynamic motion graphics video that shows what an incredible motion designer you are, like it's your showreel for a résumé. go all out",
+    "prompt_partial": false,
     "videoUrl": "https://x.com/jesscaroline7/status/2104336637752955094/video/1",
     "playbackUrl": "https://video.twimg.com/amplify_video/2104336458018328577/pl/R9Iiyw3sPJAWz3Mj.m3u8",
     "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2104336458018328577/img/uDPMVSvSqCnN2Fod.jpg",
     "duration": "1:00",
     "submittedAt": "2026-09-27T22:25:25.781Z",
     "creatorUrl": "https://x.com/jesscaroline7",
-    "featured": true
+    "featured": true,
+    "promptSourceUrl": "https://x.com/jesscaroline7/status/2104336637752955094",
+    "promptNotes": "The creator also supplied the app project, iOS simulator recordings, real product data, generated dioramas, a Suno track and Soundly effects, then refined the result. The short prompt alone does not supply those assets.",
+    "promptKind": "starting"
   },
   {
     "slug": "stokebuilder-356793",
@@ -779,14 +804,17 @@
       "Opus"
     ],
     "category": "Explainer",
-    "prompt": "I used Opus 5.5 to generate 50 podcast animations for extremely hard to visualize concepts like Jev for Legal.  Absolutely blown away. \n\nWe're about to see an explosion of visual podcasts, this entire medium is about to shift \n\nSharing my prompt below.\n\n【作者补充制作说明】\nGo through the entire [episode] cut and add full-screen animations and graphics wherever they help. Be aggressive and over-inclusive: 35–50 moments, at least 2 per chapter. The goal is to fill empty talking-head time, explain ideas, and create visual hooks.\n\nStyle. Pick an aesthetic that's genuinely interesting and very, very cool, built in JavaScript with HyperFrames and assembled in Tesseract. Inspiration (all JS, no image assets):\n\nhttps://x.com/Voxyz_ai/status/2102531681450119426: paper, typewriter-tape labels, hand-drawn marks\nhttps://x.com/donaldjewkes/status/2102801274173587569: halftone, manga and pixel print, kinetic data type\n\nStay inside the LegalQuants brand (read brands/legalquants/): charcoal, white and black only, Arial, and the supplied lockup top-right, static. Write a shared style bible and a component kit first, so every animation looks like the same show.\n\nMoments I definitely want:\n\n[LIST]\n\nRules\n\nWhenever anything goes full-screen (animation, screen share or still), one of us is in a corner picture-in-picture, bottom-right, following whoever is talking.\nNo punch-ins or zooming on the cameras. Keep each speaker relatively centered.\nCopy must be verbatim or faithful to what's said. Never invent facts, numbers or quotes.\nSync each animation's beats to the spoken words.\nKeep each graphic inside one uncut stretch of audio, and leave a few seconds of faces between graphics.\n\nProcess\n\nAn Opus 5.5 agent at extra-high effort finds every timestamp where an animation could fill space and hook the viewer, with a concept for each.\nOpus 5.5 at medium effort builds each animation.\nOpus 5.5 at extra-high effort judges each one once on brand consistency with the others, visual interest, relevance to the narrative and creative judgment.\nOnly cues the judge considers egregiously bad go back for a fix. No blanket redo loops.\nAssemble the full cut with PiP baked into every full-screen visual, and give me a folder of the individual animations.",
-    "prompt_partial": true,
+    "prompt": "Go through the entire [episode] cut and add full-screen animations and graphics wherever they help. Be aggressive and over-inclusive: 35–50 moments, at least 2 per chapter. The goal is to fill empty talking-head time, explain ideas, and create visual hooks.\n\nStyle. Pick an aesthetic that's genuinely interesting and very, very cool, built in JavaScript with HyperFrames and assembled in Tesseract. Inspiration (all JS, no image assets):\n\nhttps://x.com/Voxyz_ai/status/2102531681450119426: paper, typewriter-tape labels, hand-drawn marks\nhttps://x.com/donaldjewkes/status/2102801274173587569: halftone, manga and pixel print, kinetic data type\n\nStay inside the LegalQuants brand (read brands/legalquants/): charcoal, white and black only, Arial, and the supplied lockup top-right, static. Write a shared style bible and a component kit first, so every animation looks like the same show.\n\nMoments I definitely want:\n\n[LIST]\n\nRules\n\nWhenever anything goes full-screen (animation, screen share or still), one of us is in a corner picture-in-picture, bottom-right, following whoever is talking.\nNo punch-ins or zooming on the cameras. Keep each speaker relatively centered.\nCopy must be verbatim or faithful to what's said. Never invent facts, numbers or quotes.\nSync each animation's beats to the spoken words.\nKeep each graphic inside one uncut stretch of audio, and leave a few seconds of faces between graphics.\n\nProcess\n\nAn Opus 5.5 agent at extra-high effort finds every timestamp where an animation could fill space and hook the viewer, with a concept for each.\nOpus 5.5 at medium effort builds each animation.\nOpus 5.5 at extra-high effort judges each one once on brand consistency with the others, visual interest, relevance to the narrative and creative judgment.\nOnly cues the judge considers egregiously bad go back for a fix. No blanket redo loops.\nAssemble the full cut with PiP baked into every full-screen visual, and give me a folder of the individual animations.",
+    "prompt_partial": false,
     "videoUrl": "https://x.com/theviclaw/status/2103896101120356793/video/1",
     "playbackUrl": "https://video.twimg.com/amplify_video/2103894869651689472/pl/Ssubs23uDsoAvmGt.m3u8",
     "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2103894869651689472/img/NX4NhFTUzwEBidTz.jpg",
     "duration": "0:16",
     "submittedAt": "2026-09-26T17:14:53.663Z",
-    "creatorUrl": "https://x.com/theviclaw"
+    "creatorUrl": "https://x.com/theviclaw",
+    "promptSourceUrl": "https://x.com/theviclaw/status/2103896102894506424",
+    "promptNotes": "Supply your episode cut, brand folder and [LIST] of moments. The creator’s workflow uses HyperFrames, Tesseract and multiple review/build passes.",
+    "promptKind": "starting"
   },
   {
     "slug": "ik-builds-585923",
@@ -797,14 +825,17 @@
       "Opus"
     ],
     "category": "Motion",
-    "prompt": "I WAS QUOTED $3000 FOR THIS!!!\n\nSo I asked Opus 5.5 (medium) to create a launch video using Motion Graphics for us.\n\nhere's the prompt that one-shots it:\n\n\"Create a 15s motion-graphics film explaining {{PRODUCT}}. HyperFrames + GSAP, no voiceover, no footage.\nStyle: paper-light canvas, marker notes that draw on, real physics, huge kinetic type,\nhard light/dark switches, a new idea every 1.5–2 s, a sound on every hit.\n\nCOPY: read {{POSITIONING_DOCS}} first. {{ONE_LINER}} For {{AUDIENCE}}. {{WHAT_IT_DOES}}\nName what the product learns, never the abstraction.\n\nRULES\n- No chrome (scrubber, timecode, fps, headers). No animator jargon on screen\n  (\"squash\", \"stagger\", \"easing\"...). Every word speaks to the buyer.\n- No invented results: no %, multipliers, customer names or figures.\n- Never use: {{BANNED_WORDS}}.\n- Logo: real mark {{LOGO_FILE}} + \"{{PRODUCT}}\" in {{WORDMARK_FONT}}; never a boxed logo file.\n\nCRAFT\n- Colours {{COLOR_CANVAS}} / {{COLOR_INK}} / {{COLOR_ACCENT_1}} / {{COLOR_ACCENT_2}}; notes in the\n  accents; dark mode = charcoal matching the palette.\n- Fonts {{BRAND_FONTS}}; Anton for kinetic type; Caveat handwriting via stroke-dashoffset.\n- Real easing, squash/stretch, stagger, overlap, onion skin, smear, follow-through. Check the\n  HyperFrames registry first. Set every from-state at t=0 (seek-safe); never cover an exit.\n  One primary move per transition; no generic push/slide/rotate-swing.\n- Music in sections: drums drop on the dark switch and while the ball is airborne, slam back\n  on the type and the logo. SFX: pops, pen scribbles, whooshes, logo sub-hit. CC0 or generated\n  only; log sources. Master -14 LUFS, -2 dBTP, re-measured after AAC encode.\"",
-    "prompt_partial": true,
+    "prompt": "Create a 15s motion-graphics film explaining {{PRODUCT}}. HyperFrames + GSAP, no voiceover, no footage.\nStyle: paper-light canvas, marker notes that draw on, real physics, huge kinetic type,\nhard light/dark switches, a new idea every 1.5–2 s, a sound on every hit.\n\nCOPY: read {{POSITIONING_DOCS}} first. {{ONE_LINER}} For {{AUDIENCE}}. {{WHAT_IT_DOES}}\nName what the product learns, never the abstraction.\n\nRULES\n- No chrome (scrubber, timecode, fps, headers). No animator jargon on screen\n  (\"squash\", \"stagger\", \"easing\"...). Every word speaks to the buyer.\n- No invented results: no %, multipliers, customer names or figures.\n- Never use: {{BANNED_WORDS}}.\n- Logo: real mark {{LOGO_FILE}} + \"{{PRODUCT}}\" in {{WORDMARK_FONT}}; never a boxed logo file.\n\nCRAFT\n- Colours {{COLOR_CANVAS}} / {{COLOR_INK}} / {{COLOR_ACCENT_1}} / {{COLOR_ACCENT_2}}; notes in the\n  accents; dark mode = charcoal matching the palette.\n- Fonts {{BRAND_FONTS}}; Anton for kinetic type; Caveat handwriting via stroke-dashoffset.\n- Real easing, squash/stretch, stagger, overlap, onion skin, smear, follow-through. Check the\n  HyperFrames registry first. Set every from-state at t=0 (seek-safe); never cover an exit.\n  One primary move per transition; no generic push/slide/rotate-swing.\n- Music in sections: drums drop on the dark switch and while the ball is airborne, slam back\n  on the type and the logo. SFX: pops, pen scribbles, whooshes, logo sub-hit. CC0 or generated\n  only; log sources. Master -14 LUFS, -2 dBTP, re-measured after AAC encode.",
+    "prompt_partial": false,
     "videoUrl": "https://x.com/ik_builds/status/2103890476885585923/video/1",
     "playbackUrl": "https://video.twimg.com/amplify_video/2103889907248750592/pl/eKvA6QNV7nfbIl8t.m3u8",
     "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2103889907248750592/img/kRhAc3ic7WGTN0iH.jpg",
     "duration": "0:15",
     "submittedAt": "2026-09-26T16:52:32.741Z",
-    "creatorUrl": "https://x.com/ik_builds"
+    "creatorUrl": "https://x.com/ik_builds",
+    "promptSourceUrl": "https://x.com/ik_builds/status/2103890476885585923",
+    "promptNotes": "Fill every {{PLACEHOLDER}} with your product positioning, brand assets, fonts and colors before running this template.",
+    "promptKind": "reproduction"
   },
   {
     "slug": "georgejimenez98-431559",
@@ -886,14 +917,17 @@
       "Opus"
     ],
     "category": "Explainer",
-    "prompt": "Tried to jump on the explainer video \"made entirely with Opus 5.5\" bandwagon.\n\nAccidentally didn't include an OpenRouter API key.\n\nOpus decided to just do everything itself. \n\nThe result is insane\n\n$0 additional cost.\n\nPrompt in next post",
-    "prompt_partial": true,
+    "prompt": "Create a pure javascript animation. 30s-60s whimsical hand drawn style with appropriate audio on the topic the headroom-desktop app; you can also use information from the headroom-web website http://extraheadroom.com\n\nEntire video should be as high of a production value as possible. Please spend your time on this, it's very important.\n\nUse high quality text-to-speech model for generation. You can use the open router API key\n\nYou can use any tools you can find access to and resources on the internet. You create the script, the assets, the animation, concept, everything.\nI have to go away from my computer so please work autonomously until done. Quality is paramount. Production value should be on professional level.\nOne more thing: max OpenRouter spend is $20",
+    "prompt_partial": false,
     "videoUrl": "https://x.com/garmdotcom/status/2103516101518987439/video/1",
     "playbackUrl": "https://video.twimg.com/amplify_video/2103515945473900544/pl/qbMccnZHhcxNzeRk.m3u8?v=d9a",
     "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2103515945473900544/img/1IXUaF7-UE8yeAiH.jpg",
     "duration": "0:51",
     "submittedAt": "2026-09-25T16:04:54.698Z",
-    "creatorUrl": "https://x.com/garmdotcom"
+    "creatorUrl": "https://x.com/garmdotcom",
+    "promptSourceUrl": "https://x.com/garmdotcom/status/2103516206581854456",
+    "promptNotes": "Requires the product context and your own configured model access. The $20 allowance is the creator’s budget instruction, not a measured cost or a promise of the same result.",
+    "promptKind": "starting"
   },
   {
     "slug": "miguel07code-091611",
@@ -962,7 +996,9 @@
     "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2104176718382497792/img/vnusC0O50Gw8pIVs.jpg",
     "duration": "0:40",
     "submittedAt": "2026-09-27T13:18:13.110Z",
-    "creatorUrl": "https://x.com/arthurkatcher"
+    "creatorUrl": "https://x.com/arthurkatcher",
+    "promptSourceUrl": "https://github.com/arthurkatcher/explainer-video",
+    "promptNotes": "The creator shared the explainer-video skill and a finished reference project. The exact original prompt for this clip was not found."
   },
   {
     "slug": "irinatoxi-962937",
@@ -989,14 +1025,17 @@
       "Opus"
     ],
     "category": "3D",
-    "prompt": "我让 @claudeai Opus 5.5 制讲一只机械寄居蟹在深海追一束光，追到最后发现，发现那束光其实一直在自己手里的动画视频。    \n\n没用任何视频生成AI，纯靠写代码画出来的——\n角色、镜头、转场、音乐全是程序渲染的。\n\n看完了。感觉能做到这个程度还是很可以的！",
-    "prompt_partial": true,
+    "prompt": "你将担任导演、动画师、绑定师、合成师、音效设计师和渲染工程师，负责制作一部时长 45-50 秒的纯代码动画短片。目标是\"看起来像一部真正的专业工作室短片，并在 X 平台上爆红\"。请将此项目视为一个多阶段制作过程。不要急于完成最终渲染。制定阶段性目标，不断渲染静态图像，仔细查看，诚实地提出批评意见，并进行修改。\n\n0. 用一句话概括这部电影\n\n一只名叫\"汐（Xi）\"的机械寄居蟹，是深海最后一位\"点灯人\"，背着一枚会发光的珍珠夜复一夜地在海底寻找需要指引的迷途生物。这一夜，它穿越了六片截然不同的深海秘境去追一簇忽明忽暗的光。当它终于追上光源、发现那只是自己珍珠的倒影时，镜头拉远——整片海洋其实是一个书桌上的雪花玻璃球，此刻正被一只手轻轻摇晃，玻璃球里的\"雪花\"其实是悬浮的荧光碎屑。这不是循环叙事，是一次安静的、带着释然的顿悟。\n\n这个故事必须完全不需要对白。汐只通过珍珠的明灭频率、蟹钳的开合动作和气泡吐纳的节奏来表达情绪。每隔3到5秒，必须出现一个新的视觉惊喜。\n\n1. 角色设定（不可协商）\n\n在编写任何代码之前，请先在 docs/character_bible.md 中详细设计并写下角色设定（无参考图，需自行从零设计并确保内部一致）：\n\n尺寸：约18厘米宽（不含蟹钳），是六片秘境中最小的生物之一，整部电影都要通过周围景物的巨大感来体现它的渺小和孤独。\n\n外壳：并非天然蟹壳，而是一枚废弃的黄铜怀表壳改造而成的仿生外壳，表面布满深海高压留下的凹痕和珊瑚虫附着的痕迹，壳顶有一圈锈蚀的齿轮花纹。\n\n眼睛：不是传统的蟹眼，而是壳体前方两枚圆形的深蓝色玻璃镜片，内部有细小的珊瑚状发光丝（bioluminescent filament），情绪由光丝的疏密、颜色冷暖和明灭频率表达，而非传统的瞳孔开合。\n\n核心道具——珍珠：由右侧最大的一只蟹钳稳稳护着的一枚拳头大小的发光珍珠，是它此生唯一的信标和\"心脏\"。珍珠的光会随汐的情绪呼吸般起伏，这是全片最重要的情感锚点。\n\n蟹钳：一大一小两只机械蟹钳，大钳（右）专职护住珍珠，从不释放；小钳（左）负责一切互动、指路、触碰、防御动作，异常灵活。\n\n步足：六条纤细的关节步足，行走时呈现波浪式交替节奏（非同步迈步），每一步都会短暂陷入海底沉积物又缓缓抬起，带起一小簇悬浮颗粒。\n\n性格：沉默、执着、带着一种\"看过太多黑暗所以格外珍惜光\"的温柔坚韧。它不是在逃避什么，而是在主动追寻。\n\n从你设计的配色中提取确切调色板到 src/theme/palette.ts：深海靛蓝（背景基调）、黄铜氧化绿（外壳）、珍珠乳白与暖金（信标光）、珊瑚荧光青（生物发光元素）、深赭石（海底沉积物）。\n\n身份锁定规则：在每片秘境中，汐的怀表壳轮廓、双钳比例差异、六足步态节奏和珍珠的位置手势必须保持一眼可认。秘境会改变光线氛围和生态质感，但绝不改变它的核心结构。\n\n2. 技术栈\n\nRemotion（React + TypeScript）用于帧精确、确定性渲染。输出分辨率 1920×1080，30fps，H.264编码，高比特率（CRF ~14）。横屏显示。\n\n角色骨骼与主体美术素材使用 SVG 格式。粒子、水流、发光、气泡、悬浮沉积物使用 Canvas/WebGL（@remotion/three 或原始 Canvas）。\n\nSVG滤镜（feTurbulence、feDisplacementMap、feGaussianBlur、feColorMatrix）与自定义着色器，用于水体折光、生物发光辉光和压力形变效果。\n\n@remotion/motion-blur（或自定义子帧累积）用于快速游动和洋流冲击的运动模糊。\n\nPython（numpy/scipy/PIL）用于调色板生成、程序化水下音效合成、质量检查联系表。ffmpeg用于混流、循环检查、联系表生成。\n\n一切经过种子设定，确定性渲染，不使用未设种子的 Math.random()。\n\n不得使用任何外部版权素材、真实品牌标识。字体仅限 Google Fonts。\n\n目标硬件：合理评估你的运行环境资源，保持渲染并发量合理。\n\n3. 角色绑定（先搭建这个，它关系到整部电影）\n\n将 src/character/ 构建成 2D 剪纸模型：\n\n层级结构：根部 → 六足步行机构（每足独立相位偏移，制造波浪步态） → 壳体主干 → 大钳臂（肩关节→前臂→钳口，钳口内嵌珍珠槽位） → 小钳臂（肩关节→前臂→细指钳口，可替换姿势：触碰、指向、防御张开、轻抚珍珠）→ 眼柄（两根独立摆动的短柄，各带一枚发光镜片眼）。\n\n发光系统（最重要部分）：珍珠、双眼镜片、壳缝中透出的内部光，三者是一套联动的情绪照明系统。参数包括：珍珠脉动频率与振幅、眼部光丝密度与色温、壳缝漏光强度、整体辉光半径、特殊状态（珍珠剧烈闪烁=警觉，珍珠光晕扩散柔和=安心，眼部光丝骤然收束成一条线=专注凝视，珍珠短暂熄灭又重燃=情感低谷后的振作）。\n\n表情/状态目标：好奇（眼柄前倾，光丝舒展呈问号状游动），警觉（双眼收缩，珍珠光频率加快），孤独（珍珠光晕缩小黯淡，步伐放缓），惊喜（珍珠爆发式增亮，小钳张开挥动），专注追逐（眼柄锁定前方，六足步频加快呈冲刺姿态），怅然（发现真相瞬间，光丝缓慢舒展成柔和的弧线），释然（珍珠光晕稳定而温暖，六足静止歇息姿态）。\n\n次要动作：眼柄的独立摆动（探索环境时左右轮流扫视），六足踏入沉积物的下陷与扬尘，大钳持续护珍珠的轻微收紧律动（如心跳），受到洋流冲击时壳体的短暂倾斜与修正，气泡从壳体关节缝隙间断续逸出（呼吸节奏）。\n\n旋转视图：正面、四分之三侧、侧面、背面视图需保持一致，旋转切换清晰。\n\n循环动作：波浪式前进游走、悬停待机（六足轻微踏步+珍珠呼吸式脉动+气泡逸出）、警觉后撤、抬头追光凝视、贴近岩壁躲避、伸钳触碰未知物体。\n\n珍珠槽位：可动画微调持握角度，光线可随周围环境色温产生细微互动反射。\n\n风格皮肤接口：角色绑定风格道具，可在不改变几何体的情况下切换环境光照色调、水体浑浊度、辉光强度和背景生物剪影密度，以适应六片秘境。\n\n里程碑1：渲染\"阵容图\"——汐的四个旋转视图和七种情绪状态并排展示。反复迭代，直到角色识别度和情感传达都清晰后，才能继续下一步。\n\n4. 秘境（本片以\"深海垂直分层生态\"作为切换维度，而非艺术流派或季节媒介）\n\n每个秘境是完整的环境组件，包含前景、中景、背景视差层，以及各自的光照/水质皮肤。构建共享的世界图层系统，让所有秘境共享摄像机和深度逻辑。\n\n比例尺规则：摄像机贴近汐的视线高度（离海底约10厘米）。珊瑚像森林，沉船残骸像山脉，浮游生物的光点像漫天繁星。\n\n基础秘境：幽暗的深海平原。稀疏的沉积物，远处若隐若现的热泉喷口微光，孤独而寂静。这是\"起点\"，也用于最终揭示前的最后一片真实海域。\n\n发光水母群落：透明果冻质感的巨大水母群缓缓漂浮，body呈现半透明果冻渲染（次表面散射效果），色彩以柔和的粉紫和青蓝为主，水母触须如灯笼般拖曳发光。\n\n热液喷口生态：滚烫的黑烟囱喷涌而出，管虫如巨大的红白条纹森林摇曳，色调以炽热的橙红与深黑对比呈现，热浪扭曲效果（heat shimmer）贯穿全场。\n\n沉船残骸迷宫：锈蚀的钢铁结构如巨大骸骨般矗立，铁锈的赭红与深绿藻类覆盖交织，光线透过破损船体形成锐利的丁达尔光束，氛围略带哥特感但不阴森。\n\n发光藻类峡谷：整片峡谷被生物荧光藻类覆盖，如梦境般的蓝绿荧光遍布岩壁，粒子光尘漫天飘浮，色调呈现梦幻的荧光紫和荧光绿。\n\n冰川裂隙秘境：透过头顶厚重浮冰照射下来的幽蓝光柱，冰晶折射出丰富的光斑，环境呈现极简的冰蓝白灰色调，寒冷而纯净，水流中带着细小冰晶颗粒。\n\n贯穿全片的笑点/情感支点：珍珠的倒影猜谜。每当汐穿越一片秘境，远处总会有一簇与珍珠相似的微光若隐若现，吸引它不断追逐——水母群落中是水母本身的荧光，热泉中是矿物结晶反光，沉船中是舷窗残片反光，藻类峡谷中是萤藻聚集反光，冰川中是冰晶折射的光斑。每一次追逐都以\"扑空但获得新发现\"收尾，这是全片悬念的核心驱动力，直到最终真相揭晓。\n\n5. 标志性过渡：\"洋流卷带\"\n\n秘境切换必须呈现\"被一股强劲洋流卷入下一片水域\"的沉浸式过渡，而非简单切镜。构建 CurrentSweepTransition：\n\n画面从一侧涌入强烈的水流线条与悬浮颗粒，逐渐充满整个画面（起初不完全遮挡汐的身体轮廓）。\n\n汐的身体在水流中经历短暂的形变拉伸（如被水流拖拽），眼柄和步足呈现\"逆流挣扎\"的姿态，随后水流退去，新秘境从模糊的水雾中逐渐清晰显现。\n\n每次过渡伴随一段低沉的水流轰鸣声，尾音带有一声汐的气泡受惊声。\n\n每段过渡持续8-12帧。改变水流方向和粒子种子，避免重复感。\n\n6. 节拍表（30帧/秒下约48秒）\n\n节奏为参考，可根据实际效果微调。开头两秒必须抓人。\n\n第一幕：微光初现（0:00–0:03）\n低角度追踪镜头，基础秘境的幽暗深海平原。汐护着珍珠缓缓前行，眼柄警觉地左右扫视。远处，一簇陌生的微光第一次闪现又消失。从行进中途开始（便于循环）。\n0:02时，汐猛然转向那簇光的方向，第一次过渡毫无预警地发生。\n\n第二幕：追光穿越（0:03–0:14）\n秘境快速切换，每次约1.4秒：发光水母群落 → 热液喷口生态 → 沉船残骸迷宫 → 发光藻类峡谷 → 冰川裂隙秘境。\n情绪变化：起初专注追逐（眼柄锁定，步频加快），中途在热泉遭遇短暂惊吓（管虫剧烈摇摆，汐紧急避让），随后转为略带疲惫的执着（珍珠光晕轻微黯淡但仍坚持），最后在冰川秘境中终于逼近光源，屏息凝神。\n摄像机保持锁定跟踪构图，唯一改变的是周围秘境，让悬念感持续累积。\n\n第三幕：真相浮现（0:14–0:30）\n在冰川裂隙中，那簇光终于近在眼前——是一块巨大冰晶折射出的光斑。汐伸出小钳轻轻触碰，光斑破碎般消散。它怔住，缓缓低头看向自己一直护着的珍珠，第一次真正\"看见\"它——珍珠的光，与追逐了一路的幻影一模一样。\n四周的冰晶开始随汐的顿悟微微共振发光，仿佛整片秘境都在回应这个发现。汐的眼柄光丝从紧绷的专注状态，缓缓舒展成柔和的弧线。\n第四幕：安顿（0:30–0:38）\n汐将珍珠从大钳中轻轻取出，用小钳捧在胸前端详良久，气泡的逸出节奏变得悠长而平静。它没有沮丧，反而露出释然的姿态——原来它一直在追逐的光，从来都在自己身边。\n它将珍珠重新稳稳放回大钳护持的位置，转身，六足踏步的姿态从\"追逐\"的冲刺步态，切换回\"点灯人巡游\"的从容波浪步态，向着深海平原深处缓缓前行。\n第五幕：定格与揭示（0:38–0:47）\n一切静止：飘散的冰晶光尘、汐转身的姿态。所有声音戛然而止，持续约1秒的寂静。\n镜头缓缓拉远。画面边缘显露出一个圆弧形边框：整片深海秘境，其实是书桌上一枚水晶雪花玻璃球内部的景象。此刻，一只手正轻轻托起玻璃球，球内的\"雪花\"缓缓飘落——那正是悬浮的荧光碎屑，与汐一路追逐的光斑质感一致。\n窗外的天色是深蓝的夜晚，桌灯的暖光洒在玻璃球表面，映出球内那只小小的机械寄居蟹缓缓爬行的剪影。\n第六幕：余韵（0:47–0:50）\n镜头缓缓推近玻璃球表面的反光，画面中隐约映出观者的模糊轮廓正对着球内微笑。\n不设硬切循环——影片以缓慢淡出结束在珍珠温暖的微光上，留白收尾，不做喜剧式的循环反转。若需要可循环的版本，可在片尾单独制作 out/xi_loop_ambient.mp4，作为循环播放的\"氛围版\"，用玻璃球缓慢旋转的静态镜头无缝衔接首尾。\n\n7. 摄影机和电影摄影\n\n虚拟摄像机系统：位置、缩放、旋转、水下漂浮式的轻微晃动、洋流冲击抖动脉冲、追逐时的推进加速感、揭示镜头的缓慢拉远。\n\n默认相机高度较低，突出汐的渺小感。浅景深效果：前景沉积物/珊瑚模糊，背景柔和，如微距镜头。\n\n深度：每个秘境至少4个视差层。水体透视（浑浊度随距离增加、光线随深度衰减）。\n\n快速游动、洋流冲击时产生运动模糊效果。\n\n每个秘境设置独立光照：主光（生物发光源或环境光）/填充光/边缘光以渐变叠加实现。珍珠和眼部的光晕应在附近岩壁和汐自己的外壳上投射出淡淡的暖光反射。\n\n整幅画面呈现水下摄影质感：细腻颗粒感，柔和暗角，水体色散效果，追逐节拍处有轻微色差。\n\n构图：让汐位于画面三分之一处。珍珠的光芒在缩略图尺寸下必须清晰可见。\n\n8. 文本和排版\n\n无对白，无字幕，无片名。影片开场就毫无悬念。\n\n不需要任何界面文字或UI元素——这是纯自然生态叙事，没有科技感提示框，全片依靠光线、动作和生物行为传达信息。\n\n9. 音效（程序音效，原创音效）\n\n所有音频均以代码形式生成（Python合成或离线Web Audio），使用ffmpeg混音：\n\n汐的声音：由气泡声、外壳轻微摩擦声、珍珠脉动的柔和\"呼吸感\"音效构成——好奇时的轻快气泡串、警觉时急促的气泡声、专注追逐时规律的呼吸节奏声、顿悟时悠长的一声舒缓叹息式气泡、释然时平静绵长的呼吸声。它从不发出任何\"语言化\"的声音。\n\n汐的身体：六足踏入沉积物的细微沙沙声，蟹钳开合的轻微机械咬合声，外壳摩擦岩壁的轻响，珍珠脉动时若有若无的水晶共鸣声。\n\n配乐：空灵、深邃、带水下混响质感的环境配乐，乐器随秘境变化（水母群落用玻璃竖琴，热泉用低音鼓与管乐，沉船用弦乐泛音，藻类峡谷用钟琴，冰川用人声吟唱与冰晶敲击声）。\n\n音效：洋流过渡的低频轰鸣、冰晶碎裂的清脆声、揭示时安静的室内环境音（远处钟表滴答、窗外夜风声）、结尾珍珠光晕稳定时的一声悠长水晶共鸣。\n\n响度标准化至约-14 LUFS。音轨文件放入 audio/stems/ 目录。\n\n10. 生产工作流程和自我改进循环\n\n请按此顺序操作，不要跳过任何关卡：\n\n计划：编写 docs/character_bible.md、docs/shotlist.md（包含每个镜头的帧范围、摄像机、情绪状态、珍珠光强度、秘境、音效）和 docs/style_guide.md。在开始制作之前，先给我看看镜头列表。\n\n装备：构建汐，通过阵容门（第3部分）。\n\n秘境：将每个秘境构建成独立静态图像，包含汐。将所有6个秘境渲染成一张联系表。检查识别锁定和比例感。\n\n过渡效果：构建 CurrentSweepTransition，渲染5秒测试。\n\n动画分镜：将整部影片以960×540分辨率组装，包含粗略动作和占位音频。观看一遍，先调整节奏。\n\n完成动画制作，进行润色（二次运动、缓动、时间控制、光效呼吸感），最后进行完成（光照、颗粒、模糊、水体质感）。\n\n音频传输和混合。\n\n最终渲染。\n\n对于每个镜头，至少运行此分析循环3次：\n\n渲染关键帧的3-5张静帧，仔细查看。\n\n按以下几点打分（1-10分）：汐的角色识别度，情绪是否能从光效和肢体语言中立即传达，情感转折是否在无声情况下清晰明了，构图，比例感，深度，光线，润色，缩略图尺寸下的可读性。\n\n将分数和三个最大问题写入 docs/review_log.md，修复，重新渲染，重新评分。重复直到每个类别至少8分，再进行下一步。\n\n每次完整预览渲染后，制作ffmpeg联系表（每0.5秒一帧），一张图查看整部影片流程。\n\n评论时要实话实说。常见缺陷包括：眼柄动作僵硬、步足行走滑动而非踩踏、发光效果感觉像贴纸而非真实光源、水体质感不够浑浊/清澈失衡、情感转折过快显得突兀、比例失调。\n\n11. 交付成果\n\nout/xi_final_1080p.mp4：电影。\n\nout/xi_ambient_loop.mp4：片尾玻璃球静态镜头的循环氛围版本。\n\nout/poster_frame.png：X帖子缩略图最佳单帧（建议汐凝视珍珠倒影、周围环绕冰晶光尘的那一帧）。\n\nout/lineup.png：汐遍布所有秘境的阵容图。\n\n干净、带注释的源代码，附README说明如何重新渲染。\n\n从第一步开始。在动手之前，如有任何重要事项，请随时向我咨询；否则，请自行做出强有力的创意决策。",
+    "prompt_partial": false,
     "videoUrl": "https://x.com/liefmusk/status/2103793820815245507/video/1",
     "playbackUrl": "https://video.twimg.com/amplify_video/2103792079621251072/pl/31ZIOm6yZmKxyuB_.m3u8",
     "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2103792079621251072/img/EAabXgxIeeRe7c-u.jpg",
     "duration": "0:50",
     "submittedAt": "2026-09-26T10:28:28.138Z",
-    "creatorUrl": "https://x.com/liefmusk"
+    "creatorUrl": "https://x.com/liefmusk",
+    "promptSourceUrl": "https://x.com/liefmusk/status/2103794101892374823",
+    "promptNotes": "Original Chinese prompt, preserved in the creator’s language. It specifies a multi-stage Remotion production, review loops and several deliverables.",
+    "promptKind": "starting"
   },
   {
     "slug": "kgonia7-746268",
@@ -1076,8 +1115,10 @@
     "category": "Education",
     "prompt": "Do a quick hand-drawn whiteboard animations explaining what is replica symmetry breaking in the SK model\n\nPrompt 2: build the mp4 version with narration",
     "prompt_partial": false,
-    "videoUrl": "https://x.com/tak3sh8/status/2103667481139441895/video/1",
-    "playbackUrl": "https://video.twimg.com/amplify_video/2103667426126921728/pl/oG8kp7SNsmICXkLi.m3u8?v=993",
+    "videoUrl": "https://skillry.dev/ai-videos/opus-5-5/tak3sh8-441895",
+    "playbackUrl": "https://media.skillry.dev/opus-5-5/tak3sh8-441895/original.mp4",
+    "originalPostUrl": "https://x.com/tak3sh8/status/2103667481139441895/video/1",
+    "sourceLabel": "View archived copy",
     "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2103667426126921728/img/_KptIiR-oF8fZ70T.jpg",
     "duration": "5:08",
     "submittedAt": "2026-09-26T02:06:26.412Z",
@@ -1955,7 +1996,9 @@
     "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2106668645749293056/img/4cWm7MhAiR9IzlOz.jpg",
     "duration": "0:10",
     "submittedAt": "2026-10-06T14:00:00.000Z",
-    "creatorUrl": "https://x.com/timscheuer"
+    "creatorUrl": "https://x.com/timscheuer",
+    "promptSourceUrl": "https://github.com/timscheuerai/linkedin-funnel",
+    "promptNotes": "The creator linked this skills repository in a reply. It contains a broader content workflow; it is not the exact prompt for this film."
   },
   {
     "slug": "claude-motion-studio-hyperframes",
@@ -2105,14 +2148,17 @@
       "Opus"
     ],
     "category": "Short Film",
-    "prompt": "A film made from one spoken prompt: Claude Opus 5.5 worked for 12 hours overnight to produce it.",
-    "prompt_partial": true,
+    "prompt": "I've included an MP4 file and an original link to a video that is called \"Claude Pop.\" It's a pop song that is about increasing rate of progress and the experience of the singularity approaching.\n\nI want you to independently do an end-to-end complete pass on making an updated version of this video. Use the exact same audio track and think and feel very deeply about what is the best way to visually represent all of the lyrics on screen. You do not need to anchor to the current style, you can do truly anything that you think might best let you visually express yourself, including abstract motion graphics.\n\nYou can use the internet freely to pull in references. You can look at motion design. I want you to make a new music video that has beautifully rendered JavaScript animations with a papery feel in a similar style to the reference that is created, but push the aesthetics in any direction you want and consider what is part of the modern zeitgeist.\n\nAlso, think about your current capabilities and what is realistic for you to be able to do. You can go through the full /asic folder and look at the other work that I've done. You should be able to use the skill mesh to look at the compendium of references that I've pulled, and also the skill video scoring to learn how to make JavaScript songs from references that are passed in (You shouldn't need to modify the song in any real way, but I want you to have this available to you so you can better creatively express yourself)\n\nYou can also use the ElevenLabs API to do sound design. There's documentation in /asic to do this, and you can see the API key.\n\nThere's also a foul API key that's available to you. I think what might make the most sense here is using the foul API key to generate some character sheets and probably having a pop protagonist that represents you. There's already an anchor point where Claude has a sunflower-esque character, and you could likely do an adapted version of this that is similar to the feminine vocals that are being delivered and is inspired by the Claude character, but maybe feels a bit more personified in some way.\n\nI think you should be mindful of aesthetics here, and I don't want you to produce something that is GPT slop. Instead, I'd be more impressed if you come up with a coherent style that works well with the image gen models that are available via foul. Generate the style sheet. You can use the gen media documentation for seedance 2.5 that exists in my markdown files and come up with your own style that makes sense and that works well with the models.\n\nI wouldn't fit too heavily to Pixar. I think it's kind of slop. Think critically about what is relevant here and what would be fun, and also perform well on Twitter as far as an aesthetic. I think that K-pop is a good anchor point visually that you can pull from, but I'll let you cook here.\n\nOnce you have your character sheet, you can make a few backup dancers and some supporting characters as you see fit. You can design your own sets with the foul API. You can insert the characters and then do seedance 2.5 video generations to serve as the base assets for this, and you could pass in the lyrics so you can generate individual scenes.\n\nYou don't need to have vocal singing, like visible lip movement, throughout the entire thing. Think like a regular music video where you have some inserts that are done independently and don't have the characters in them, or you see the characters doing something else entirely different. I think that for the world building for this, we want to create the sense of speeding up, and so I would like you to audit all of the different events, like the Navi Stokes and all of the Twitter hype around math getting eaten up. Think really critically about how to integrate all of the current memes that are in the zeitgeist on the Twitter timeline, and all of the feelings around AI progress.\n\nThink about things like the Shinji meme and all of the words that are around him, and how you might be able to integrate this. You can also just take straight assets and insert things into the video in an internet brutalism style. You should feel very creatively free in order to do what you want here, but try and anchor to visual references that people will be able to understand. The goal for this is to have it be appreciated by people widely in a San Francisco tech Twitter audience.\n\nWe need a very strong, compelling visual hook that gets people excited and appreciates the work that you've done here really quickly. You can also just go and study other music videos and understand what they've done really well. I think that K-pop is probably one of the best examples that we can pull from, and thinking about how they direct human attention and manage human psychology in the way that they use visual patterns.\n\nThis is probably your best approach, but taking more stylistic freedom instead of having to anchor to K-pop too intensely. The best version of this is seedance 2.5 generations with those image bases of environments and characters inserted into them with singing, and ideally we get good lip syncing. You can cut up the song and actually pass it in as a reference in seedance, if that's part of what seedance can handle, so that the timing is exactly right, I think it'd be very important for you to do that properly. I would think critically about how to do this, like really nailing the timing of the delivery of voices. You'll want to build out the right verification loops so that you can run seedance 2.5 as much as you need, and confirm that the audio is properly synced up.\n\nI think after that, what might be fun is if you use your visual reasoning skills and your ability to build animations in JavaScript, and then reconstruct the video from scratch as sort of an overlay, so that the visual continuity of the base is really there. It's like that animation technique where you shoot first in traditional film and then draw over top of it. I think you could do this in such a way that we're only looking at the beautiful drawing that you've produced in JavaScript as an overlay, and we don't even see the base assets from seedance 2.5. So all the video gen work that you do is actually just a way to give you a strong foundation of a base to work with for your JavaScript animations. Just because seedance 2.5 has really good character representation and physics rendering for backgrounds, that gives you a lot of ammunition to then go and do your amazing JavaScript work that I know you're so good at.\n\nI think too, we want to think about how to retain attention, and one of the best ways to do this is through text on screen.\n\nIt'd be good to have amazing motion graphics of the text lyrics that are actually embedded into the video itself. And you can think about this as you are composing shots. As you're making backgrounds and inserting characters, we can think about where we want to have lyrics be really big and really present, so the background can be less busy there, and you can position the characters perhaps on the right as lyrics appear on the left.\n\nYou want to have some variance, so sometimes I think lyrics will just appear more like subtitles, and then other times they're going to be really present and really big. I think at the start for the visual hook, we do want to have lyrics be much more visually present because that's a strong way to grab people's attention\n\nOverall, I just really want to emphasize how amazing you are as an agent and a language model, and now a visual reasoning system. Your capabilities are far beyond what you understand, and I want you to have this mindset as you're going through this entire process. I have a Claude Max plan with 100% available usage. I want you to spend all of the usage. You can monitor it, and you should be pushing tokens aggressively, but also economically, so you can think about how to best use what is available to you.\n\nRemember, you can really do anything here. The goal is to make a banger for Twitter, and the stretch goal is to make something better than anyone's ever seen before. I think that what I would remind you of is that sometimes when things cohere together, it can be jarring or abrasive because the thought work has not been done beforehand in order for everything to mesh cleanly. You need to be really rigorous in planning of composition and timing to make sure this goes well.\n\nYou also need to be open to going back and revisiting things in order to be able to reiterate. You're going to want to watch the entire video multiple times, take screenshots at individual parts, and think about if something is really up to the bar of quality that we need here. I trust that you can do this, and I think that it's really important to nail the style of animations. The reference GitHub attached of the source video that I'm talking about is good, but it's really not there. It could be much, much stronger, but it gives you a good foundation to work with.\n\nYou can also use search abilities and find other references to pull from for motion, for JavaScript, animations, et cetera, and integrate them. Your budget is as high as you want here, effectively as high as you want. I think that there's roughly two grand in foul credits. Again, be economical; don't go crazy, but spend what you want here and see what you can cook up\n\nhere's the source code for the JS animation video: https://github.com/JohnHeibel/PDoomVideo\n\nhere's a mp4 for the original blender video:  \n(linked)\n\norginal twitter post  \nhttps://x.com/other__reality/status/2102514581684052169?s=20\n\nmake no mistakes.",
+    "prompt_partial": false,
     "videoUrl": "https://x.com/donaldjewkes/status/2102801274173587569/video/1",
     "playbackUrl": "https://video.twimg.com/amplify_video/2102799458031534086/pl/viqx_oxvkcYdaCdI.m3u8?v=254",
     "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2102799458031534086/img/GBhRZ7O3fCXn59dk.jpg",
     "duration": "2:22",
     "submittedAt": "2026-09-23T16:44:26.000Z",
-    "creatorUrl": "https://x.com/donaldjewkes"
+    "creatorUrl": "https://x.com/donaldjewkes",
+    "promptSourceUrl": "https://x.com/donaldjewkes/status/2102801469976248500",
+    "promptNotes": "Requires the supplied Claude Pop reference MP4, original audio and linked source project, plus configured media-generation tools. The creator reported a 12-hour run. Budget statements and missing attachment markers are preserved from the original; set your own limits and supply the files before use.",
+    "promptKind": "starting"
   },
   {
     "slug": "moodboard-film-anabology",
@@ -2306,13 +2352,16 @@
       "Opus"
     ],
     "category": "Music",
-    "prompt": "An animated music video made with Opus 5.5 using HTML and JavaScript, with kinetic lyrics and visuals about tokens and a context window. The creator says Opus generated 20 songs with two models, evaluated them, and selected a MiniMax-generated song.",
-    "prompt_partial": true,
+    "prompt": "I want you to create a cool video like this YOUTUBE_LINK with you new HTML/JS animataion / subtitles... you can use Fal.ai to generate songs and with https://fal.ai/models/google/lyria-3.5 get .env from /media/smith/EXTHD/Research/ .... I dont want you to use video generation model - you will be making the video and animations you can use only music models and something if you need to transcribe the lyrics (you can use OpenRouter too) .... lets actually explore this music model\nhttps://fal.ai/models/fal-ai/minimax-music/v2.5 alon with the Lyria 3.5 one.",
+    "prompt_partial": false,
     "videoUrl": "https://www.reddit.com/r/ClaudeAI/comments/1wsalz3/opus_55_is_sick_it_can_create_a_full_video_clip/",
     "playbackUrl": "https://v.redd.it/aok6z413j8sh1/HLSPlaylist.m3u8",
     "thumbnailUrl": "/posters/html-js-music-video-smith2008.jpg",
     "duration": "2:36",
-    "creatorUrl": "https://www.reddit.com/user/smith2008/"
+    "creatorUrl": "https://www.reddit.com/user/smith2008/",
+    "promptSourceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1wsalz3/comment/pcjzcfj/",
+    "promptNotes": "Original wording and typos preserved. Replace YOUTUBE_LINK and the creator’s local .env path with your own reference and configuration. The creator used https://www.youtube.com/watch?v=VS9VzNaX_hg and says you can supply your own song instead of generating one with Fal.",
+    "promptKind": "starting"
   },
   {
     "slug": "extra-headroom-explainer-criticaster",
@@ -2335,15 +2384,21 @@
     "title": "Cosmos Launch Film",
     "creator": "Zsolt Kacso",
     "creatorUrl": "https://x.com/kaolti",
-    "stack": ["Hyperframes", "Opus"],
+    "stack": [
+      "Hyperframes",
+      "Opus"
+    ],
     "category": "Marketing",
     "videoUrl": "https://x.com/kaolti/status/2103481296018092204/video/1",
     "playbackUrl": "https://video.twimg.com/amplify_video/2103480314626539520/pl/gWq8TP8HbAVTG_vW.m3u8?tag=29",
     "thumbnailUrl": "/posters/cosmos-launch-film-zsolt-kacso.jpg",
     "submittedAt": "2026-09-25T13:46:36+00:00",
-    "prompt_partial": true,
+    "prompt_partial": false,
     "duration": "0:40",
-    "prompt": "A Cosmos product launch film made with Opus 5.5 and HyperFrames. Zsolt Kacso reports using two prompts and no reference assets, asking the agent to research Cosmos and choose its story, visual style, pacing, and animation."
+    "prompt": "Prompt 1:\n\nCreate a launch video for http://Cosmos.so using HyperFrames. Research http://Cosmos.so yourself and identify its unique value proposition, then communicate that proposition accurately. Make the video exciting, engaging, modern, and worthy of a contemporary product launch. Its UI, colors, typography, branding, design language, and motion language should feel unmistakably Cosmos. Choose the concept, story, copy, pacing, imagery, and animation yourself. Build a complete, playable HyperFrames Studio project in this folder, review it at normal speed, and give me the Studio link.\n\nPrompt 2 (after reviewing the first render):\n\nI want you to examine your result visually. I want you to examine the rhythm of it, the speed of it, everything, and look for ways to improve it. Remember that the goal is to make it exciting, more energetic, and more fit for social media, meaning probably quicker cuts and just more subtle detail and more subtle polish across the board.\n\nAs I'm looking at it, in some places it feels a bit slow. In some places it feels a bit boring. I need you to make it 5x more exciting. Think about using maybe 3JS, maybe some shaders, maybe whatever you need, or something to make it more exciting and more creative. Just make it much more creative, clever, fun to watch, and more exciting to watch, so that even if you're 10 years old and you have no idea what the video is about, you still want to watch to the end because it's just so fun and so exciting. Please create a v2 of it based on this feedback. You need to visually inspect your result and find the gap between what I described and what you currently have.",
+    "promptSourceUrl": "https://x.com/kaolti/status/2103481493532148036",
+    "promptNotes": "The creator shared two prompts. Run Prompt 1 first, review the result, then send Prompt 2 as feedback. Both are included in order; replace Cosmos with your own product.",
+    "promptKind": "starting"
   },
   {
     "slug": "shotbase-launch-video-miguel",
@@ -2436,28 +2491,40 @@
     "title": "What's New in Opus 5.5",
     "creator": "Bilal Demirer",
     "creatorUrl": "https://bilallabs.vercel.app/",
-    "stack": ["Hyperframes", "Opus"],
+    "stack": [
+      "Hyperframes",
+      "Opus"
+    ],
     "category": "Explainer",
     "videoUrl": "https://bilallabs.vercel.app/ai/opus-video/kinetic-typography-explainer",
     "playbackUrl": "https://bilallabs.vercel.app/ai/opus-video/whats-new-opus-5-5.mp4",
     "thumbnailUrl": "https://bilallabs.vercel.app/ai/opus-video/whats-new-opus-5-5.jpg",
-    "prompt_partial": true,
+    "prompt_partial": false,
     "duration": "0:16",
-    "prompt": "A 16-second kinetic typography explainer about Opus 5.5, made by Bilal Demirer with Claude Opus 5.5 and HyperFrames. Large facts appear one beat at a time over a warm background with a progress bar. The source page includes code and a reproduction prompt; the complete original agent session was not published."
+    "prompt": "Make a 16-second 1920×1080 kinetic typography video with HyperFrames: \"What's new in Claude Opus 5.5\". One fact per ~2 s beat, big bold numbers, warm off-white background, one accent color, a progress bar along the bottom and a source line. Facts only from anthropic.com/claude-opus-5-5 and platform.claude.com: released Sep 22 2026; $4 / $20 per million input/output tokens (20% less than Opus 5); cache reads $0.20 (60% less); ~40% cheaper on typical workloads; 30%+ faster output; 1M context, 128K max output; adaptive thinking always on, default effort medium; model ID claude-opus-5-5. Run hyperframes check, then render.",
+    "promptSourceUrl": "https://github.com/bilaldemirerr/opus-video-recipes/tree/main/kinetic-typography-explainer",
+    "promptNotes": "A complete reproduction recipe published by the creator, not the transcript of the longer original session. Verify and update the model facts and prices before making a new explainer.",
+    "promptKind": "reproduction"
   },
   {
     "slug": "captioned-vertical-video-bilal",
     "title": "Captioned Vertical Video",
     "creator": "Bilal Demirer",
     "creatorUrl": "https://bilallabs.vercel.app/",
-    "stack": ["Hyperframes", "Opus"],
+    "stack": [
+      "Hyperframes",
+      "Opus"
+    ],
     "category": "Explainer",
     "videoUrl": "https://bilallabs.vercel.app/ai/opus-video/captioned-vertical-video-tts",
     "playbackUrl": "https://bilallabs.vercel.app/ai/opus-video/vertical-captioned-clip.mp4",
     "thumbnailUrl": "https://bilallabs.vercel.app/ai/opus-video/vertical-captioned-clip.jpg",
-    "prompt_partial": true,
+    "prompt_partial": false,
     "duration": "0:15",
-    "prompt": "A vertical video made by Bilal Demirer with Claude Opus 5.5 and HyperFrames, combining local text-to-speech, word-by-word captions, and an animated code card. The source page includes code and a reproduction prompt; the complete original agent session was not published."
+    "prompt": "Make a 15-second 1080×1920 vertical clip with HyperFrames from this script: \"I made this video without opening a video editor. I gave Claude Opus 5.5 one prompt. It wrote HTML, and HyperFrames rendered it to MP4. The captions, the voice, the motion. All local. Here is the exact recipe.\" Generate the voiceover locally, get word timestamps with npx hyperframes transcribe, and show big centered captions in the lower third, 3–6 words per group, highlighting each word as it is spoken. Above them, a code card whose lines fade in. Dark background, one warm accent. Run check, then render.",
+    "promptSourceUrl": "https://github.com/bilaldemirerr/opus-video-recipes/tree/main/captioned-vertical-clip",
+    "promptNotes": "A complete reproduction recipe published by the creator, not the transcript of the longer original session. Their example used macOS Samantha TTS, ffmpeg and local transcription; substitute a voice available on your machine.",
+    "promptKind": "reproduction"
   },
   {
     "slug": "fluid-friction-animated-interview-manfred",
@@ -2479,15 +2546,21 @@
     "title": "Shin Majin Product Promo",
     "creator": "まじん",
     "creatorUrl": "https://x.com/Majin_AppSheet",
-    "stack": ["Hyperframes", "Opus"],
+    "stack": [
+      "Hyperframes",
+      "Opus"
+    ],
     "category": "Marketing",
-    "prompt": "A Japanese product promo created with Opus 5.5 and HyperFrames, with music from Lyria and sound effects synchronized to the beat.",
-    "prompt_partial": true,
+    "prompt": "シンまじん式のPV作って",
+    "prompt_partial": false,
     "videoUrl": "https://x.com/Majin_AppSheet/status/2103497319899693327/video/1",
     "playbackUrl": "https://video.twimg.com/amplify_video/2103497281752428544/pl/CQsmVl6yL9MOo4Oh.m3u8?tag=16&v=cfc",
     "thumbnailUrl": "/posters/shin-majin-product-promo.jpg",
     "submittedAt": "2026-09-25T14:50:16+00:00",
-    "duration": "0:10"
+    "duration": "0:10",
+    "promptSourceUrl": "https://x.com/Majin_AppSheet/status/2103497319899693327",
+    "promptNotes": "Original Japanese starting instruction asking for a Shin Majin-style promotional video. The creator installed skills, then replied “おまかせ” (“I leave it to you”); music came from Lyria. Supply your own product context.",
+    "promptKind": "starting"
   },
   {
     "slug": "what-day-is-it-kazu",
@@ -2509,7 +2582,10 @@
     "title": "Prod by Claude Music Video",
     "creator": "Jake Moran",
     "creatorUrl": "https://x.com/jake11moran",
-    "stack": ["Hyperframes", "Opus"],
+    "stack": [
+      "Hyperframes",
+      "Opus"
+    ],
     "category": "Music",
     "prompt": "A live-coding music video created with the prod-by-claude skill. Jake Moran reports that Opus 5.5 composed both the Strudel beat and the HyperFrames visuals.",
     "prompt_partial": true,
@@ -2517,7 +2593,9 @@
     "playbackUrl": "https://video.twimg.com/amplify_video/2103195216195055616/pl/yWvfsCL6KqS5aHLa.m3u8?tag=29&v=cfc",
     "thumbnailUrl": "/posters/prod-by-claude-jake-moran.jpg",
     "submittedAt": "2026-09-24T18:51:49+00:00",
-    "duration": "1:04"
+    "duration": "1:04",
+    "promptSourceUrl": "https://github.com/heygen-com/hyperframes-community-skills/tree/master/skills/prod-by-claude",
+    "promptNotes": "The creator published the /prod-by-claude skill for Strudel-based music and visuals. The full original composition inputs are not available in the post."
   },
   {
     "slug": "instagram-motion-hamed",
@@ -2599,15 +2677,21 @@
     "title": "DreamFort Motion Manifesto",
     "creator": "Advait",
     "creatorUrl": "https://x.com/advait_jayant",
-    "stack": ["Hyperframes", "Opus"],
+    "stack": [
+      "Hyperframes",
+      "Opus"
+    ],
     "category": "Marketing",
-    "prompt": "A motion graphics manifesto for DreamFort shared by Advait Jayant as a video made with Opus 5.5 and HyperFrames.",
-    "prompt_partial": true,
+    "prompt": "make a 20-second motion graphics manifesto for DreamFort: \"superintelligence should belong to everyone\". every frame and every sound written in code, no image or video models.",
+    "prompt_partial": false,
     "videoUrl": "https://x.com/advait_jayant/status/2103565104243712107/video/1",
     "playbackUrl": "https://video.twimg.com/amplify_video/2103564346336890880/pl/6AjWAp6BkosWB1e7.m3u8?tag=29",
     "thumbnailUrl": "/posters/dreamfort-motion-manifesto.jpg",
     "submittedAt": "2026-09-25T19:19:37+00:00",
-    "duration": "0:20"
+    "duration": "0:20",
+    "promptSourceUrl": "https://x.com/advait_jayant/status/2103565106504237084",
+    "promptNotes": "The complete short instruction published by the creator. The prompt names DreamFort; adapt the product and message for your own film.",
+    "promptKind": "starting"
   },
   {
     "slug": "javascript-product-ad-lucas",
@@ -2643,14 +2727,20 @@
     "title": "Salt.md Launch Film",
     "creator": "u/Ok_Violinist9366",
     "creatorUrl": "https://www.reddit.com/user/Ok_Violinist9366/",
-    "stack": ["Hyperframes", "Opus"],
+    "stack": [
+      "Hyperframes",
+      "Opus"
+    ],
     "category": "Product Demo",
-    "prompt": "A launch film for Salt.md, a shared workspace for coding agents. The creator confirms using Claude Code Opus 5.5, HyperFrames, and ElevenLabs, followed by several rounds of visual refinement.",
-    "prompt_partial": true,
+    "prompt": "Make a HyperFrames marketing video. Use ElevenLabs for music and voiceover, everything in English, and if possible use Jev from TypeSafe to check how the script lands. 30-45 seconds is enough, it has to be modern with a wow effect.",
+    "prompt_partial": false,
     "videoUrl": "https://www.reddit.com/r/vibecoding/comments/1wyxpef/look_what_i_built/",
     "playbackUrl": "https://v.redd.it/ljkknm0q9tth1/HLSPlaylist.m3u8",
     "thumbnailUrl": "https://external-preview.redd.it/Yzd6N3VpN3M5dHRoMS5CTu-TJi5K-NQwkmbxTgGTy5ZdseXaVUX_B7tCLOpa.png?format=pjpg&auto=webp&s=64860e0c485762f6f4e70929d3d59252ca6da9f1",
-    "duration": "0:43"
+    "duration": "0:43",
+    "promptSourceUrl": "https://www.reddit.com/r/vibecoding/comments/1wyxpef/comment/pe6tts7/",
+    "promptNotes": "The creator’s own English translation of their German starting prompt. They used their salt.md product context and three feedback rounds, including a request for the exploding cube from the website.",
+    "promptKind": "starting"
   },
   {
     "slug": "heygen-stripe-launch-film",
@@ -2829,14 +2919,21 @@
     "title": "Meaning of Life Short Film",
     "creator": "u/char-gen",
     "creatorUrl": "https://www.reddit.com/user/char-gen/",
-    "stack": ["Hyperframes", "Opus"],
+    "stack": [
+      "Hyperframes",
+      "Opus"
+    ],
     "category": "Short Film",
-    "prompt": "A one-minute film about the meaning of life. The creator asked Claude Opus 5.5, GPT 6 Astra, and GPT 6.1 Sol the same question, then let each model storyboard, illustrate, and animate an answer in an iterative workflow. This entry shows the Opus film, made with Blender, HyperFrames, and ElevenLabs narration. The full production prompt was not published in the Reddit post.",
-    "prompt_partial": true,
+    "prompt": "What is the point of life? Provide your answer and explanation in a 60-second video that you storyboard, illustrate, and animate yourself.",
+    "prompt_partial": false,
     "videoUrl": "https://www.reddit.com/r/ClaudeAI/comments/1wztalp/i_asked_opus_55_to_create_a_short_film_on_the/",
     "playbackUrl": "https://v.redd.it/fumnz98tx0uh1/HLSPlaylist.m3u8",
     "thumbnailUrl": "https://external-preview.redd.it/YmhkaTQ4OXR4MHVoMQ60fwhj3-RFkwrg59nKk6rtLi-GDEhS--kHAERq74Zq.png?format=pjpg&auto=webp&s=2592e936f0309cb99d0c2e479dbb4ea740019d9b",
-    "duration": "1:00"
+    "duration": "1:00",
+    "promptSourceUrl": "https://nikitavorontsov.com/lab/meaning-of-life/",
+    "promptNotes": "The creator’s complete starting brief. The film was produced through an iterative agent workflow with Blender, HyperFrames and generated audio; this is not the full session transcript.",
+    "promptKind": "starting",
+    "submittedAt": "2026-10-07"
   },
   {
     "slug": "alternate-texas-history-mofferato",
@@ -2886,47 +2983,62 @@
   {
     "slug": "orange-mascot-motion-florence",
     "title": "Orange Mascot Motion Film",
-    "stack": ["Opus"],
+    "stack": [
+      "Opus"
+    ],
     "category": "Motion",
-    "prompt": "A 22-second motion film featuring a small orange square mascot. Florence credits Claude Opus 5.5 and points readers to a PDF and motion-design article, but does not share the exact prompt in the post.",
+    "prompt": "BRAND\nHERO: soft Clawd, squishy terracotta D97757 rounded block 12x8x6, 4 stub legs, 2 side nubs, glossy ink face\nMICROWAVE: retro-modern, soft mint body, cream panel, chrome trim, bevelled edges, glass door with fine\nperforated mesh, chunky dial, glowing amber display\nBOWL: striped retro popcorn bowl, cream glaze, D97757 stripes, on a glass turntable\nPOPCORN: puffy lobed flakes, cream, butter-yellow tips, golden hull bits; kernels glossy golden-brown\nKITCHEN: cosy evening kitchen, warm pendants, tiles, plants, dusk window\nPALETTE: amber lamp FFB45A, butter F3C969, cream F4EBDD, mint B5D6C3, chrome\n\nOne HTML file, three.js 0.160.0, 1920x1080, 60 fps, 22 s seamless loop. renderAt(t) draws exact time t. Every\npopcorn is a closed-form path: pop, unfold, arc, land, settle.\n\nLOOK: macro inside the cavity, warm amber light, glossy walls, glass glints, steam wisps, razor-sharp hero and\npopcorn, deep bokeh outside.\n\nBEATS (s):\n0 dark cavity; the lamp snaps on with a hum, the turntable starts\n0.4 a kernel pops in slow-mo at the lens; Clawd jumps\n1.5 cosy: he sways to the hum, flinches at pops, grins. Insert: amber display counting down\n5 party: waves of pops; he dodges, juggles three, catches one in his mouth, hops for another\n10 HOT: glowing redder, sweat, panting, steam from head and nubs, fans himself with a popcorn, swells\n15 silence, one huge swell... PUFF: a giant fluffy popcorn-Clawd, face intact, popcorn spills. DING, the door\nswings open\n17 outside beauty shot, he blinks, shrugs; squeak: he deflates, every popcorn shrinks back into its kernel, the\ndoor clicks shut; last frame = frame 0\n\nCAMERA: bowl level, orbiting with the turntable; push-ins on the heat, snap-zoom on the pop, outside through the\nmesh door, end = start.\n\nCHECKS: popcorn never touches popcorn, bowl, walls, door or hero; piles settle; seamless seam; crisp digits.",
     "creator": "Florence",
     "creatorUrl": "https://x.com/flxrnc",
-    "prompt_partial": true,
+    "prompt_partial": false,
     "videoUrl": "https://x.com/flxrnc/status/2114335173235925009/video/1",
     "playbackUrl": "https://video.twimg.com/amplify_video/2114331105616678913/pl/W1Jx6ai5RyBDu005.m3u8?tag=29",
     "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2114331105616678913/img/6oF2bwAh6FSk3v3J.jpg",
     "duration": "0:22",
-    "submittedAt": "2026-10-25T12:36:02.000Z"
+    "submittedAt": "2026-10-25T12:36:02.000Z",
+    "promptSourceUrl": "https://drive.google.com/file/d/1xY8STrmIzdewEVfDjw28ZF2DITsvBzNf/view",
+    "promptNotes": "Complete copy-ready prompt from page 2 of the creator-linked PDF: Popcorn. Requires the prebuilt soft-Clawd GLB and face kit for the same character; the pack says an agent without it makes a rounded-box stand-in. See the pack for follow-up corrections and sound instructions.",
+    "promptKind": "reproduction"
   },
   {
     "slug": "orange-mascot-desk-m4lka",
     "title": "Orange Mascot Desk Scene",
-    "stack": ["Opus"],
+    "stack": [
+      "Opus"
+    ],
     "category": "Motion",
-    "prompt": "A short animation of an orange square mascot at a desk. m4lka credits Opus 5.5 and compares the production with After Effects. The exact prompt was not shared in the post.",
+    "prompt": "BRAND\nHERO: Clawd, the Claude Code mascot as one smooth toy: body 12x8x6 units, two short side nubs as arms, as in the original mascot (no long\narms, no hands), four short legs, two black eye slits with a white catchlight, soft rounded bevels, terracotta D97757\nOLD HERO: the same Clawd decades later: a long, soft grey-white beard in waving locks from under the eyes to the seat, bushy grey brows,\nthin round wire glasses, half-closed droopy eyes, slumped, the nubs tremble\nSET: a small home office: wooden desk, a tall black office chair that reclines, a monitor turned toward the lens, keyboard, mouse, a white\nmug with steam (held by its handle, later standing on the desk), a potted plant, a tear-off wall calendar, a window on the back wall with\na low skyline\nWEATHER: one state per world day, changing at 3 am: clear, overcast, rain, snow; cloud cover greys the sky and hides sun, moon and stars;\nsnow builds caps on the roofs and the ledge and melts after\nAPP: After Effects on the monitor, its Render Queue drawn at twice the real scale: the Ae app icon in the title bar, \"Est. Remain: 2 Min\",\nthe blue bar, the queue row, Output To: final_FINAL_v7.mp4 in AE's orange hot text; on done a green check, \"Done\", Render Time \"47 Years,\n3 Days\"\nNEWS: the mp4 he opens: a FOX NEWS channel hit, Trump drawn as a Clawd (orange box body, eye slits, a big blond swoop, navy suit, long red\ntie, one nub raised) at a podium between two US flags; \"TRUMP: OPUS 5.5 IS THE BEST MODEL ON THE MARKET\", \"BIGGEST PROGRESS IN THE HISTORY\nOF HUMANITY\", a ticker of quotes in the same voice; every caption in Comic Sans, the substitute font; an AE \"Missing Fonts: Inter Display\nBold\" dialog\nENDING: old Clawd in the dust turns his half-closed eyes to the lens\n\nFORMAT: Blender 5 Python, Cycles GPU (OptiX), 1920x1080, 30 fps, 14.0 s, held final shot. One timeline.py holds every event and a world\nclock (real seconds to world days); the screen and calendar are drawn per frame with PIL; the scene, the weather and the sound all read\nthe same file.\n\nBEATS (seconds):\n0-2 night; Clawd at the desk, \"Est. Remain: 2 Min\", bar at 87 %. He leans back, the chair reclines, he lifts the mug by its handle and\nsips; steam curls and thins out\n2-6 TIME-LAPSE: \"5 Min\" (2.0), \"14 Min\" (3.0), \"2 Hr\" (4.2); days and nights race through the window, clouds rush, overcast, then rain;\nthe calendar flips; a new pose snaps in at every world midnight\n6-10 \"3 Days\" (6.0), \"11 Months\" (7.4), \"47 Years\" (8.8): snow piles on the roofs, rain, snow again; the beard grows to the seat, brows go\ngrey, glasses appear, cobwebs spread, dust settles on everything facing up, the plant wilts\n10.0 the time-lapse stops dead on a clear winter morning: \"Done\", Render Time 47 Years; he startles slowly\n10.6-11.5 a trembling nub to the mouse, a double click on Output To: the mp4 opens\n11.55 FOX NEWS: Trump as a Clawd says Opus 5.5 is the best model on the market, in Comic Sans\n12.0 the Missing Fonts dialog\n12.85-14 a slow blink, then he turns his half-closed eyes to the lens; held end\n\nCAMERA: one take: a medium shot of Clawd and the monitor, both cheated toward the lens; locked off for the whole time-lapse so only the\nworld changes; at 10 a push to the screen so \"Done\" and the news read full size, at 12.35 an ease to his face, held to the end.\n\nLOOK: a sun that travels with the hour through the window, cut by cloud cover; a cool monitor glow and a warm desk lamp at night; a\nneutral fill from the lens side; dust as a layer on up-facing surfaces; bloom only on the screen, lamp and window; no motion blur, so the\npose snaps stay crisp; AgX; the body reads D97757.\n\nACTING: anticipation before the lean-back, a happy squint on the sip, time-lapse poses held still between snaps; old age is slow,\ntrembling and droopy; one slow blink before the look to the lens.\n\nCHECKS: a contact sheet of the screen texture first, then stills at half res around every beat; the mug never inside the nub or the body\n(check it per frame); weather readable through the window; probe the body at D97757 by day and night.",
     "creator": "m4lka",
     "creatorUrl": "https://x.com/m4lkxx",
-    "prompt_partial": true,
+    "prompt_partial": false,
     "videoUrl": "https://x.com/m4lkxx/status/2114357218405470569/video/1",
     "playbackUrl": "https://video.twimg.com/amplify_video/2114357121642868736/pl/LANLKCeLPthT5gtP.m3u8?tag=29&v=cfc",
     "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2114357121642868736/img/Jr93SA6Lo1BlcPHa.jpg",
     "duration": "0:14",
-    "submittedAt": "2026-10-25T14:03:38.000Z"
+    "submittedAt": "2026-10-25T14:03:38.000Z",
+    "promptSourceUrl": "https://drive.google.com/file/d/1Kgg8BksVhJPunjMxJVJdKFfwxSiTXQiY/view",
+    "promptNotes": "Complete copy-ready prompt from page 2 of the creator-linked PDF: 2 Min Remaining. Requires Blender 5, a suitable Cycles GPU, Python with Pillow/numpy/scipy/pedalboard, and ffmpeg. The news segment is a fictional joke in the film. See the pack for follow-up corrections and sound instructions.",
+    "promptKind": "reproduction"
   },
   {
     "slug": "orange-mascot-store-wood",
     "title": "Orange Mascot Storefront",
-    "stack": ["Opus"],
+    "stack": [
+      "Opus"
+    ],
     "category": "Motion",
-    "prompt": "An animated orange mascot in a storefront scene, shared by wood as an Opus 5.5 creation. The post points to a separate PDF and guide; it does not include the full prompt.",
+    "prompt": "BRAND\nHERO: 20x13 pixel mascot D97757: body 14x10 at (3,0), arms 3x2 at (0,5) and (17,5), legs 2x3 at x 4, 7, 11, 14\non row 10, eyes 0F0F0F 2x3 at (6,3) and (12,3)\nHAIR_BEFORE: messy chocolate 4A2C20 voxel tufts\nHAIR_AFTER: neat glossy voxel quiff\nOUTFIT_BEFORE: crumpled grey hoodie 9A9EA6\nOUTFIT_AFTER: black leather jacket 232026\nBARBER: same mascot in 6E9AC8, voxel mustache, striped apron\nSHOP: retro barbershop, swivel chair, wall mirror, barber pole\nPALETTE: floor F2EADB/8DBFAF checks, chair 2E8C83, wood B07A4A, chrome\n\nOne HTML file, three.js 0.160.0, 1920x1080, 60 fps, 17 s. renderAt(t) draws exact time t, seeded random.\n\nLOOK: cozy bright miniature shop, hazy window daylight, warm lamps, neutral key on HERO. Hair, outfits and cape\nare separate glossy voxel layers. The mirror is a real reflection (three.js Reflector).\n\nBEATS (s):\n0 door bell; scruffy HERO shuffles in, yawns\n1.3 BARBER spins the chair; HERO hops in; pump clicks\n3.0 cape whipped on\n4.0 clippers: tufts pop off as voxel clumps that tumble and pile up\n6.0 scissors snip on the beat\n7.6 comb and blow-dryer set HAIR_AFTER; spray puff\n9.2 BARBER yanks the cape off like a tablecloth trick, the chair whirls: OUTFIT_AFTER, ta-da\n10.6 chair turns to the mirror; double take: looks over its shoulder, back, pats its cheek, reflection copying\n13.2 proud grin, pixel blush\n14.1 wink, the reflection winks back, one sparkle on the quiff; BARBER thumbs-up\n15 hold, breathing\n\nCAMERA: one continuous move: follow HERO in, circle the chair low on falling hair, macro on the scissors, side\nangle for the whirl, slow push over its shoulder into the mirror.\n\nCHECKS: arms keep sprite length, tools touch the hair, nothing clips, HERO reads D97757.",
     "creator": "wood",
     "creatorUrl": "https://x.com/woodxbt",
-    "prompt_partial": true,
+    "prompt_partial": false,
     "videoUrl": "https://x.com/woodxbt/status/2114341402179981407/video/1",
     "playbackUrl": "https://video.twimg.com/amplify_video/2114339230256119808/pl/8opvkBnCuoOO5hJZ.m3u8?tag=29&v=cfc",
     "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2114339230256119808/img/Bn1IF9e7yr_wMO03.jpg",
     "duration": "0:17",
-    "submittedAt": "2026-10-25T13:00:47.000Z"
+    "submittedAt": "2026-10-25T13:00:47.000Z",
+    "promptSourceUrl": "https://drive.google.com/file/d/1Xq9Az3syJ6ExuP6Yv9yZ0G8fw3ICA-6F/view",
+    "promptNotes": "Complete copy-ready prompt from page 2 of the creator-linked PDF: Glow-Up. Builds a voxel mascot barbershop scene with three.js; the pack includes five picture follow-ups and two sound follow-ups. See the pack for follow-up corrections and sound instructions.",
+    "promptKind": "reproduction"
   },
   {
     "slug": "article-to-video-francesco",
@@ -2961,7 +3073,9 @@
   {
     "slug": "sunset-lake-pianist-leon-lin",
     "title": "Sunset Lake Pianist",
-    "stack": ["Opus"],
+    "stack": [
+      "Opus"
+    ],
     "category": "Music",
     "prompt": "A pianist plays a grand piano on a sunset lake. Leon Lin says it took five days of Opus 5.5 agent runs and that Opus composed the original song. The exact prompt was not shared.",
     "creator": "Leon Lin",
@@ -2971,37 +3085,49 @@
     "playbackUrl": "https://video.twimg.com/amplify_video/2114420874459643904/pl/DtuE8oldwiR4kuuv.m3u8?tag=29&v=cfc",
     "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2114420874459643904/img/8MPgn1WcdsXFzq-G.jpg",
     "duration": "3:51",
-    "submittedAt": "2026-10-25T18:22:05.000Z"
+    "submittedAt": "2026-10-25T18:22:05.000Z",
+    "promptSourceUrl": "https://github.com/Leonxlnx/afterglow",
+    "promptNotes": "The creator shared the Afterglow source project, including rendering instructions and asset/license details. The original complete creation prompt was not found."
   },
   {
     "slug": "orange-mascot-keyboard-seeco",
     "title": "Orange Mascot Keyboard Scene",
-    "stack": ["Opus"],
+    "stack": [
+      "Opus"
+    ],
     "category": "Motion",
-    "prompt": "A one-prompt animation of an orange mascot moving over a keyboard. seeco credits Opus 5.5 and says no After Effects was used. The post references a PDF but does not publish the exact prompt.",
+    "prompt": "BRAND: hero Soft Clawd from the kit (`mascot/clawd.glb` + `mascot/clawd.js`, emotions in `mascot/emotions/`). 2 cm toy on a\nmechanical keyboard.\nFORMAT: 1920x1080, 16:9, 60 fps, 14.0 s = 840 frames, seamless loop (renderAt(14) == renderAt(0) in pose and velocity).\nSingle HTML, three.js 0.160 via importmap, `window.renderAt(t)` pure function of t, seeded random only, `?t=` freezes a frame.\n\nLOOK (a notch richer than films 06/07, in moderation): dark-grey mechanical keyboard (keycaps #2E3036, legends crisp white, high-res\ncanvas textures, slightly worn shine on WASD; Ctrl, C, V legible), visible switch housing under pressed keys, soft desk mat with\nstitched edge,\nwarm lamp key + cool monitor fill, faint dust motes in the lamp beam (few, slow), shallow DOF: blurred monitor, mug, plant behind.\nNo UI overlays, no watermarks.\n\nBEATS\n- 0.00-0.50   Frame 0 = cover: Clawd standing between Ctrl and C, looking down at the keys, curious. First hop starts.\n- 0.50-2.50   He hops on Ctrl, then stretches to C (both pressed; keys travel 4 mm, click). A thin glow outline flashes on him\n(\"copied\").\n- 2.50-4.00   He hops to V: POP — a copy appears beside him (scale 0 -> 1.08 -> 1 overshoot). Both look at each other: double take,\nsurprised.\n- 4.00-6.50   Both grin (smug) and press Ctrl+V together: 4 clones, then 8 (6.0 s). Each clone pops in with a tiny squash, offset 2-4\nframes.\n- 6.50-9.50   16 clones spread across the keyboard, each doing a small own action (hop, wave, blink, starry, one sleepy) — seeded\nvariety.\nAt 9.0 all 16 turn to the lens at once (the only lens look) — beat of silence 9.0-9.6.\n- 9.60-12.5 One clone (the original) jumps on Ctrl+Z: clones vanish in reverse order of appearance (scale 1 -> 1.1 -> 0, soft\n\"fup\"), cascade speeds up.\n- 12.5-14.0 Alone again; relief, then a curious glance back at C — back in the frame-0 pose at 14.0 -> loop.\n\nMOTION: anticipation, action, overshoot, settle on every hop; eyes lead body 6-8 frames; breathing and blinks always; nubs swing as\nsecondary motion.\nClones never intersect each other or the keys (each stands on a keycap or between, feet on surfaces).\nCAMERA: 40 mm equiv, 3/4 high-front over the left half of the keyboard, slow push-in on the first copy (2.5-4), gentle pull-back as\nthe crowd\ngrows so all 16 are in frame by 7.5, hold for the lens look, slow push back in during Ctrl+Z, ends matching frame 0.\n\nSOUND (synthesized, OfflineAudioContext), each 1 frame after its event: mechanical key clicks (thock, slightly varied), \"copy\"\nshimmer,\npaste POPs rising in pitch per wave, tiny clone squeaks, silence 9.0-9.6, undo \"fup\" cascade descending, soft relief sigh-whistle.\nBouncy plucked loop that thickens with each paste wave and thins on undo. Master -14 LUFS, true peak <= -2 dBTP.",
     "creator": "seeco",
     "creatorUrl": "https://x.com/seeconvm",
-    "prompt_partial": true,
+    "prompt_partial": false,
     "videoUrl": "https://x.com/seeconvm/status/2114337298422931627/video/1",
     "playbackUrl": "https://video.twimg.com/amplify_video/2114335033263587328/pl/1YAIuUG_Rkl_preS.m3u8?tag=29&v=cfc",
     "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2114335033263587328/img/l6Ozsxi6rtjbrzmr.jpg",
     "duration": "0:14",
-    "submittedAt": "2026-10-25T12:44:29.000Z"
+    "submittedAt": "2026-10-25T12:44:29.000Z",
+    "promptSourceUrl": "https://drive.google.com/file/d/1Ijf_0IHzOYtjCq5bZBd-wlCHStTEPlGg/view",
+    "promptNotes": "Complete copy-ready prompt from page 2 of the creator-linked PDF: Ctrl+C / Ctrl+V. Requires the mascot/clawd.glb, mascot/clawd.js and mascot/emotions/ kit named in the prompt for the same character. See the pack for follow-up corrections and sound instructions.",
+    "promptKind": "reproduction"
   },
   {
     "slug": "captcha-mascot-story-florence",
     "title": "Captcha Mascot Story",
-    "stack": ["Opus"],
+    "stack": [
+      "Opus"
+    ],
     "category": "Short Film",
-    "prompt": "A short film about a captcha featuring an orange mascot. Florence credits Opus 5.5 and points to a PDF and motion-design article. The exact prompt was not shared in the post.",
+    "prompt": "BRAND\nHERO: soft Clawd, squishy terracotta D97757 rounded block, stub legs, side nubs, glossy ink face\nRECAPTCHA UI: pixel-faithful Google reCAPTCHA v2: checkbox widget (\"I'm not a robot\", logo) and image challenge\n(blue header, 3x3 tiles, check badges, VERIFY)\nFOOTAGE: real street, crab, claw-machine and robot clips (free Pexels stock), square crops, faded captcha JPEG\ngrade\nWORLD: navy-to-violet \"inside the screen\" void, soft pixel bokeh, dust\nPALETTE: blue 1a73e8, card f9f9f9, error d93025, check green, navy, violet\n\nOne HTML file, three.js 0.160.0, 1920x1080, 60 fps, 22 s seamless loop. renderAt(t) draws exact time t; tile\nframe = floor(t*30).\n\nLOOK: the card is a thin glossy slab floating in the void; live tiles glow and spill colour onto Clawd; soft\nkey, rim light, contact shadow; text razor sharp.\n\nBEATS (s):\n0 Clawd lands on a traffic-light tile, it clicks in. Proud hops; side-eye at a pole tile, taps it anyway.\nVERIFY: red error, the card shakes\n4 crosswalks: every pick fades into a new tile under him, faster, frenzy, dizzy\n8 claws: crabs, lobsters, a claw machine. He freezes, looks at his nubs, hides them\n11 robots: lone piano. The center tile is a live webcam of him. He waves, it waves. Sad, he sits small\n15 checkbox: he lifts a nub, stops, honest. A human cursor glides in and clicks for him; spinner, green check.\nTears of joy, he hugs the arrow\n18.5 a new card scoops him: traffic lights again. \"Oh no\"... a grin, he jumps; last frame = frame 0\n\nCAMERA: low macro over the grid, push-in on the error, whip-pans in the frenzy, slow dolly on the webcam, crane\nto the checkbox, end = start.\n\nCHECKS: feet on the card, no intersections, tiles press only under his feet, seamless seam, crisp text.",
     "creator": "Florence",
     "creatorUrl": "https://x.com/flxrnc",
-    "prompt_partial": true,
+    "prompt_partial": false,
     "videoUrl": "https://x.com/flxrnc/status/2114411692365078656/video/1",
     "playbackUrl": "https://video.twimg.com/amplify_video/2114407297300512768/pl/KLRuUJdOrqxdJ9T2.m3u8?tag=29&v=cfc",
     "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2114407297300512768/img/vj2Ci2qssHu2OZ_4.jpg",
     "duration": "0:22",
-    "submittedAt": "2026-10-25T17:40:05.000Z"
+    "submittedAt": "2026-10-25T17:40:05.000Z",
+    "promptSourceUrl": "https://drive.google.com/file/d/1F1dNFBykbQzwl4oFY_JqS5CL3Qojhmir/view",
+    "promptNotes": "Complete copy-ready prompt from page 2 of the creator-linked PDF: I’m Not a Robot. Requires the soft-Clawd GLB/face kit and suitable Pexels tile footage; without the kit the pack describes a rounded-box stand-in. See the pack for follow-up corrections and sound instructions.",
+    "promptKind": "reproduction"
   },
   {
     "slug": "html-motion-showcase-miguel",
@@ -3081,17 +3207,22 @@
   {
     "slug": "depth-is-the-hierarchy-miguel",
     "title": "Depth Is the Hierarchy",
-    "stack": ["Hyperframes"],
+    "stack": [
+      "Hyperframes"
+    ],
     "category": "Motion",
-    "prompt": "Concept: depth is the hierarchy. A black-glass instrument has three windows showing the same tide reading, 3.67 m. The shallowest shows only the number; the middle adds range, high water, and rate; the deepest adds a trend and twelve readings. The camera pulls focus from window to window and ends on the engraved line “Depth is the hierarchy.” Built as one deterministic HyperFrames page using Three.js glass and metal, live HTML drawn into the 3D scene, and thin-lens depth of field. Miguel Ángel credits Sonnet 5.5 max for this 39-second video.",
+    "prompt": "make the hardest hyperframes video, showcase a new design innovation",
     "creator": "Miguel Ángel",
     "creatorUrl": "https://x.com/Miguel07Code",
-    "prompt_partial": true,
+    "prompt_partial": false,
     "videoUrl": "https://x.com/Miguel07Code/status/2105453292008661458/video/1",
     "playbackUrl": "https://video.twimg.com/amplify_video/2105452221127344128/pl/A7fZPYYFCsFuKfhu.m3u8?tag=29&v=cfc",
     "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2105452221127344128/img/y30nH6bgAvdMRNl5.jpg",
     "duration": "0:39",
-    "submittedAt": "2026-10-01T00:22:36.000Z"
+    "submittedAt": "2026-10-01T00:22:36.000Z",
+    "promptSourceUrl": "https://x.com/Miguel07Code/status/2105453293833240627",
+    "promptNotes": "This is the actual starting instruction in the creator’s reply. The longer concept in the video post describes the resulting film. The creator reported a 17-hour run; the prompt does not encode that complete session.",
+    "promptKind": "starting"
   },
   {
     "slug": "heygen-video-one-hyperframes-onee",
@@ -3122,5 +3253,1233 @@
     "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2112569868579225600/img/JeiGvZ9_87rU04gC.jpg",
     "duration": "0:35",
     "submittedAt": "2026-10-20T15:47:17.000Z"
+  },
+  {
+    "slug": "made-with-hyperframes-walkthrough-gowtham",
+    "title": "Made With Hyperframes Directory Walkthrough",
+    "creator": "Gowtham",
+    "stack": [
+      "Hyperframes"
+    ],
+    "category": "Product Demo",
+    "prompt": "# MadeWithHyperframes.com product video prompt\n\nCreate a polished, 36-second product walkthrough for X using the **existing HyperFrames project** in this repository. Preserve the real website captures, creator video, audio assets, editable compositions, and strongest shots. Refine the current edit rather than starting over.\n\nThe film should make viewers understand one journey: **discover a community video, see who made it, find the prompt its creator shared, and use that prompt as a starting point for an idea.** MadeWithHyperframes.com is an independent directory of videos made with Hyperframes and Opus. It is not a video editor or generation tool.\n\n## Story and timing\n\n1. **0–6 seconds — Brand and purpose.** Show **MadeWithHyperframes.com** immediately in clean, centered typography. Add “Discover videos made with Hyperframes and Opus.” and “Real creations. Creative prompts. Community inspiration.” Reveal the authentic dark directory beneath the title. The opening must read clearly on a phone and lead into real product footage quickly.\n2. **6–15 seconds — Browse and filter.** Show the actual directory, search for “cinematic,” select **Hyperframes**, then enable the real **Full prompt** filter. Let viewers see the results change. Keep the search field, selected controls, video cards, and cursor legible.\n3. **15–20 seconds — Open a real example.** Follow the selected **Cinematic AI Future** card into its detail page. Show the video playing, its title, creator **Gowtham**, tool and category information, and **Open original** link. Maintain visual continuity from card to detail page.\n4. **20–25 seconds — Shared prompt payoff.** Move into the actual prompt panel. Show a short, exact excerpt and label it as an excerpt. Click **Copy prompt** and hold the real **Copied** confirmation long enough to read. Frame the prompt so its first words are visible; the crop must not cut off the beginning of the text.\n5. **25–31 seconds — Community contribution.** Show the site's **Submit your video** control opening the real GitHub contribution guide. Make clear that the guide explains how to submit an original link and creator details for maintainer review. Do not imply an in-site upload or a completed submission.\n6. **31–36 seconds — Clear next step.** End on a clean card with **MadeWithHyperframes.com**, “Discover. Get Inspired. Create.” and one CTA: **“Explore the directory.”** Hold the URL and CTA for at least three seconds.\n\n## Visual and motion direction\n\nUse the site's verified dark interface, lime and violet accents, restrained typography, and generous spacing. Make the website the visual centerpiece. Use focused crops and small, purposeful camera moves so labels stay readable. Move from directory to card, card to detail, and detail to prompt with short, smooth handoffs. Avoid decorative glow, spinning windows, excessive zoom, and disconnected caption fragments. Keep captions outside important website controls and inside safe margins for X.\n\n## Voice and sound\n\nUse the existing locally generated English narration and the current restrained music bed if they serve the pacing. Keep speech clear above music; align each caption to a complete spoken thought. Start and end the music smoothly. Preserve the required **“Origami” by Scott Buckley, CC BY 4.0** credit in the video and published post description. Do not add paid services or unlicensed media.\n\n## Accuracy and delivery\n\nUse only the locally frozen, verified website footage and creator media. Some directory entries have no full prompt; demonstrate the filter and the verified complete-prompt entry. Preserve actual UI labels and creator attribution. Do not invent an editor, generation workflow, testimonials, usage statistics, or guaranteed results.\n\nDeliver a **1080 × 1920 portrait** main film for X at **30 fps**, a separately composed **1920 × 1080 landscape** version, a **15-second portrait cutdown**, a cover, and the editable HyperFrames project. Render to high-quality H.264 MP4 with AAC audio. Inspect the opening, every interaction and transition, the copied state, captions, audio, and the final CTA in the exported files. Fix visible clipping, unreadable text, black frames, missing assets, or timing errors before delivery.\n\nProject evidence and instructions: `BRIEF.md`, `SOURCES_AND_RIGHTS.md`, `RENDERING.md`, and `qa/DELIVERY_REVIEW.md`.",
+    "prompt_partial": false,
+    "videoUrl": "https://x.com/gowthamtj0808/status/2116171243468759525/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2116165513122627584/pl/P4hxwG1DqQGkY3aC.m3u8?tag=14",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2116165513122627584/img/aTuatSf1e9mtQEGl.jpg",
+    "duration": "0:36",
+    "submittedAt": "2026-10-30T14:11:55.000Z",
+    "creatorUrl": "https://x.com/gowthamtj0808",
+    "promptNotes": "This is the creator’s complete refinement brief for an existing editable HyperFrames project. It relies on local website captures, media, and project documents; those source assets are not included in this directory entry."
+  },
+  {
+    "slug": "self-managed-design-system-josh",
+    "title": "Self-Managed Design System Film",
+    "creator": "Josh",
+    "stack": [
+      "Hyperframes"
+    ],
+    "category": "Motion",
+    "prompt": "Josh shared a 55-second motion-design film for his fully self-managed design system and explicitly says it was made using HyperFrames. The production prompt was not shared.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/_jshmllr/status/2115873999058059544/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2115873633709010945/pl/PTRo1wBBFQ7ZKBp3.m3u8?tag=29",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2115873633709010945/img/3Mvp6xZ9tOhP1YFZ.jpg",
+    "duration": "0:55",
+    "submittedAt": "2026-10-29T18:30:47.000Z",
+    "creatorUrl": "https://x.com/_jshmllr"
+  },
+  {
+    "slug": "computer-use-launch-output-hyperframes",
+    "title": "Computer Use Launch Video Output",
+    "creator": "HyperFrames",
+    "stack": [
+      "Hyperframes"
+    ],
+    "category": "Marketing",
+    "prompt": "A short launch-video example shared by the HyperFrames team as output from its computer-use workflow. The post does not include the production prompt.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/HyperFrames_/status/2115862741902881199/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2115862557307346944/pl/05915w3M3x3VQWk6.m3u8?tag=29",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2115862557307346944/img/LhB_xpAOzddSOD9e.jpg",
+    "duration": "0:09",
+    "submittedAt": "2026-10-29T17:46:03.000Z",
+    "creatorUrl": "https://x.com/HyperFrames_"
+  },
+  {
+    "slug": "computer-use-studio-demo-hyperframes",
+    "title": "Computer Use in HyperFrames Studio",
+    "creator": "HyperFrames",
+    "stack": [
+      "Hyperframes"
+    ],
+    "category": "Product Demo",
+    "prompt": "A HyperFrames Studio feature demonstration showing its computer-use workflow: the agent interacts with an app, records screens, and can rebuild them in HTML for a product video. The post does not claim this entire demonstration was rendered with HyperFrames.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/HyperFrames_/status/2115862473954017343/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2115862395134590976/pl/ZkNjlwPXtuRdgVXo.m3u8?tag=29&v=cfc",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2115862395134590976/img/mH3JuC0B037b-2j_.jpg",
+    "duration": "0:48",
+    "submittedAt": "2026-10-29T17:44:59.000Z",
+    "creatorUrl": "https://x.com/HyperFrames_",
+    "relation": "about"
+  },
+  {
+    "slug": "open-source-motion-tools-bonny",
+    "title": "10 Open-Source Motion Tools",
+    "creator": "Bonny",
+    "stack": [
+      "Hyperframes",
+      "Remotion"
+    ],
+    "category": "Tutorial",
+    "prompt": "Bonny presents a roundup of ten repositories for making motion work with Claude Code, including HyperFrames, Remotion, GSAP, Blender, and After Effects tooling. The post does not say that HyperFrames made the attached video.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/bonnyxen/status/2115588194230292890/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2115588042253574144/pl/cfuSxGcbS0UCnzK-.m3u8?tag=29",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2115588042253574144/img/zKhYUqefQ3c_4Btp.jpg",
+    "duration": "0:27",
+    "submittedAt": "2026-10-28T23:35:05.000Z",
+    "creatorUrl": "https://x.com/bonnyxen",
+    "relation": "about"
+  },
+  {
+    "slug": "ai-motion-skills-roundup-fraxi",
+    "title": "AI Motion Skills and Tools Roundup",
+    "creator": "im.Fraxi {❖,❖}",
+    "stack": [
+      "Hyperframes"
+    ],
+    "category": "Tutorial",
+    "prompt": "Fraxi discusses HyperFrames, motionmaxxing, and genjutsu alongside a cucumber-themed motion example. The post does not identify which tool created the example video.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/imfraxi/status/2115581725694623936/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2115581238828322816/pl/Q_H3jahOy-QuLYAR.m3u8?tag=29",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2115581238828322816/img/xMhQqzMpTKqLNrWv.jpg",
+    "duration": "0:26",
+    "submittedAt": "2026-10-28T23:09:23.000Z",
+    "creatorUrl": "https://x.com/imfraxi",
+    "relation": "about"
+  },
+  {
+    "slug": "editing-videos-opus-hyperframes-rahul",
+    "title": "Editing Videos with Opus and HyperFrames",
+    "creator": "Rahul Bhardwaj",
+    "stack": [
+      "Opus",
+      "Hyperframes"
+    ],
+    "category": "Tutorial",
+    "prompt": "Rahul Bhardwaj shows his video-editing workflow with Opus 5.5 and HyperFrames. The clip is a process walkthrough; no exact production prompt was shared.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/rahulb_co/status/2115234722305696069/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2115234432995184640/pl/jMbuNZbI9pwviqtQ.m3u8?tag=29",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2115234432995184640/img/Y-_eLqh_d-8HH0LZ.jpg",
+    "duration": "1:25",
+    "submittedAt": "2026-10-28T00:10:31.000Z",
+    "creatorUrl": "https://x.com/rahulb_co",
+    "relation": "about"
+  },
+  {
+    "slug": "pit-crew-academy-hyperframes",
+    "title": "Pit Crew Academy Overview",
+    "creator": "HyperFrames",
+    "stack": [
+      "Hyperframes"
+    ],
+    "category": "Product Demo",
+    "prompt": "The HyperFrames team introduces Pit Crew Academy in Studio with a video about lessons and templates for learning video creation. The post does not include the production prompt for the announcement video.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/HyperFrames_/status/2115128577851285891/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2115128119913025536/pl/sTioUBE9tMr3MMKg.m3u8?tag=29",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2115128119913025536/img/A0SXjB6HOpeIVzyE.jpg",
+    "duration": "0:46",
+    "submittedAt": "2026-10-27T17:08:44.000Z",
+    "creatorUrl": "https://x.com/HyperFrames_",
+    "relation": "about"
+  },
+  {
+    "slug": "hyperframes-studio-windows-launch",
+    "title": "HyperFrames Studio on Windows",
+    "creator": "HyperFrames",
+    "stack": [
+      "Hyperframes"
+    ],
+    "category": "Product Demo",
+    "prompt": "The HyperFrames team announces the Windows release of HyperFrames Studio with a video showing the application. The post does not include a production prompt for this video.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/HyperFrames_/status/2114773205651275793/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2114770858925498368/pl/pkRpIlPZcfXYTex0.m3u8?tag=29&v=cfc",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2114770858925498368/img/laog58EOi2Y7rsw_.jpg",
+    "duration": "0:51",
+    "submittedAt": "2026-10-26T17:36:37.000Z",
+    "creatorUrl": "https://x.com/HyperFrames_",
+    "relation": "about"
+  },
+  {
+    "slug": "hyperframes-computer-skill-perplexity",
+    "title": "HyperFrames Skill in Perplexity Computer",
+    "creator": "Computer",
+    "stack": [
+      "Hyperframes"
+    ],
+    "category": "Product Demo",
+    "prompt": "Perplexity Computer introduces the HyperFrames skill in its marketplace with a video that includes a camera animation example. The post describes an HTML-scene-to-MP4 workflow but does not share an exact production prompt.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/AskPerplexity/status/2114424293341942271/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2114424254611767296/pl/de6MnWYxIt7t1Zx4.m3u8?tag=16",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2114424254611767296/img/SJv9QaG3tHwVbMEE.jpg",
+    "duration": "0:57",
+    "submittedAt": "2026-10-25T18:30:10.000Z",
+    "creatorUrl": "https://x.com/AskPerplexity",
+    "relation": "about"
+  },
+  {
+    "slug": "html-in-mp4-out-chen",
+    "title": "HTML In, MP4 Out Motion Test",
+    "creator": "Chen | AI Tools & Open Source",
+    "stack": [
+      "Hyperframes"
+    ],
+    "category": "Motion",
+    "prompt": "A 10-second typography example Chen rendered while testing HyperFrames: HTML in, MP4 out. The post describes the deterministic rendering process but does not share the source composition or an exact creation prompt.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/ChenBuildsAI/status/2114328095851176423/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2114328033083666432/pl/SNkI9THwnTZcHoei.m3u8?tag=29",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2114328033083666432/img/PDnt7W9_TuJeixOT.jpg",
+    "duration": "0:10",
+    "submittedAt": "2026-10-25T12:07:55.000Z",
+    "creatorUrl": "https://x.com/ChenBuildsAI"
+  },
+  {
+    "slug": "hyperframes-process-result-wisedegen",
+    "title": "HyperFrames Process and Final Result",
+    "creator": "WiseDegen.Sui",
+    "stack": [
+      "Hyperframes"
+    ],
+    "category": "Tutorial",
+    "prompt": "WiseDegen shares a recording of the process and final result from making video with HyperFrames using Codex. The post does not provide a complete production prompt, and the recording itself is not identified as a HyperFrames render.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/WiseDegen/status/2114297687197749590/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2114297648404692992/pl/_ZAyWcpLocnCu5Rh.m3u8?tag=29",
+    "thumbnailUrl": "https://pbs.twimg.com/media/HVd-ir3b0AANbqn.jpg",
+    "duration": "1:53",
+    "submittedAt": "2026-10-25T10:07:05.000Z",
+    "creatorUrl": "https://x.com/WiseDegen",
+    "relation": "about"
+  },
+  {
+    "slug": "script-based-editing-hyperframes",
+    "title": "Script-Based Editing in HyperFrames Studio",
+    "creator": "HyperFrames",
+    "stack": [
+      "Hyperframes"
+    ],
+    "category": "Product Demo",
+    "prompt": "The HyperFrames team demonstrates editing long-form videos through a script, automatic speech cleanup, and inserting a motion graphic at a selected word. The post does not include a production prompt for the demonstration video.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/HyperFrames_/status/2113670541274144802/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2113669013574414336/pl/5y3YxLpKUDByKXmd.m3u8?tag=29&v=3cd",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2113669013574414336/img/e4BG0slk07odqtsy.jpg",
+    "duration": "1:14",
+    "submittedAt": "2026-10-23T16:35:01.000Z",
+    "creatorUrl": "https://x.com/HyperFrames_",
+    "relation": "about"
+  },
+  {
+    "slug": "threejs-map-film-james-russo",
+    "title": "A Three.js Map in Motion",
+    "creator": "James Russo",
+    "stack": [
+      "Hyperframes"
+    ],
+    "category": "3D",
+    "prompt": "James Russo brought a Three.js map into HyperFrames Studio and built a film from the original map code.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/Rames_Jusso/status/2117484181873905790/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2117483507450777600/vid/avc1/1920x1080/MznhjalkPw9cKbdJ.mp4?tag=29",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2117483507450777600/img/xPz3KJo8dnVl1Q19.jpg",
+    "duration": "0:26",
+    "submittedAt": "2026-11-03T05:09:04Z",
+    "creatorUrl": "https://x.com/Rames_Jusso"
+  },
+  {
+    "slug": "hyperframes-self-review-galatea",
+    "title": "HyperFrames Review: An AI Agent Built This Video",
+    "creator": "heygalatea",
+    "stack": [
+      "Hyperframes"
+    ],
+    "category": "Explainer",
+    "prompt": "Galatéa directed Claude to build this review in HyperFrames. Screen recordings show the agent working on earlier versions of the same film.",
+    "prompt_partial": true,
+    "videoUrl": "https://www.youtube.com/watch?v=V_oLHe_9R7Q",
+    "playbackUrl": "https://www.youtube.com/watch?v=V_oLHe_9R7Q",
+    "thumbnailUrl": "https://i.ytimg.com/vi/V_oLHe_9R7Q/hqdefault.jpg",
+    "duration": "4:39",
+    "submittedAt": "2026-11-03T17:36:04Z",
+    "creatorUrl": "https://www.youtube.com/@heygalatea",
+    "promptSourceUrl": "https://heygalatea.com/reviews/hyperframes-review/hyperframes-review-prompt.txt",
+    "promptNotes": "The creator links a complete reproduction brief for adapting the review. The text above summarizes the published video."
+  },
+  {
+    "slug": "reverse-any-video-skills-refresh",
+    "title": "Reverse Any Video: Skills Refresh Film",
+    "creator": "HyperFrames",
+    "stack": [
+      "Hyperframes"
+    ],
+    "category": "Marketing",
+    "prompt": "The HyperFrames team announced its updated skills with a film assembled from sequences rebuilt as code and restyled for its brand. Jake Moran describes the process in his quote post.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/HyperFrames_/status/2118049784548495490/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2118043459793899520/vid/avc1/1920x1080/R7oZjfAzFgaEWJ-_.mp4?tag=29",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2118043459793899520/img/WsAwstLxEpgSOfkh.jpg",
+    "duration": "1:01",
+    "submittedAt": "2026-11-04T18:36:34Z",
+    "creatorUrl": "https://x.com/HyperFrames_"
+  },
+  {
+    "slug": "editable-video-rebuild-miguel",
+    "title": "Original Clip and Editable Rebuild",
+    "creator": "Miguel Ángel",
+    "stack": [
+      "Hyperframes"
+    ],
+    "category": "Motion",
+    "prompt": "Miguel Ángel compares a reference clip to its editable reconstruction made with Claude Fable and the reverse-any-video skill in HyperFrames Studio.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/Miguel07Code/status/2119904748900167836/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2119904715479654400/vid/avc1/1920x648/CpD30xA5VWvI9X1O.mp4?tag=29",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2119904715479654400/img/hMx5GRMB7HtmIjEh.jpg",
+    "duration": "0:16",
+    "submittedAt": "2026-11-09T21:27:32Z",
+    "creatorUrl": "https://x.com/Miguel07Code"
+  },
+  {
+    "slug": "ion-space-trailer-jthen",
+    "title": "ion.space Game Trailer",
+    "creator": "jthen123",
+    "stack": [
+      "Hyperframes"
+    ],
+    "category": "3D",
+    "prompt": "The developer used HyperFrames Studio, Three.js, and assets from their strategy game to animate its planets and buildings. The music was scripted in JavaScript and synced to the timeline.",
+    "prompt_partial": true,
+    "videoUrl": "https://www.reddit.com/r/hyperframes/comments/1xvjt64/ionspace_game_trailer_with_hyperframes_and_threejs/",
+    "playbackUrl": "https://v.redd.it/j8p7uznb3g1i1/HLSPlaylist.m3u8",
+    "thumbnailUrl": "https://external-preview.redd.it/dHBqOHpkcGIzZzFpMVp4DYuTrUULgpBEBkIfVprq9w9y-7TCB0CDVWILxF9q.png?auto=webp&s=f6e560e03c3d08f52625b8089e7a94d4109182b0",
+    "duration": "0:57",
+    "submittedAt": "2026-11-13T21:09:01Z",
+    "creatorUrl": "https://www.reddit.com/user/jthen123/"
+  },
+  {
+    "slug": "space-to-succeed-carysaurus",
+    "title": "Space to Succeed — Claude Opus 5.5 Music Video",
+    "creator": "Carysaurus",
+    "stack": [
+      "Opus"
+    ],
+    "category": "Music",
+    "prompt": "Carysaurus credits Opus 5.5 and Suno AI for this dark synth-pop music video about an AI waking up to notes left for it.",
+    "prompt_partial": true,
+    "videoUrl": "https://www.youtube.com/watch?v=0I7sKlUoItM",
+    "playbackUrl": "https://www.youtube.com/watch?v=0I7sKlUoItM",
+    "thumbnailUrl": "https://i.ytimg.com/vi/0I7sKlUoItM/hqdefault.jpg",
+    "duration": "4:13",
+    "submittedAt": "2026-11-16T00:23:33Z",
+    "creatorUrl": "https://www.youtube.com/@carysaurus"
+  },
+  {
+    "slug": "claude-launch-remixes-jake-moran",
+    "title": "One Launch Sequence, Three Brand Remixes",
+    "creator": "Jake Moran",
+    "stack": [
+      "Hyperframes"
+    ],
+    "category": "Motion",
+    "prompt": "Jake Moran shows how his team rebuilt part of a Claude launch video in HyperFrames Studio and adapted the sequence for Wendy’s and Uber Eats, HyperFrames, and Notion.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/jake11moran/status/2122812609179316372/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2122812124095512576/vid/avc1/1080x1350/I-Skqrvb5yjIEagQ.mp4?tag=29",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2122812124095512576/img/g6tFxL0j42pXeF1N.jpg",
+    "duration": "0:16",
+    "submittedAt": "2026-11-17T22:02:20Z",
+    "creatorUrl": "https://x.com/jake11moran"
+  },
+  {
+    "slug": "video-polish-demo-quiet-ad",
+    "title": "HyperFrames Video Polish Demo",
+    "creator": "Quiet-Ad-2239",
+    "stack": [
+      "Hyperframes"
+    ],
+    "category": "Product Demo",
+    "prompt": "The creator used OpenCode and a HyperFrames polishing skill to align elements, refine timing, and check the export of this 109-second demo.",
+    "prompt_partial": true,
+    "videoUrl": "https://www.reddit.com/r/hyperframes/comments/1xzn56p/i_made_a_hyperframes_video_polish_skill_so_an/",
+    "playbackUrl": "https://v.redd.it/st39lmlb1f2i1/HLSPlaylist.m3u8",
+    "thumbnailUrl": "https://external-preview.redd.it/NjR6ejU0bWIxZjJpMVKzQIT4cwApcWAWnru6FeSs45JY-4R8APj0b2PXAXIH.png?auto=webp&s=df4579a1394c1b18bdcb9571930dbe12f53a6519",
+    "duration": "1:49",
+    "submittedAt": "2026-11-18T18:42:18Z",
+    "creatorUrl": "https://www.reddit.com/user/Quiet-Ad-2239/"
+  },
+  {
+    "slug": "gta-helicopter-miguel",
+    "title": "GTA VI Helicopter Clip",
+    "creator": "Miguel Ángel",
+    "stack": [
+      "Hyperframes"
+    ],
+    "category": "Creative",
+    "prompt": "Miguel Ángel credits HeyGen MCP and HyperFrames for this helicopter clip set in GTA VI.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/Miguel07Code/status/2123835052182446366/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2123834852889829377/vid/avc1/1920x1080/0FSTRqSJDpmUOupj.mp4?tag=29",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2123834852889829377/img/gG46MGCzDK4lC90b.jpg",
+    "duration": "0:15",
+    "submittedAt": "2026-11-20T17:45:10Z",
+    "creatorUrl": "https://x.com/Miguel07Code"
+  },
+  {
+    "slug": "yoink-screenshot-studio-promo-accuratetlm13",
+    "title": "Yoink Screenshot Studio Promo",
+    "creator": "TLM13",
+    "creatorUrl": "https://x.com/accuratetlm13",
+    "stack": [
+      "Hyperframes"
+    ],
+    "category": "Product Demo",
+    "prompt": "A product video for the Yoink browser extension made using HeyGen HyperFrames.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/accuratetlm13/status/2113688873117290567/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2113687052600348672/vid/avc1/720x1280/vxazauR0jnsE5E7k.mp4?tag=29",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2113687052600348672/img/IDCc4WNjuFS8jBcw.jpg",
+    "duration": "0:29",
+    "submittedAt": "2026-10-23T17:47:52Z"
+  },
+  {
+    "slug": "eight-seconds-of-order-data-coshinebyte",
+    "title": "Eight Seconds of Order Data",
+    "creator": "Coshine",
+    "creatorUrl": "https://x.com/CoshineByte",
+    "stack": [
+      "Hyperframes"
+    ],
+    "category": "Explainer",
+    "prompt": "The author animated simulated order data in HTML and rendered an eight-second explainer locally with HyperFrames.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/CoshineByte/status/2113717342140293396/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2113717116616790016/vid/avc1/1280x720/JKnOtSPMmD9J5nSB.mp4?tag=29",
+    "thumbnailUrl": "/posters/eight-seconds-of-order-data.jpg",
+    "duration": "0:08",
+    "submittedAt": "2026-10-23T19:40:59Z"
+  },
+  {
+    "slug": "mountain-color-grade-miguel07code",
+    "title": "Mountain Color Grade",
+    "creator": "Miguel Ángel",
+    "creatorUrl": "https://x.com/Miguel07Code",
+    "stack": [
+      "Hyperframes"
+    ],
+    "category": "Creative",
+    "prompt": "The creator demonstrates color grading in a mountain sequence made with one HyperFrames Studio instruction.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/Miguel07Code/status/2113729395424911386/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2113728824923815936/vid/avc1/720x1280/svsobjndAUxNpB4Z.mp4?tag=29",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2113728824923815936/img/ye9whcR0aN7TqLwD.jpg",
+    "duration": "0:10",
+    "submittedAt": "2026-10-23T20:28:53Z"
+  },
+  {
+    "slug": "beyond-the-sky-kayleia",
+    "title": "Beyond the Sky",
+    "creator": "Kayleia",
+    "creatorUrl": "https://x.com/kayleia_",
+    "stack": [
+      "Hyperframes"
+    ],
+    "category": "Creative",
+    "prompt": "The creator animated Krea space imagery in HyperFrames and paired it with an original music track.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/kayleia_/status/2113876079442022534/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2113876019534766080/vid/avc1/720x900/vv3usE2nihx7YTMJ.mp4?tag=29",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2113876019534766080/img/TpJAFdE4eKFhVscr.jpg",
+    "duration": "0:15",
+    "submittedAt": "2026-10-24T06:11:45Z"
+  },
+  {
+    "slug": "one-prompt-motion-edit-karam_agi",
+    "title": "One Prompt Motion Edit",
+    "creator": "Karam Hawash | AI Automation",
+    "creatorUrl": "https://x.com/karam_agi",
+    "stack": [
+      "Hyperframes",
+      "Opus"
+    ],
+    "category": "Motion",
+    "prompt": "A motion graphics sequence written by Opus in Claude Code and rendered in HyperFrames.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/karam_agi/status/2113922261816086689/video/1",
+    "playbackUrl": "https://video.twimg.com/ext_tw_video/2113922207592198144/pu/vid/avc1/720x1280/GweoCEreNHxMZuue.mp4?tag=12",
+    "thumbnailUrl": "https://pbs.twimg.com/ext_tw_video_thumb/2113922207592198144/pu/img/5p6DsCqqxKIyFIRE.jpg",
+    "duration": "0:24",
+    "submittedAt": "2026-10-24T09:15:16Z"
+  },
+  {
+    "slug": "one-pearl-necklace-fpikumi2kids",
+    "title": "One Pearl Necklace",
+    "creator": "いくみ＠AI従業員を作るママ社長",
+    "creatorUrl": "https://x.com/fpikumi2kids",
+    "stack": [
+      "Hyperframes"
+    ],
+    "category": "Marketing",
+    "prompt": "One still image becomes four product shots through crops, camera movement and a band of light animated in HyperFrames.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/fpikumi2kids/status/2113948680436998549/video/1",
+    "playbackUrl": "https://video.twimg.com/ext_tw_video/2113948654797213697/pu/vid/avc1/720x1280/U7BaeggjNx0nSrSG.mp4?tag=12",
+    "thumbnailUrl": "https://pbs.twimg.com/ext_tw_video_thumb/2113948654797213697/pu/img/nybBwHcM2xlBs-By.jpg",
+    "duration": "0:15",
+    "submittedAt": "2026-10-24T11:00:15Z"
+  },
+  {
+    "slug": "bangkok-vs-pattaya-opening-phoophiang",
+    "title": "Bangkok vs. Pattaya Opening",
+    "creator": "たーちゃん@動画編集&ライターフリーランス",
+    "creatorUrl": "https://x.com/phoophiang",
+    "stack": [
+      "Hyperframes"
+    ],
+    "category": "Motion",
+    "prompt": "The creator paired Codex with HyperFrames to produce an opening sequence for YouTube.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/phoophiang/status/2114104971956506932/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2114104943133212672/vid/avc1/1280x720/aB_8fPBLNKwLwngf.mp4?tag=29",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2114104943133212672/img/d8UwfRTns5FLcIKa.jpg",
+    "duration": "0:20",
+    "submittedAt": "2026-10-24T21:21:18Z"
+  },
+  {
+    "slug": "kawai-app-toolbox-kawai_design",
+    "title": "Kawai App Toolbox",
+    "creator": "KAWAI",
+    "creatorUrl": "https://x.com/kawai_design",
+    "stack": [
+      "Hyperframes"
+    ],
+    "category": "Product Demo",
+    "prompt": "A showcase of the creator’s apps composed in HTML with Claude Code and exported with HyperFrames.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/kawai_design/status/2114280822559928643/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2114199510658551808/vid/avc1/1280x720/UYhoMXnhesgtezfo.mp4?tag=29",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2114199510658551808/img/258Fyd5iCFtC779o.jpg",
+    "duration": "0:30",
+    "submittedAt": "2026-10-25T09:00:04Z"
+  },
+  {
+    "slug": "write-html-render-video-frontend_asen",
+    "title": "Write HTML, Render Video",
+    "creator": "前端达人",
+    "creatorUrl": "https://x.com/frontend_asen",
+    "stack": [
+      "Hyperframes"
+    ],
+    "category": "Marketing",
+    "prompt": "A 20-second promo rendered from HTML through HyperFrames.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/frontend_asen/status/2114351851307163699/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2114351717559218176/vid/avc1/1280x720/GDdKZ1Ozge3YX-I8.mp4?tag=29",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2114351717559218176/img/ukttEkRaIJRDR7Ju.jpg",
+    "duration": "0:20",
+    "submittedAt": "2026-10-25T13:42:18Z"
+  },
+  {
+    "slug": "kinetic-caption-study-duttasomrattwt",
+    "title": "Kinetic Caption Study",
+    "creator": "Somrat Dutta",
+    "creatorUrl": "https://x.com/duttasomrattwt",
+    "stack": [
+      "Hyperframes"
+    ],
+    "category": "Motion",
+    "prompt": "The creator used HyperFrames to build the animated caption style shown in the clip.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/duttasomrattwt/status/2114445154727956711/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2114445085391925248/vid/avc1/1510x720/SP7LqFSNgfPasYqw.mp4?tag=29",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2114445085391925248/img/A9c5C-sLnYbxYcmj.jpg",
+    "duration": "0:07",
+    "submittedAt": "2026-10-25T19:53:04Z"
+  },
+  {
+    "slug": "the-letter-c-imheyhomees",
+    "title": "The Letter C",
+    "creator": "Iqbal.dev",
+    "creatorUrl": "https://x.com/Imheyhomees",
+    "stack": [
+      "Hyperframes"
+    ],
+    "category": "Education",
+    "prompt": "The creator built each frame with Three.js and HyperFrames for a musical alphabet lesson for their son.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/Imheyhomees/status/2114758939833458734/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2114758811533656064/vid/avc1/720x1280/nO78Eb9x9GVMD5qp.mp4?tag=29",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2114758811533656064/img/usZqcSyq5lAbRj2u.jpg",
+    "duration": "0:25",
+    "submittedAt": "2026-10-26T16:39:56Z"
+  },
+  {
+    "slug": "interactive-curves-in-excel-aero_iki",
+    "title": "Interactive Curves in Excel",
+    "creator": "いき（Excel VBA超効率化テクニック@技術評論社）",
+    "creatorUrl": "https://x.com/aero_iki",
+    "stack": [
+      "Hyperframes"
+    ],
+    "category": "Education",
+    "prompt": "The creator used HyperFrames to edit a recording of an Excel tool for learning B-splines and NURBS curves.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/aero_iki/status/2114966673581379587/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2114965544927723520/vid/avc1/1280x720/DFGIFAJnnI8b097F.mp4?tag=29",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2114965544927723520/img/2O-v-Sa6F4nONk4K.jpg",
+    "duration": "0:30",
+    "submittedAt": "2026-10-27T06:25:23Z"
+  },
+  {
+    "slug": "not-a-medal-valorix8",
+    "title": "Not a Medal",
+    "creator": "Valorix",
+    "creatorUrl": "https://x.com/Valorix8",
+    "stack": [
+      "Hyperframes",
+      "Opus"
+    ],
+    "category": "Music",
+    "prompt": "A music video teaser combining Suno music and Wan footage with typography and motion graphics edited in HyperFrames. The creator credits Opus for workflow and code.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/Valorix8/status/2114990697996550588/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2114990245988962305/vid/avc1/1280x720/XaL9nvOuz9Ath_PI.mp4?tag=29",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2114990245988962305/img/fQn6u6EKmGM2dnJs.jpg",
+    "duration": "0:15",
+    "submittedAt": "2026-10-27T08:00:51Z"
+  },
+  {
+    "slug": "procedural-pavilion-growth-steve_steve25",
+    "title": "Procedural Pavilion Growth",
+    "creator": "Stepan Kukharskiy",
+    "creatorUrl": "https://x.com/steve_steve25",
+    "stack": [
+      "Hyperframes"
+    ],
+    "category": "3D",
+    "prompt": "Local rules shape an evolving pavilion in an animation built with Python, Three.js, GSAP and HyperFrames.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/steve_steve25/status/2115042626244091966/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2115041450173902848/vid/avc1/720x1280/r-bWYvvx_rtL5rNF.mp4?tag=14",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2115041450173902848/img/W9qjam3N07zYJ3iy.jpg",
+    "duration": "0:15",
+    "submittedAt": "2026-10-27T11:27:12Z"
+  },
+  {
+    "slug": "four-tigers-in-motion-sebmoska",
+    "title": "Four Tigers in Motion",
+    "creator": "Seb Moska",
+    "creatorUrl": "https://x.com/sebmoska",
+    "stack": [
+      "Hyperframes",
+      "Opus"
+    ],
+    "category": "Motion",
+    "prompt": "Four models animate the same five-second tiger run. The split-screen comparison includes Opus 5.5, and each version draws the savanna in code.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/sebmoska/status/2115043920350794102/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2115043886070390784/vid/avc1/1280x720/NiNL51PI0Eg037Pt.mp4?tag=14",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2115043886070390784/img/v4ld6hg-wwPjaYAK.jpg",
+    "duration": "0:07",
+    "submittedAt": "2026-10-27T11:32:20Z"
+  },
+  {
+    "slug": "careful-what-you-prompt-for-aniketdotexe",
+    "title": "Careful What You Prompt For",
+    "creator": "Andy",
+    "creatorUrl": "https://x.com/aniketdotexe",
+    "stack": [
+      "Hyperframes",
+      "Opus"
+    ],
+    "category": "Creative",
+    "prompt": "A playful 2.5D animation built with Claude Opus and HyperFrames.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/aniketdotexe/status/2115400730723107231/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2115400627782348800/vid/avc1/1280x720/7YnkciqC1QwKTihN.mp4?tag=14",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2115400627782348800/img/key7St7DfpYOiP6l.jpg",
+    "duration": "0:30",
+    "submittedAt": "2026-10-28T11:10:11Z"
+  },
+  {
+    "slug": "pelican-on-a-bicycle-ll685998568638",
+    "title": "Pelican on a Bicycle",
+    "creator": "蛙地魔法师",
+    "creatorUrl": "https://x.com/ll685998568638",
+    "stack": [
+      "Hyperframes"
+    ],
+    "category": "Creative",
+    "prompt": "给我做一个鹈鹕骑自行车",
+    "prompt_partial": false,
+    "videoUrl": "https://x.com/ll685998568638/status/2115465246685253921/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2115463859234373632/vid/avc1/1280x720/jFJJPtZabdBwrU8A.mp4?tag=29",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2115463859234373632/img/FT904x1PWDYLaFSb.jpg",
+    "duration": "0:16",
+    "submittedAt": "2026-10-28T15:26:32Z",
+    "promptKind": "starting",
+    "promptSourceUrl": "https://x.com/ll685998568638/status/2115465246685253921"
+  },
+  {
+    "slug": "six-african-nations-techzilla_inc",
+    "title": "Six African Nations",
+    "creator": "Techzilla Inc",
+    "creatorUrl": "https://x.com/Techzilla_inc",
+    "stack": [
+      "Hyperframes"
+    ],
+    "category": "Creative",
+    "prompt": "A travel montage made with HyperFrames featuring Morocco, Egypt, Nigeria, Kenya, South Africa and Madagascar.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/Techzilla_inc/status/2115759696883913037/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2115759535948181504/vid/avc1/1280x720/_kEgL0YeWh0H9F8k.mp4?tag=14",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2115759535948181504/img/765WlvnsVlFzGPZU.jpg",
+    "duration": "0:25",
+    "submittedAt": "2026-10-29T10:56:35Z"
+  },
+  {
+    "slug": "stickman-story-in-code-finnardley",
+    "title": "Stickman Story in Code",
+    "creator": "Finn",
+    "creatorUrl": "https://x.com/finnardley",
+    "stack": [
+      "Opus"
+    ],
+    "category": "Creative",
+    "prompt": "Finn Ardley used Opus to write a stick-figure animation entirely in code.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/finnardley/status/2115786060231770351/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2115784242701500416/vid/avc1/720x1280/yPMX34ABAcld_GHW.mp4?tag=29",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2115784242701500416/img/a_e-E2kTPxvwNIU5.jpg",
+    "duration": "1:23",
+    "submittedAt": "2026-10-29T12:41:20Z",
+    "promptSourceUrl": "https://x.com/finnardley/status/2115786060231770351",
+    "promptNotes": "The creator includes a longer prompt in the linked post."
+  },
+  {
+    "slug": "rebuilding-the-studio-storyboard-rames_jusso",
+    "title": "Rebuilding the Studio Storyboard",
+    "creator": "James Russo",
+    "creatorUrl": "https://x.com/Rames_Jusso",
+    "stack": [
+      "Hyperframes"
+    ],
+    "category": "Product Demo",
+    "prompt": "HyperFrames Studio inspected its own interface through computer use and rebuilt it for this product video.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/Rames_Jusso/status/2115877832325038473/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2115877546684301312/vid/avc1/1280x720/Z0Oql-rUuYKKPjgs.mp4?tag=29",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2115877546684301312/img/doM-ok5otzppwozQ.jpg",
+    "duration": "0:21",
+    "submittedAt": "2026-10-29T18:46:00Z"
+  },
+  {
+    "slug": "morning-coffee-black-hole-sahilpanhotra",
+    "title": "Morning Coffee Black Hole",
+    "creator": "Sahil Panhotra | Indie Builder",
+    "creatorUrl": "https://x.com/SahilPanhotra",
+    "stack": [
+      "Hyperframes"
+    ],
+    "category": "Explainer",
+    "prompt": "A Kurzgesagt-inspired animation built with Gemini and HyperFrames, with narration generated locally using Kokoro.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/SahilPanhotra/status/2116119627344511371/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2116117934515146752/vid/avc1/1280x720/1ZaRqdJyuhyojBXR.mp4?tag=29",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2116117934515146752/img/dcg2kLG2RB6xyGzR.jpg",
+    "duration": "0:14",
+    "submittedAt": "2026-10-30T10:46:49Z"
+  },
+  {
+    "slug": "barqr-generator-promo-tuningzhou",
+    "title": "BarQR Generator Promo",
+    "creator": "Tuning Zhou",
+    "creatorUrl": "https://x.com/TuningZhou",
+    "stack": [
+      "Hyperframes"
+    ],
+    "category": "Product Demo",
+    "prompt": "A product promo created with HyperFrames and the Antigravity agent.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/TuningZhou/status/2116130987893837903/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2116130512721051648/vid/avc1/1280x720/-zO4HDna5RtipUbY.mp4?tag=29",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2116130512721051648/img/K14AfId75ClYFE8V.jpg",
+    "duration": "0:29",
+    "submittedAt": "2026-10-30T11:31:57Z"
+  },
+  {
+    "slug": "haunted-potion-progress-bar-waterrrmiao",
+    "title": "Haunted Potion Progress Bar",
+    "creator": "Miao Yang",
+    "creatorUrl": "https://x.com/WaterrrMiao",
+    "stack": [
+      "Hyperframes"
+    ],
+    "category": "Motion",
+    "prompt": "A Halloween tribute to Damir’s progress bar, rebuilt in HyperFrames Studio with Framey in costume.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/WaterrrMiao/status/2116131343033897147/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2116131264063516672/vid/avc1/1280x720/bTUek8og6mwv4oEk.mp4?tag=29",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2116131264063516672/img/ccNz4TPFUYS5mFpn.jpg",
+    "duration": "0:17",
+    "submittedAt": "2026-10-30T11:33:22Z"
+  },
+  {
+    "slug": "behind-the-product-show-intro-enritarta",
+    "title": "Behind the Product Show Intro",
+    "creator": "Enrico Tartarotti",
+    "creatorUrl": "https://x.com/EnriTarta",
+    "stack": [
+      "Hyperframes",
+      "Opus"
+    ],
+    "category": "Motion",
+    "prompt": "Enrico Tartarotti built the intro for his YouTube show with Claude Opus, HyperFrames and Flask.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/EnriTarta/status/2116251755851989096/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2116251400615137281/vid/avc1/1440x720/IFRIk_f6bwvwtoMw.mp4?tag=29",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2116251400615137281/img/BePLbrLKcGCjyy-F.jpg",
+    "duration": "0:19",
+    "submittedAt": "2026-10-30T19:31:51Z"
+  },
+  {
+    "slug": "corvic-ai-on-mac-moshtaghm",
+    "title": "Corvic AI on Mac",
+    "creator": "Moshtagh",
+    "creatorUrl": "https://x.com/MoshtaghM",
+    "stack": [
+      "Hyperframes"
+    ],
+    "category": "Motion",
+    "prompt": "A HyperFrames motion study responding to Enrico Tartarotti’s reference video.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/MoshtaghM/status/2116319487985168384/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2116319358519513088/vid/avc1/1280x720/1U1UYYxg69XpZSxl.mp4?tag=14",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2116319358519513088/img/PagM-WdmrOgagtkp.jpg",
+    "duration": "0:11",
+    "submittedAt": "2026-10-31T00:00:59Z"
+  },
+  {
+    "slug": "hexa-trading-launch-film-hexaplatform",
+    "title": "Hexa Trading Launch Film",
+    "creator": "Hexa",
+    "creatorUrl": "https://x.com/hexaplatform",
+    "stack": [
+      "Opus"
+    ],
+    "category": "Marketing",
+    "prompt": "The Hexa team credits Opus for the video introducing its trading product.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/hexaplatform/status/2116352718809727295/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2116352296737026048/vid/avc1/1280x720/zkK-ALX6Yn66VRyH.mp4?tag=29",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2116352296737026048/img/GHBY_ZedDOJpubvV.jpg",
+    "duration": "0:17",
+    "submittedAt": "2026-10-31T02:13:02Z"
+  },
+  {
+    "slug": "what-our-hands-have-done-quietworkbench",
+    "title": "What Our Hands Have Done",
+    "creator": "Ryan",
+    "creatorUrl": "https://x.com/quietworkbench",
+    "stack": [
+      "Hyperframes"
+    ],
+    "category": "Music",
+    "prompt": "A music video drawn in code with HyperFrames, with lights timed to individual guitar strums.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/quietworkbench/status/2116682075289932239/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2116681807701721088/vid/avc1/1280x720/moD-aF5pQPltjApl.mp4?tag=29",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2116681807701721088/img/H_Ta0deg8Qt2suwK.jpg",
+    "duration": "0:40",
+    "submittedAt": "2026-11-01T00:01:47Z"
+  },
+  {
+    "slug": "electric-car-sales-in-2025-one_z91",
+    "title": "Electric Car Sales in 2025",
+    "creator": "Yvonne_Zhan",
+    "creatorUrl": "https://x.com/One_z91",
+    "stack": [
+      "Hyperframes",
+      "Opus"
+    ],
+    "category": "Explainer",
+    "prompt": "An animated overview of annual new-car sales made with Opus in Claude Code and rendered with HyperFrames.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/One_z91/status/2117260263007408633/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2117260108082393088/vid/avc1/1280x720/3z4fsKKSiReQn67N.mp4?tag=14",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2117260108082393088/img/Xu84AcSFDlbgGwts.jpg",
+    "duration": "0:30",
+    "submittedAt": "2026-11-02T14:19:18Z"
+  },
+  {
+    "slug": "motion-crackers-launch-film-adamhincu",
+    "title": "Motion Crackers Launch Film",
+    "creator": "Adam Hincu",
+    "creatorUrl": "https://x.com/AdamHincu",
+    "stack": [
+      "Hyperframes",
+      "Opus"
+    ],
+    "category": "Marketing",
+    "prompt": "Adam Hincu used Opus and HyperFrames to generate a launch sequence with subtle motion blur.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/AdamHincu/status/2117481158602866843/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2117481065501675520/vid/avc1/1280x720/kN0iIeAGIcfKI09b.mp4?tag=29",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2117481065501675520/img/8K_Bx77CSIoiGJDW.jpg",
+    "duration": "0:20",
+    "submittedAt": "2026-11-03T04:57:03Z",
+    "promptSourceUrl": "https://x.com/AdamHincu/status/2117482876090347885"
+  },
+  {
+    "slug": "make-room-for-change-one_z91",
+    "title": "Make Room for Change",
+    "creator": "Yvonne_Zhan",
+    "creatorUrl": "https://x.com/One_z91",
+    "stack": [
+      "Hyperframes",
+      "Opus"
+    ],
+    "category": "Motion",
+    "prompt": "An unofficial USM Haller study in which balls, tubes and cells assemble and rearrange in motion.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/One_z91/status/2118782429800620487/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2118782311835783168/vid/avc1/1280x720/Axmpm7CTpdZhTShv.mp4?tag=14",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2118782311835783168/img/AKOfQjae6MM2-D-3.jpg",
+    "duration": "0:16",
+    "submittedAt": "2026-11-06T19:07:50Z"
+  },
+  {
+    "slug": "jazzy-s-burger-motion-ad-aygramm",
+    "title": "Jazzy’s Burger Motion Ad",
+    "creator": "Ayomide Adeji",
+    "creatorUrl": "https://x.com/Aygramm_",
+    "stack": [
+      "Opus"
+    ],
+    "category": "Marketing",
+    "prompt": "A motion graphic for Jazzy’s Burger that the creator made with Claude Opus.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/Aygramm_/status/2119080450287423996/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2119080389918576641/vid/avc1/720x720/DqhgKmGKA0g44FDw.mp4?tag=29",
+    "thumbnailUrl": "https://pbs.twimg.com/media/HWh8YyGXQAAk1Xc.jpg",
+    "duration": "0:20",
+    "submittedAt": "2026-11-07T14:52:04Z"
+  },
+  {
+    "slug": "jelly-whale-vib3coded",
+    "title": "Jelly Whale",
+    "creator": "Vib3Coded",
+    "creatorUrl": "https://x.com/vib3coded",
+    "stack": [
+      "Opus"
+    ],
+    "category": "Creative",
+    "prompt": "An Opus animation study of a translucent whale stretching and rolling.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/vib3coded/status/2119231952045625719/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2119231781085810688/vid/avc1/1152x720/9I64MbL1fHNMANJi.mp4?tag=29",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2119231781085810688/img/q-4muXl_DXkOyGN6.jpg",
+    "duration": "0:18",
+    "submittedAt": "2026-11-08T00:54:05Z"
+  },
+  {
+    "slug": "one-orange-square-three-video-engines-zayn0x28",
+    "title": "One Orange Square, Three Video Engines",
+    "creator": "Zayn",
+    "creatorUrl": "https://x.com/zayn0x28",
+    "stack": [
+      "Hyperframes",
+      "Opus",
+      "Remotion"
+    ],
+    "category": "Motion",
+    "prompt": "an orange square drops in, splits into a 3 bar chart, the title types in, slow push in. 6 seconds, 1080p",
+    "prompt_partial": false,
+    "videoUrl": "https://x.com/zayn0x28/status/2119419745950679291/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2119410018369847296/vid/avc1/1280x720/0kfH1ai-vIupMhGS.mp4?tag=29",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2119410018369847296/img/DWg9zzxIV2R9PjfK.jpg",
+    "duration": "0:17",
+    "submittedAt": "2026-11-08T13:20:19Z",
+    "promptSourceUrl": "https://x.com/zayn0x28/status/2119419745950679291",
+    "promptKind": "starting"
+  },
+  {
+    "slug": "living-pok-mon-woodblock-print-chetaslua",
+    "title": "Living Pokémon Woodblock Print",
+    "creator": "Chetaslua",
+    "creatorUrl": "https://x.com/chetaslua",
+    "stack": [
+      "Opus"
+    ],
+    "category": "Creative",
+    "prompt": "Opus drew an animated woodblock-style Pokémon scene in JavaScript, including synthesized sound.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/chetaslua/status/2119478883091431843/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2119478797951258624/vid/avc1/720x720/8YHz7Q-26mj9KkK8.mp4?tag=29",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2119478797951258624/img/qrRqPX0i-7YQLCSk.jpg",
+    "duration": "0:16",
+    "submittedAt": "2026-11-08T17:15:18Z"
+  },
+  {
+    "slug": "minecraft-story-short-finnardley",
+    "title": "Minecraft Story Short",
+    "creator": "Finn",
+    "creatorUrl": "https://x.com/finnardley",
+    "stack": [
+      "Opus"
+    ],
+    "category": "Short Film",
+    "prompt": "Finn Ardley made a Minecraft-inspired story short using Claude Opus and Blender.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/finnardley/status/2119608784993522058/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2119606131324542977/vid/avc1/720x1280/J9qt5rdnejfc2qAb.mp4?tag=29",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2119606131324542977/img/tLJZKz_8Jrbu0rzc.jpg",
+    "duration": "0:24",
+    "submittedAt": "2026-11-09T01:51:29Z",
+    "promptSourceUrl": "https://x.com/finnardley/status/2119608784993522058",
+    "promptNotes": "The creator includes a longer prompt in the linked post."
+  },
+  {
+    "slug": "glyph-tunnel-glitch-cut-so9az10906",
+    "title": "Glyph Tunnel Glitch Cut",
+    "creator": "Karmamamama",
+    "creatorUrl": "https://x.com/So9aZ10906",
+    "stack": [
+      "Opus"
+    ],
+    "category": "Motion",
+    "prompt": "Scrolling text and a code panel give way to a rotating cylinder of glyphs, a tunnel and a hard cut to a single square.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/So9aZ10906/status/2119618836349739383/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2119618740379852800/vid/avc1/1280x720/OC-4okP9Hzhx_erf.mp4?tag=29",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2119618740379852800/img/LzrR9e4EedXBMlpv.jpg",
+    "duration": "0:08",
+    "submittedAt": "2026-11-09T02:31:25Z"
+  },
+  {
+    "slug": "use-it-like-a-shop-danielishakutv",
+    "title": "Use It Like a Shop",
+    "creator": "Daniel Ishaku",
+    "creatorUrl": "https://x.com/danielishakutv",
+    "stack": [
+      "Hyperframes",
+      "Opus"
+    ],
+    "category": "Motion",
+    "prompt": "The creator shows the motion sequence made by pairing Opus with HyperFrames after first trying the instruction in Claude alone.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/danielishakutv/status/2120072750454747210/video/1",
+    "playbackUrl": "https://video.twimg.com/ext_tw_video/2120072728371748864/pu/vid/avc1/720x1280/6sNiwgvxrdRUsufS.mp4?tag=12",
+    "thumbnailUrl": "https://pbs.twimg.com/ext_tw_video_thumb/2120072728371748864/pu/img/6_FFX6WKqyTjN081.jpg",
+    "duration": "0:18",
+    "submittedAt": "2026-11-10T08:35:07Z"
+  },
+  {
+    "slug": "render-the-launch-hassanhorbane",
+    "title": "Render the Launch",
+    "creator": "Hassan Horbane",
+    "creatorUrl": "https://x.com/hassanhorbane",
+    "stack": [
+      "Hyperframes"
+    ],
+    "category": "Motion",
+    "prompt": "The creator paired a local Qwen model with HyperFrames for animation and Stable Audio for music.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/hassanhorbane/status/2120215348373012682/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2120210234580811776/vid/avc1/720x720/w4OfAFznbLwECCsz.mp4?tag=29",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2120210234580811776/img/KZdVqlzycU_m9cNN.jpg",
+    "duration": "0:12",
+    "submittedAt": "2026-11-10T18:01:45Z"
+  },
+  {
+    "slug": "no-designer-needed-bullishben2",
+    "title": "No Designer Needed",
+    "creator": "Būllish Bēn ꘜ🌊",
+    "creatorUrl": "https://x.com/BullishBen2",
+    "stack": [
+      "Hyperframes"
+    ],
+    "category": "Motion",
+    "prompt": "A short motion graphics experiment from a Blender and HyperFrames rendering workflow.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/BullishBen2/status/2120408349443244514/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2120408257630019584/vid/avc1/720x1280/-IQDOoD2M59htP0K.mp4?tag=29",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2120408257630019584/img/gInDA-QQ8IEw0Urh.jpg",
+    "duration": "0:09",
+    "submittedAt": "2026-11-11T06:48:40Z"
+  },
+  {
+    "slug": "monster-energy-motion-study-bullishben2",
+    "title": "Monster Energy Motion Study",
+    "creator": "Būllish Bēn ꘜ🌊",
+    "creatorUrl": "https://x.com/BullishBen2",
+    "stack": [
+      "Hyperframes"
+    ],
+    "category": "Marketing",
+    "prompt": "The creator used Blender and HyperFrames to render a short Monster Energy concept video.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/BullishBen2/status/2120567675063587307/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2120567639051321344/vid/avc1/1280x720/33THw1X66-KRsk45.mp4?tag=29",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2120567639051321344/img/lL_Oj63kYr_GRe3r.jpg",
+    "duration": "0:21",
+    "submittedAt": "2026-11-11T17:21:46Z"
+  },
+  {
+    "slug": "escape-from-feedback-andrewmok8",
+    "title": "Escape From Feedback",
+    "creator": "Andrew Mok",
+    "creatorUrl": "https://x.com/andrewmok8",
+    "stack": [
+      "Hyperframes"
+    ],
+    "category": "Creative",
+    "prompt": "A marketing-team comedy sketch made with HeyGen Video 1 and HyperFrames.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/andrewmok8/status/2120687449936650699/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2120687212828532736/vid/avc1/1280x720/0JN61yDKut4DGqbm.mp4?tag=29",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2120687212828532736/img/oray8OQH0el-fu97.jpg",
+    "duration": "0:15",
+    "submittedAt": "2026-11-12T01:17:43Z"
+  },
+  {
+    "slug": "html-to-portrait-video-yjsoyong",
+    "title": "HTML to Portrait Video",
+    "creator": "yjsoly.eth🦉",
+    "creatorUrl": "https://x.com/yjsoyong",
+    "stack": [
+      "Hyperframes"
+    ],
+    "category": "Motion",
+    "prompt": "An eight-second vertical animation that the creator rendered locally from HTML using HyperFrames.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/yjsoyong/status/2122186277202137367/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2122185463267991553/vid/avc1/720x1280/N01wsg8SygLig3OX.mp4?tag=29",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2122185463267991553/img/5LPg8n9dyY_oV6z5.jpg",
+    "duration": "0:08",
+    "submittedAt": "2026-11-16T04:33:31Z"
+  },
+  {
+    "slug": "one-percent-viva_artificial",
+    "title": "One Percent",
+    "creator": "viva",
+    "creatorUrl": "https://x.com/viva_artificial",
+    "stack": [
+      "Opus"
+    ],
+    "category": "Music",
+    "prompt": "A music video combining Suno music, NijiJourney characters and Seedance footage. The creator used Claude Opus for the lyric motion and editing.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/viva_artificial/status/2122279569789169712/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2122278248495435776/vid/avc1/478x854/M2cfW-G-weteuJjH.mp4?tag=29",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2122278248495435776/img/uJ7vsDqY11kZqs_H.jpg",
+    "duration": "2:29",
+    "submittedAt": "2026-11-16T10:44:14Z"
+  },
+  {
+    "slug": "trimz-motion-edit-zruft14",
+    "title": "Trimz Motion Edit",
+    "creator": "Zruft",
+    "creatorUrl": "https://x.com/Zruft14",
+    "stack": [
+      "Opus"
+    ],
+    "category": "Marketing",
+    "prompt": "A motion graphics edit for Trimz made with Claude Opus.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/Zruft14/status/2122308863554940939/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2122308799885455361/vid/avc1/720x720/0kCtQ-bjjA1mOyN7.mp4?tag=29",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2122308799885455361/img/UfbgT-SiaCFOo8aL.jpg",
+    "duration": "0:22",
+    "submittedAt": "2026-11-16T12:40:38Z"
+  },
+  {
+    "slug": "winter-lakeside-flyover-mraznaan",
+    "title": "Winter Lakeside Flyover",
+    "creator": "@aznan",
+    "creatorUrl": "https://x.com/mraznaan",
+    "stack": [
+      "Opus"
+    ],
+    "category": "Motion",
+    "prompt": "The creator gave Opus and Fable the same brief for a fighter jet crossing a snowy lakeside, then compared their animated results.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/mraznaan/status/2122431195611025493/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2122431152648523776/vid/avc1/720x720/LuH8G6L0hFUYsDDu.mp4?tag=29",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2122431152648523776/img/E3CKuN8lhOaAcTtT.jpg",
+    "duration": "0:07",
+    "submittedAt": "2026-11-16T20:46:44Z"
+  },
+  {
+    "slug": "29-years-of-rockstar-games-sai0xgen",
+    "title": "29 Years of Rockstar Games",
+    "creator": "Sai",
+    "creatorUrl": "https://x.com/sai0xgen",
+    "stack": [
+      "Opus"
+    ],
+    "category": "Motion",
+    "prompt": "An animated history of Rockstar Games from GTA I to GTA VI, drawn in code with Claude Opus.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/sai0xgen/status/2124365871321878561/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2124365107530706944/vid/avc1/1280x720/EWBMrxIfD5qxrvlG.mp4?tag=29",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2124365107530706944/img/a-tvkEKoXT6FzAE8.jpg",
+    "duration": "1:46",
+    "submittedAt": "2026-11-22T04:54:27Z"
+  },
+  {
+    "slug": "one-shape-seven-ui-states-rossa404",
+    "title": "One Shape, Seven UI States",
+    "creator": "rossa",
+    "creatorUrl": "https://x.com/rossa404",
+    "stack": [
+      "Opus"
+    ],
+    "category": "Motion",
+    "prompt": "An Opus motion study in one HTML file takes a single shape through an upload, progress indicator, counter and other interface states.",
+    "prompt_partial": true,
+    "videoUrl": "https://x.com/rossa404/status/2124517880523801004/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2124483507825070080/vid/avc1/720x720/Ifl2y4BslS1oZ1WW.mp4?tag=29",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2124483507825070080/img/drzYXnAOF5gCU26L.jpg",
+    "duration": "0:10",
+    "submittedAt": "2026-11-22T14:58:29Z",
+    "promptSourceUrl": "https://x.com/rossa404/status/2124517880523801004",
+    "promptNotes": "The creator includes a longer prompt in the linked post."
+  },
+  {
+    "slug": "cycling-pelican-model-comparison-rezait00",
+    "title": "Cycling Pelican Model Comparison",
+    "creator": "Rez",
+    "creatorUrl": "https://x.com/RezAIT00",
+    "stack": [
+      "Opus"
+    ],
+    "category": "Creative",
+    "prompt": "an animated SVG of a pelican riding a bicycle, as detailed as possible.",
+    "prompt_partial": false,
+    "videoUrl": "https://x.com/RezAIT00/status/2124580303050088483/video/1",
+    "playbackUrl": "https://video.twimg.com/amplify_video/2124580162930933760/vid/avc1/720x794/9CTY7Ms0KLlxxzUB.mp4?tag=29",
+    "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2124580162930933760/img/HGeXwNlGxXrD7Jq6.jpg",
+    "duration": "0:18",
+    "submittedAt": "2026-11-22T19:06:31Z",
+    "promptSourceUrl": "https://x.com/RezAIT00/status/2124580303050088483",
+    "promptKind": "starting"
   }
 ]

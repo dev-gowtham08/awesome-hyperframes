@@ -6,7 +6,7 @@ import html
 import json
 import re
 import sys
-from datetime import datetime
+from datetime import date, datetime, timezone
 from pathlib import Path
 from urllib.parse import quote, urlsplit
 
@@ -44,7 +44,7 @@ def validate(projects):
             if not isinstance(project.get(key), str) or not project[key].strip():
                 raise ValueError(f'{prefix}: {key} must be a nonempty string.')
         slug = project['slug']
-        if not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*', slug) or slug in seen_slugs:
+        if not re.fullmatch(r'[a-z0-9]+(?:[-_][a-z0-9]+)*', slug) or slug in seen_slugs:
             raise ValueError(f'{prefix}: invalid or duplicate slug {slug!r}.')
         seen_slugs.add(slug)
         if project['videoUrl'] in seen_urls:
@@ -57,19 +57,31 @@ def validate(projects):
             raise ValueError(f'{slug}: stack must contain tool names.')
         if type(project.get('prompt_partial')) is not bool:
             raise ValueError(f'{slug}: prompt_partial must be true or false.')
+        if 'promptKind' in project and project['promptKind'] not in ('starting', 'reproduction'):
+            raise ValueError(f'{slug}: promptKind must be starting or reproduction.')
+        if 'promptNotes' in project and (not isinstance(project['promptNotes'], str) or not project['promptNotes'].strip()):
+            raise ValueError(f'{slug}: promptNotes must be a nonempty string.')
+        if 'relation' in project and project['relation'] != 'about':
+            raise ValueError(f'{slug}: relation must be about.')
+        if 'sourceLabel' in project and (not isinstance(project['sourceLabel'], str) or not project['sourceLabel'].strip()):
+            raise ValueError(f'{slug}: sourceLabel must be a nonempty string.')
         if 'featured' in project and type(project['featured']) is not bool:
             raise ValueError(f'{slug}: featured must be true or false.')
-        for key in ('videoUrl', 'creatorUrl', 'playbackUrl', 'thumbnailUrl'):
+        for key in ('videoUrl', 'creatorUrl', 'playbackUrl', 'thumbnailUrl', 'promptSourceUrl', 'originalPostUrl'):
             if key in project and not valid_url(project[key], key in ('playbackUrl', 'thumbnailUrl')):
                 raise ValueError(f'{slug}: invalid {key}.')
         if 'duration' in project and not re.fullmatch(r'\d+:[0-5]\d', str(project['duration'])):
             raise ValueError(f'{slug}: duration must use m:ss format.')
         if 'submittedAt' in project:
             if not isinstance(project['submittedAt'], str):
-                raise ValueError(f'{slug}: submittedAt must be an ISO timestamp.')
-            date = datetime.fromisoformat(project['submittedAt'].replace('Z', '+00:00'))
-            if date.tzinfo is None:
-                raise ValueError(f'{slug}: submittedAt needs a timezone.')
+                raise ValueError(f'{slug}: submittedAt must be an ISO date or timestamp.')
+            submitted = project['submittedAt']
+            if re.fullmatch(r'\d{4}-\d{2}-\d{2}', submitted):
+                date.fromisoformat(submitted)
+            else:
+                timestamp = datetime.fromisoformat(submitted.replace('Z', '+00:00'))
+                if timestamp.tzinfo is None:
+                    raise ValueError(f'{slug}: submittedAt needs a timezone.')
 
 
 def escape(value):
@@ -96,8 +108,18 @@ def tools(project):
 
 
 def text_link(project, lines):
-    label = 'Context' if project['prompt_partial'] else 'Full prompt'
-    return link(label, f'data/projects.json#L{lines[project["slug"]]}')
+    if project['prompt_partial']:
+        label = 'Context'
+    elif project.get('promptKind') == 'starting':
+        label = 'Starting prompt'
+    elif project.get('promptKind') == 'reproduction':
+        label = 'Reproduction prompt'
+    else:
+        label = 'Full prompt'
+    result = link(label, f'data/projects.json#L{lines[project["slug"]]}')
+    if project.get('promptSourceUrl'):
+        result += ' · ' + link('Source', project['promptSourceUrl'])
+    return result
 
 
 def project_url(project):
@@ -109,8 +131,11 @@ def table(rows):
 
 
 def rank(project):
-    date = project.get('submittedAt')
-    timestamp = datetime.fromisoformat(date.replace('Z', '+00:00')).timestamp() if date else float('-inf')
+    submitted = project.get('submittedAt')
+    if submitted and re.fullmatch(r'\d{4}-\d{2}-\d{2}', submitted):
+        timestamp = datetime.combine(date.fromisoformat(submitted), datetime.min.time(), timezone.utc).timestamp()
+    else:
+        timestamp = datetime.fromisoformat(submitted.replace('Z', '+00:00')).timestamp() if submitted else float('-inf')
     return (
         not any(tool.lower() == 'hyperframes' for tool in project['stack']),
         not project.get('featured', False),
@@ -142,7 +167,7 @@ def render(projects, lines):
     summary = (
         '<p align="center">\n'
         f'  <strong>{len(projects)}</strong> videos &nbsp; · &nbsp; '
-        f'<strong>{full}</strong> marked as full prompts &nbsp; · &nbsp; '
+        f'<strong>{full}</strong> with published prompts &nbsp; · &nbsp; '
         f'<strong>{len(projects) - full}</strong> with context or excerpts\n'
         '</p>\n\n'
     )
@@ -162,7 +187,7 @@ def render(projects, lines):
         '# Video directory',
         f'All **{len(projects)} videos** in the public catalog. Browse by category or use your browser’s Find command to search titles, creators, and tools.',
         '**[Watch on Made with HyperFrames](https://madewithhyperframes.com)** · **[Back to the showcase](README.md)** · **[Submit a video](CONTRIBUTING.md)**',
-        'Video titles link to the original posts. Full prompt and Context links open the corresponding text in `data/projects.json` on GitHub. Labels reflect the supplied data; context can be a summary or excerpt.',
+        'Video titles link to the supplied video pages. Prompt and Context links open the corresponding text in `data/projects.json` on GitHub. Source links open creator-published prompt resources. Context can be a summary or excerpt.',
         '## Categories\n\n' + '\n'.join(f'- {link(name, "#" + anchor(name))} ({len(items)})' for name, items in groups),
     ]
     for name, items in groups:
@@ -194,7 +219,7 @@ def main():
         lines = {}
         current = None
         for number, line in enumerate(raw.splitlines(), 1):
-            slug_match = re.match(r'\s*"slug"\s*:\s*"([a-z0-9-]+)"', line)
+            slug_match = re.match(r'\s*"slug"\s*:\s*"([a-z0-9_-]+)"', line)
             if slug_match:
                 current = slug_match.group(1)
             if re.match(r'\s*"prompt"\s*:', line) and current:
